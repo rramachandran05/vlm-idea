@@ -1,0 +1,1014 @@
+[
+ {
+  "id": "2106.10548",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2302.09208",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2306.11029",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2306.11300",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2307.09758",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "compare"
+  ]
+ },
+ {
+  "id": "2307.15266",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2310.18340",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2311.15826",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect"
+  ]
+ },
+ {
+  "id": "2311.16782",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2312.12222",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2312.12856",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2401.17600",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect"
+  ]
+ },
+ {
+  "id": "2402.02544",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2402.11325",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2404.04326",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "hypothesize"
+  ]
+ },
+ {
+  "id": "2404.12606",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred"
+  ],
+  "fm_role": [
+   "downstream-task-backbone"
+  ],
+  "reasoning_ops": [
+   "detect"
+  ]
+ },
+ {
+  "id": "2406.04449",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect",
+   "compare"
+  ]
+ },
+ {
+  "id": "2406.09838",
+  "evidence_to_lm": [
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect"
+  ]
+ },
+ {
+  "id": "2406.11217",
+  "evidence_to_lm": [
+   "observed",
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate",
+   "explain"
+  ]
+ },
+ {
+  "id": "2406.13181",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2406.18572",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate"
+  ]
+ },
+ {
+  "id": "2407.19719",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "compare"
+  ]
+ },
+ {
+  "id": "2408.06292",
+  "evidence_to_lm": [
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "hypothesize",
+   "test-hypotheses",
+   "explain"
+  ]
+ },
+ {
+  "id": "2408.14744",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2409.00255",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2410.01407",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2410.02429",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate",
+   "detect",
+   "explain"
+  ]
+ },
+ {
+  "id": "2410.05080",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "recommend-analysis"
+  ]
+ },
+ {
+  "id": "2410.06234",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect",
+   "compare"
+  ]
+ },
+ {
+  "id": "2410.08405",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "explain",
+   "recommend-analysis"
+  ]
+ },
+ {
+  "id": "2411.01511",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate",
+   "recommend-analysis"
+  ]
+ },
+ {
+  "id": "2411.03491",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "feature-extractor"
+  ],
+  "reasoning_ops": [
+   "detect"
+  ]
+ },
+ {
+  "id": "2411.19325",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect"
+  ]
+ },
+ {
+  "id": "2412.00465",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2501.13925",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect"
+  ]
+ },
+ {
+  "id": "2501.14905",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect"
+  ]
+ },
+ {
+  "id": "2502.08168",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect"
+  ]
+ },
+ {
+  "id": "2502.09598",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2504.02866",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2504.06785",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate"
+  ]
+ },
+ {
+  "id": "2504.10568",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "explain",
+   "recommend-analysis"
+  ]
+ },
+ {
+  "id": "2504.19742",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "integrate"
+  ]
+ },
+ {
+  "id": "2505.03334",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "detect"
+  ]
+ },
+ {
+  "id": "2505.19358",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "embedding-generator"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2505.21089",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "detect",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2505.24223",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2506.00530",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate"
+  ]
+ },
+ {
+  "id": "2506.12937",
+  "evidence_to_lm": [
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "hypothesize",
+   "test-hypotheses"
+  ]
+ },
+ {
+  "id": "2506.20100",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "explain",
+   "recommend-analysis",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2507.15255",
+  "evidence_to_lm": [
+   "observed",
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "explain"
+  ]
+ },
+ {
+  "id": "2507.16716",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2508.01380",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "unknown"
+  ]
+ },
+ {
+  "id": "2509.01907",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "detect",
+   "compare"
+  ]
+ },
+ {
+  "id": "2509.18123",
+  "evidence_to_lm": [
+   "observed",
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "detect",
+   "describe",
+   "explain"
+  ]
+ },
+ {
+  "id": "2509.20628",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "detect",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2509.21609",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2509.24378",
+  "evidence_to_lm": [
+   "observed",
+   "learned-representation",
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "feature-extractor"
+  ],
+  "reasoning_ops": [
+   "detect",
+   "explain"
+  ]
+ },
+ {
+  "id": "2510.04281",
+  "evidence_to_lm": [
+   "observed",
+   "derived-deterministic",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "integrate",
+   "explain"
+  ]
+ },
+ {
+  "id": "2510.06931",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "discriminate",
+   "describe",
+   "explain"
+  ]
+ },
+ {
+  "id": "2512.03623",
+  "evidence_to_lm": [
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2512.15977",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2601.01416",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "detect",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2601.18493",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "detect",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2601.19099",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate"
+  ]
+ },
+ {
+  "id": "2602.12843",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate"
+  ]
+ },
+ {
+  "id": "2602.20066",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate"
+  ]
+ },
+ {
+  "id": "2603.11804",
+  "evidence_to_lm": [
+   "observed",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "direct-multimodal-encoder"
+  ],
+  "reasoning_ops": [
+   "describe"
+  ]
+ },
+ {
+  "id": "2603.13956",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "downstream-task-backbone"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate",
+   "explain"
+  ]
+ },
+ {
+  "id": "2603.17108",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "detect"
+  ]
+ },
+ {
+  "id": "2604.16451",
+  "evidence_to_lm": [
+   "derived-deterministic"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "integrate",
+   "explain"
+  ]
+ },
+ {
+  "id": "2605.10772",
+  "evidence_to_lm": [
+   "observed"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "discriminate"
+  ]
+ },
+ {
+  "id": "2606.13148",
+  "evidence_to_lm": [
+   "observed",
+   "derived-deterministic",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate",
+   "recommend-analysis"
+  ]
+ },
+ {
+  "id": "2606.17246",
+  "evidence_to_lm": [
+   "observed",
+   "ai-inferred",
+   "external-contextual"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "integrate",
+   "detect",
+   "recommend-analysis"
+  ]
+ },
+ {
+  "id": "2607.01584",
+  "evidence_to_lm": [
+   "external-contextual",
+   "learned-representation"
+  ],
+  "fm_role": [
+   "none"
+  ],
+  "reasoning_ops": [
+   "hypothesize",
+   "recommend-analysis"
+  ]
+ },
+ {
+  "id": "2608.00119",
+  "evidence_to_lm": [
+   "external-contextual",
+   "derived-deterministic",
+   "observed",
+   "ai-inferred"
+  ],
+  "fm_role": [
+   "downstream-task-backbone"
+  ],
+  "reasoning_ops": [
+   "integrate",
+   "detect"
+  ]
+ },
+ {
+  "id": "2608.21529",
+  "evidence_to_lm": [
+   "observed",
+   "learned-representation"
+  ],
+  "fm_role": [
+   "embedding-generator",
+   "similarity-retrieval"
+  ],
+  "reasoning_ops": [
+   "describe",
+   "retrieve-analogs"
+  ]
+ }
+]

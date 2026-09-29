@@ -298,5 +298,75 @@
   "query": "geo-localization && language",
   "returned": 40,
   "in_window": 39
+ },
+ {
+  "query": "radiology report generation",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "chest x-ray && report generation && language model",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "clinical && evidence && report generation && multimodal",
+  "returned": 31,
+  "in_window": 31
+ },
+ {
+  "query": "ECG && language model && diagnosis",
+  "returned": 27,
+  "in_window": 27
+ },
+ {
+  "query": "electronic health record && multimodal && language model",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "scientific discovery && large language model && agent",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "AI scientist && hypothesis",
+  "returned": 39,
+  "in_window": 39
+ },
+ {
+  "query": "hypothesis generation && scientific && language model",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "foundation model && embedding && retrieval && scientific",
+  "returned": 8,
+  "in_window": 8
+ },
+ {
+  "query": "time series && language model && explanation && anomaly",
+  "returned": 11,
+  "in_window": 11
+ },
+ {
+  "query": "sensor data && large language model && reasoning",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "astronomy && large language model && transient",
+  "returned": 7,
+  "in_window": 7
+ },
+ {
+  "query": "grounded generation && evidence && scientific",
+  "returned": 3,
+  "in_window": 3
+ },
+ {
+  "query": "structured report && findings && vision language && medical",
+  "returned": 6,
+  "in_window": 6
  }
 ]

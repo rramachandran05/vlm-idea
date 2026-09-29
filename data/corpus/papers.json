@@ -48,6 +48,18 @@
   "url": "https://arxiv.org/abs/2306.11300"
  },
  {
+  "id": "2307.09758",
+  "source": "arxiv",
+  "title": "Longitudinal Data and a Semantic Similarity Reward for Chest X-Ray Report Generation",
+  "year": 2023,
+  "month": 7,
+  "venue": "cs.CV",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2307.09758"
+ },
+ {
   "id": "2307.15266",
   "source": "arxiv",
   "title": "RSGPT: A Remote Sensing Vision Language Model and Benchmark",
@@ -159,6 +171,18 @@
   "url": "https://arxiv.org/abs/2402.11325"
  },
  {
+  "id": "2404.04326",
+  "source": "arxiv",
+  "title": "Hypothesis Generation with Large Language Models",
+  "year": 2024,
+  "month": 4,
+  "venue": "cs.AI",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2404.04326"
+ },
+ {
   "id": "2404.12606",
   "source": "arxiv",
   "title": "ELEV-VISION-SAM: Integrated Vision Language and Foundation Model for Automated Estimation of Building Lowest Floor Elevation",
@@ -170,6 +194,18 @@
    "disasters"
   ],
   "url": "https://arxiv.org/abs/2404.12606"
+ },
+ {
+  "id": "2406.04449",
+  "source": "arxiv",
+  "title": "MAIRA-2: Grounded Radiology Report Generation",
+  "year": 2024,
+  "month": 6,
+  "venue": "cs.CL",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2406.04449"
  },
  {
   "id": "2406.09838",
@@ -198,6 +234,18 @@
   "url": "https://arxiv.org/abs/2406.11217"
  },
  {
+  "id": "2406.13181",
+  "source": "arxiv",
+  "title": "The Impact of Auxiliary Patient Data on Automated Chest X-Ray Report Generation and How to Incorporate It",
+  "year": 2024,
+  "month": 6,
+  "venue": "cs.CV",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2406.13181"
+ },
+ {
   "id": "2406.18572",
   "source": "arxiv",
   "title": "GeoReasoner: Geo-localization with Reasoning in Street Views using a Large Vision-Language Model",
@@ -221,6 +269,18 @@
    "urban"
   ],
   "url": "https://arxiv.org/abs/2407.19719"
+ },
+ {
+  "id": "2408.06292",
+  "source": "arxiv",
+  "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+  "year": 2024,
+  "month": 8,
+  "venue": "cs.AI",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2408.06292"
  },
  {
   "id": "2408.14744",
@@ -258,6 +318,30 @@
    "agriculture"
   ],
   "url": "https://arxiv.org/abs/2410.01407"
+ },
+ {
+  "id": "2410.02429",
+  "source": "arxiv",
+  "title": "IoT-LLM: a framework for enhancing Large Language Model reasoning from real-world sensor data",
+  "year": 2024,
+  "month": 10,
+  "venue": "cs.AI",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2410.02429"
+ },
+ {
+  "id": "2410.05080",
+  "source": "arxiv",
+  "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+  "year": 2024,
+  "month": 10,
+  "venue": "cs.CL",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2410.05080"
  },
  {
   "id": "2410.06234",
@@ -470,6 +554,18 @@
   "url": "https://arxiv.org/abs/2505.21089"
  },
  {
+  "id": "2505.24223",
+  "source": "arxiv",
+  "title": "Automated Structured Radiology Report Generation",
+  "year": 2025,
+  "month": 5,
+  "venue": "cs.CL",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2505.24223"
+ },
+ {
   "id": "2506.00530",
   "source": "arxiv",
   "title": "CityLens: Evaluating Large Vision-Language Models for Urban Socioeconomic Sensing",
@@ -482,6 +578,18 @@
   "url": "https://arxiv.org/abs/2506.00530"
  },
  {
+  "id": "2506.12937",
+  "source": "arxiv",
+  "title": "HypER: Literature-grounded Hypothesis Generation and Distillation with Provenance",
+  "year": 2025,
+  "month": 6,
+  "venue": "cs.AI",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2506.12937"
+ },
+ {
   "id": "2506.20100",
   "source": "arxiv",
   "title": "MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations",
@@ -492,6 +600,18 @@
    "agriculture"
   ],
   "url": "https://arxiv.org/abs/2506.20100"
+ },
+ {
+  "id": "2507.15255",
+  "source": "arxiv",
+  "title": "MEETI: A Multimodal ECG Dataset from MIMIC-IV-ECG with Signals, Images, Features and Interpretations",
+  "year": 2025,
+  "month": 7,
+  "venue": "eess.SP",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2507.15255"
  },
  {
   "id": "2507.16716",
@@ -531,6 +651,19 @@
   "url": "https://arxiv.org/abs/2509.01907"
  },
  {
+  "id": "2509.18123",
+  "source": "arxiv",
+  "title": "SPADE: A Large Language Model Framework for Soil Moisture Pattern Recognition and Anomaly Detection in Precision Agriculture",
+  "year": 2025,
+  "month": 9,
+  "venue": "cs.AI",
+  "domains": [
+   "earth-observation-general",
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2509.18123"
+ },
+ {
   "id": "2509.20628",
   "source": "arxiv",
   "title": "Recov-Vision: Linking Street View Imagery and Vision-Language Models for Post-Disaster Recovery",
@@ -554,6 +687,42 @@
    "disasters"
   ],
   "url": "https://arxiv.org/abs/2509.21609"
+ },
+ {
+  "id": "2509.24378",
+  "source": "arxiv",
+  "title": "AXIS: Explainable Time Series Anomaly Detection with Large Language Models",
+  "year": 2025,
+  "month": 9,
+  "venue": "cs.LG",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2509.24378"
+ },
+ {
+  "id": "2510.04281",
+  "source": "arxiv",
+  "title": "RetiBridge: Bridging Quantitative Retinal Biomarkers and Qualitative Diagnosis with a Knowledge-Guided Multimodal Large Language Model",
+  "year": 2025,
+  "month": 10,
+  "venue": "cs.AI",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2510.04281"
+ },
+ {
+  "id": "2510.06931",
+  "source": "arxiv",
+  "title": "Textual interpretation of transient image classifications from large language models",
+  "year": 2025,
+  "month": 10,
+  "venue": "astro-ph.IM",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2510.06931"
  },
  {
   "id": "2512.03623",
@@ -617,6 +786,18 @@
   "url": "https://arxiv.org/abs/2601.19099"
  },
  {
+  "id": "2602.12843",
+  "source": "arxiv",
+  "title": "MMRad-22K: A Structured Multimodal Evidence Dataset for Chest X-ray Report Generation",
+  "year": 2026,
+  "month": 2,
+  "venue": "cs.CV",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2602.12843"
+ },
+ {
   "id": "2602.20066",
   "source": "arxiv",
   "title": "HeatPrompt: Zero-Shot Vision-Language Modeling of Urban Heat Demand from Satellite Images",
@@ -640,6 +821,18 @@
    "earth-observation-general"
   ],
   "url": "https://arxiv.org/abs/2603.11804"
+ },
+ {
+  "id": "2603.13956",
+  "source": "arxiv",
+  "title": "EviAgent: Evidence-Driven Agent for Radiology Report Generation",
+  "year": 2026,
+  "month": 3,
+  "venue": "cs.AI",
+  "domains": [
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2603.13956"
  },
  {
   "id": "2603.17108",
@@ -701,6 +894,19 @@
    "disasters"
   ],
   "url": "https://arxiv.org/abs/2606.17246"
+ },
+ {
+  "id": "2607.01584",
+  "source": "arxiv",
+  "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation",
+  "year": 2026,
+  "month": 7,
+  "venue": "cs.AI",
+  "domains": [
+   "earth-observation-general",
+   "science-adjacent"
+  ],
+  "url": "https://arxiv.org/abs/2607.01584"
  },
  {
   "id": "2608.00119",

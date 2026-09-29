@@ -83,6 +83,25 @@ KEEP: dict[str, list[str]] = {
     "2411.03491": ["defense-intelligence"],                       # application-agnostic ATR VLM
     "2608.00119": ["defense-intelligence", "infrastructure"],     # war infrastructure estimation
     "2601.01416": ["defense-intelligence"],                       # AirSpatialBot
+    # v2 extension (methods/schema-v2.md): science-data -> language beyond
+    # geodata-text pairs — medicine, scientific agents, sensor/time-series.
+    "2406.04449": ["science-adjacent"],                           # MAIRA-2 grounded radiology reports
+    "2406.13181": ["science-adjacent"],                           # auxiliary patient data in CXR reports
+    "2505.24223": ["science-adjacent"],                           # automated structured radiology reports
+    "2602.12843": ["science-adjacent"],                           # MMRad-22K structured evidence dataset
+    "2603.13956": ["science-adjacent"],                           # EviAgent evidence-driven report gen
+    "2507.15255": ["science-adjacent"],                           # MEETI multi-evidence ECG dataset
+    "2510.04281": ["science-adjacent"],                           # RetiBridge biomarkers->diagnosis
+    "2307.09758": ["science-adjacent"],                           # longitudinal CXR report generation
+    "2408.06292": ["science-adjacent"],                           # The AI Scientist
+    "2404.04326": ["science-adjacent"],                           # hypothesis generation with LLMs
+    "2410.05080": ["science-adjacent"],                           # ScienceAgentBench
+    "2506.12937": ["science-adjacent"],                           # HypER provenance hypothesis gen
+    "2410.02429": ["science-adjacent"],                           # IoT-LLM sensor reasoning
+    "2509.24378": ["science-adjacent"],                           # AXIS time-series anomaly explanation
+    "2510.06931": ["science-adjacent"],                           # astronomy transient text interpretation
+    "2607.01584": ["earth-observation-general", "science-adjacent"],  # EO-Agents hypothesis pipeline
+    "2509.18123": ["earth-observation-general", "science-adjacent"],  # SPADE soil moisture LLM
 }
 
 

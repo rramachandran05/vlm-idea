@@ -134,6 +134,38 @@
   "note": "first RS image-text dataset at 5M scale"
  },
  {
+  "id": "2307.09758",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "expert-interpretation"
+  ],
+  "semantic_relationship": "radiologist reports interpret the current chest X-ray relative to the patient's prior study",
+  "alignment": [
+   "entity",
+   "temporal"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "longitudinal joins over existing clinical archives (MIMIC-class), handling missing priors",
+  "nominal_task": [
+   "captioning"
+  ],
+  "capability": "report generation that mirrors radiologist workflow by integrating prior-study context",
+  "use_enabled": "reduce radiologist reporting burden",
+  "maturity": "domain-research",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "temporal-context evidence composition in medicine"
+ },
+ {
   "id": "2307.15266",
   "geodata_type": [
    "optical-satellite"
@@ -434,6 +466,38 @@
   "note": "authoritative label product (WorldCover) seeds LLM captioning"
  },
  {
+  "id": "2404.04326",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "structured-observations",
+   "llm-generated"
+  ],
+  "semantic_relationship": "hypotheses generalize patterns latent in labeled data examples",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "iterative bandit-style hypothesis update over arbitrary labeled datasets",
+  "nominal_task": [
+   "other"
+  ],
+  "capability": "data-driven hypothesis generation that improves downstream prediction",
+  "use_enabled": "scientific hypothesis proposal from datasets",
+  "maturity": "benchmark-research",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "reasoning op is hypothesize, not describe"
+ },
+ {
   "id": "2404.12606",
   "geodata_type": [
    "street-level"
@@ -465,6 +529,40 @@
   "negative_case": false,
   "negative_reason": "",
   "note": "raised LFE availability from 33% to 56% of properties"
+ },
+ {
+  "id": "2406.04449",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "expert-interpretation",
+   "structured-observations"
+  ],
+  "semantic_relationship": "grounded report sentences interpret localized findings given realistic clinical reporting context",
+  "alignment": [
+   "entity",
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "pairs existing clinical reports and context with images; grounding added at annotation cost",
+  "nominal_task": [
+   "captioning",
+   "grounding"
+  ],
+  "capability": "grounded, context-conditioned radiology report generation with sentence-level factuality evaluation (RadFact)",
+  "use_enabled": "clinically verifiable automated reporting",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "MAIRA-2; canonical evidence-grounded generation exemplar"
  },
  {
   "id": "2406.09838",
@@ -534,6 +632,39 @@
   "note": "substantial VLM-human gap reported; authoritative forecaster text exploited as supervision"
  },
  {
+  "id": "2406.13181",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "expert-interpretation",
+   "structured-observations"
+  ],
+  "semantic_relationship": "reports interpret the image in light of vitals, medications, and clinical history embedded as inputs",
+  "alignment": [
+   "entity",
+   "temporal"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "MIMIC-CXR x MIMIC-IV-ED record joins \u2014 heterogeneous evidence at zero annotation cost",
+  "nominal_task": [
+   "captioning"
+  ],
+  "capability": "diagnostically stronger report generation via patient-record evidence composition",
+  "use_enabled": "emergency-department reporting support",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "external-contextual evidence measurably improves generation"
+ },
+ {
   "id": "2406.18572",
   "geodata_type": [
    "street-level"
@@ -596,6 +727,38 @@
   "negative_case": false,
   "negative_reason": "",
   "note": "MLLM-as-annotator validated against human perception"
+ },
+ {
+  "id": "2408.06292",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "llm-generated"
+  ],
+  "semantic_relationship": "generated papers state hypotheses, methods, and findings derived from executed experiments",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "fully automated idea-experiment-paper loop; bounded by compute",
+  "nominal_task": [
+   "instruction-following",
+   "other"
+  ],
+  "capability": "end-to-end automated research: ideation, experimentation, paper writing, simulated review",
+  "use_enabled": "automated ML research exploration",
+  "maturity": "domain-research",
+  "novelty_data": 1,
+  "novelty_task": 3,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "The AI Scientist; evidence = its own experiment outputs"
  },
  {
   "id": "2408.14744",
@@ -697,6 +860,74 @@
   "negative_case": false,
   "negative_reason": "",
   "note": "domain-specialized CLIP for agriculture"
+ },
+ {
+  "id": "2410.02429",
+  "geodata_type": [
+   "in-situ-timeseries"
+  ],
+  "language_source": [
+   "structured-observations",
+   "scientific-knowledge"
+  ],
+  "semantic_relationship": "answers reason over preprocessed sensor readings plus retrieved IoT domain knowledge",
+  "alignment": [
+   "temporal",
+   "entity"
+  ],
+  "pair_generation": [
+   "template",
+   "knowledge-based"
+  ],
+  "scalability": "high",
+  "scalability_note": "preprocessing + RAG over any IoT stream; five real-world task types",
+  "nominal_task": [
+   "vqa",
+   "other"
+  ],
+  "capability": "physical-world reasoning over sensor data by perception-augmented LLMs",
+  "use_enabled": "IoT-sensory task automation",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "data formatting + knowledge retrieval as the evidence layer"
+ },
+ {
+  "id": "2410.05080",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "decision-workflow",
+   "expert-interpretation"
+  ],
+  "semantic_relationship": "tasks specify data-driven analyses whose target output is an executable program",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "manual"
+  ],
+  "scalability": "medium",
+  "scalability_note": "102 expert-validated tasks from 44 publications; validation caps growth",
+  "nominal_task": [
+   "instruction-following",
+   "other"
+  ],
+  "capability": "rigorous per-task assessment of language agents for data-driven discovery",
+  "use_enabled": "honest capability measurement before automation claims",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "workflow-derived ground truth in science-agent form"
  },
  {
   "id": "2410.06234",
@@ -1297,6 +1528,38 @@
   "note": "SOTA VLMs struggle: disaster corpus gap, cross-sensor gap, counting insensitivity"
  },
  {
+  "id": "2505.24223",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "expert-interpretation",
+   "llm-generated"
+  ],
+  "semantic_relationship": "structured report sections restate free-form radiologist findings in a standardized schema",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "LLM restructuring of existing report archives under strict desiderata",
+  "nominal_task": [
+   "captioning"
+  ],
+  "capability": "consistent, schema-conforming clinical report generation and evaluation",
+  "use_enabled": "standardized clinical reporting",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "schema-conditioned generation precedent for Science Cards"
+ },
+ {
   "id": "2506.00530",
   "geodata_type": [
    "optical-satellite",
@@ -1327,6 +1590,39 @@
   "negative_case": true,
   "negative_reason": "LVLMs show perceptual promise but still fail at reliable socioeconomic indicator prediction, cautioning against imagery-to-statistics capability claims without domain grounding",
   "note": "three evaluation paradigms; most extensive socioeconomic benchmark"
+ },
+ {
+  "id": "2506.12937",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "scientific-knowledge",
+   "llm-generated"
+  ],
+  "semantic_relationship": "hypotheses connect research ideas to empirical validation via literature-grounded reasoning chains",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "literature retrieval + controlled distractor training; provenance kept",
+  "nominal_task": [
+   "other"
+  ],
+  "capability": "evidence-based hypothesis generation with valid/invalid reasoning-chain discrimination",
+  "use_enabled": "literature-grounded research ideation",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "provenance-preserving generation \u2014 direct Science Card relevance"
  },
  {
   "id": "2506.20100",
@@ -1362,6 +1658,43 @@
   "negative_case": false,
   "negative_reason": "",
   "note": "7K+ biological entities; captures interaction dynamics, not just answers"
+ },
+ {
+  "id": "2507.15255",
+  "geodata_type": [
+   "non-geospatial",
+   "in-situ-timeseries"
+  ],
+  "language_source": [
+   "llm-generated",
+   "structured-observations",
+   "expert-interpretation"
+  ],
+  "semantic_relationship": "interpretations explain synchronized ECG waveforms, plotted images, and beat-level quantitative features",
+  "alignment": [
+   "entity",
+   "temporal"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "derived from MIMIC-IV-ECG with automated feature extraction and LLM interpretation text",
+  "nominal_task": [
+   "captioning",
+   "vqa"
+  ],
+  "capability": "multi-evidence-class ECG understanding (signal + image + features + text)",
+  "use_enabled": "cardiovascular diagnostic support",
+  "maturity": "benchmark-research",
+  "novelty_data": 3,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "four evidence classes synchronized in one dataset"
  },
  {
   "id": "2507.16716",
@@ -1467,6 +1800,41 @@
   "note": "fills temporal-pair + rich-text gap in disaster RS datasets"
  },
  {
+  "id": "2509.18123",
+  "geodata_type": [
+   "in-situ-timeseries"
+  ],
+  "language_source": [
+   "llm-generated",
+   "scientific-knowledge"
+  ],
+  "semantic_relationship": "structured reports identify wetting events and anomalies in serialized soil-moisture series",
+  "alignment": [
+   "temporal",
+   "spatial"
+  ],
+  "pair_generation": [
+   "template",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "zero-shot with domain-informed prompts \u2014 no training data needed per site",
+  "nominal_task": [
+   "other",
+   "captioning"
+  ],
+  "capability": "joint event and anomaly identification with human-readable agronomic reports",
+  "use_enabled": "irrigation scheduling and crop management support",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "time-series-to-report without task-specific training"
+ },
+ {
   "id": "2509.20628",
   "geodata_type": [
    "street-level"
@@ -1535,6 +1903,107 @@
   "negative_case": false,
   "negative_reason": "",
   "note": "knowledge grounding as hallucination control"
+ },
+ {
+  "id": "2509.24378",
+  "geodata_type": [
+   "in-situ-timeseries"
+  ],
+  "language_source": [
+   "llm-generated",
+   "structured-observations"
+  ],
+  "semantic_relationship": "explanations state what pattern an anomaly exhibits and why, from numeric and encoder-derived hints",
+  "alignment": [
+   "temporal"
+  ],
+  "pair_generation": [
+   "llm-synthesis",
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "hint construction is automatic (symbolic numeric + pretrained TS encoder features)",
+  "nominal_task": [
+   "other"
+  ],
+  "capability": "explainable time-series anomaly detection \u2014 pattern and rationale, not just a flag",
+  "use_enabled": "anomaly triage with human-readable rationales",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "learned-representation hints ground a frozen LLM"
+ },
+ {
+  "id": "2510.04281",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "scientific-knowledge",
+   "llm-generated"
+  ],
+  "semantic_relationship": "diagnostic conclusions are bridged explicitly from quantified retinal biomarkers via clinical sub-inferences",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "knowledge-guided instruction generation over 15K+ paired exams",
+  "nominal_task": [
+   "vqa",
+   "captioning"
+  ],
+  "capability": "quantitative-to-qualitative diagnostic pathway: biomarkers -> sub-inferences -> conclusion",
+  "use_enabled": "evidence-grounded ophthalmic diagnosis",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 2,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "the observed->computed->inferred chain made explicit in medicine"
+ },
+ {
+  "id": "2510.06931",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "llm-generated",
+   "labels-as-language"
+  ],
+  "semantic_relationship": "descriptions state whether a transient detection is real or an artefact and why",
+  "alignment": [
+   "entity",
+   "event"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "15 examples + instructions suffice; second LLM audits coherence for iterative refinement",
+  "nominal_task": [
+   "classification",
+   "captioning"
+  ],
+  "capability": "interpretable real-vs-bogus transient vetting with per-candidate rationales",
+  "use_enabled": "astronomical survey alert triage",
+  "maturity": "domain-research",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 2,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "three real surveys; discrimination + explanation from image stamps"
  },
  {
   "id": "2512.03623",
@@ -1712,6 +2181,41 @@
   "note": "best VLM 65.2% vs expert 95% \u2014 geometric alignment gap; scalable benchmark construction"
  },
  {
+  "id": "2602.12843",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "expert-interpretation",
+   "labels-as-language"
+  ],
+  "semantic_relationship": "structured evidence units tie regional observations and grounded image evidence to final report statements",
+  "alignment": [
+   "entity",
+   "spatial"
+  ],
+  "pair_generation": [
+   "combinatorial",
+   "deterministic"
+  ],
+  "scalability": "medium",
+  "scalability_note": "22K structured evidence units organized from existing annotations; region annotation bounds growth",
+  "nominal_task": [
+   "captioning",
+   "grounding"
+  ],
+  "capability": "report generation conditioned on structured multimodal evidence, shown superior to text-only or box-only evidence",
+  "use_enabled": "region-grounded clinical reporting",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "directly tests the structured-evidence hypothesis; evidence-format ablation included"
+ },
+ {
   "id": "2602.20066",
   "geodata_type": [
    "optical-satellite",
@@ -1780,6 +2284,40 @@
   "negative_case": false,
   "negative_reason": "",
   "note": "OSM rendering + OCR/chart-reading as an alignment trick"
+ },
+ {
+  "id": "2603.13956",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "llm-generated",
+   "scientific-knowledge"
+  ],
+  "semantic_relationship": "report statements are backed by explicit visual-expert evidence and retrieved clinical priors along a transparent trajectory",
+  "alignment": [
+   "entity",
+   "spatial"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "unknown",
+  "scalability_note": "agentic system; supervision construction not the contribution",
+  "nominal_task": [
+   "captioning",
+   "instruction-following"
+  ],
+  "capability": "traceable report generation with explicit evidence support per diagnostic claim",
+  "use_enabled": "auditable clinical reporting",
+  "maturity": "domain-research",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "evidence-driven agent; traceability as first-class goal"
  },
  {
   "id": "2603.17108",
@@ -1956,6 +2494,39 @@
   "negative_case": false,
   "negative_reason": "",
   "note": "workflow-derived ground truth is a scalable, verifiable supervision pattern"
+ },
+ {
+  "id": "2607.01584",
+  "geodata_type": [
+   "non-geospatial"
+  ],
+  "language_source": [
+   "scientific-knowledge",
+   "llm-generated"
+  ],
+  "semantic_relationship": "structured hypotheses propose scientifically coherent pairings of NASA Earth-observation datasets",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "GNN over the NASA EO knowledge graph ranks pairings across 1,475 datasets; agents filter/generate/evaluate",
+  "nominal_task": [
+   "other"
+  ],
+  "capability": "evidence-driven research-hypothesis generation over NASA data holdings",
+  "use_enabled": "surfacing unexplored NASA dataset combinations for Earth science",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 2,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "closest published neighbor to this project's O7 catalog goal"
  },
  {
   "id": "2608.00119",

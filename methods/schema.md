@@ -21,7 +21,7 @@ Enum fields take **only** the values defined here, plus `unknown` where noted.
 
 | Field | Type | Values |
 |---|---|---|
-| `geodata_type` | list | open but normalized: `optical-satellite`, `sar`, `hyperspectral`, `aerial`, `street-level`, `weather-climate-field`, `dem-terrain`, `map-vector`, `multi-source`, `unknown` |
+| `geodata_type` | list | open but normalized: `optical-satellite`, `sar`, `hyperspectral`, `aerial`, `street-level`, `weather-climate-field`, `dem-terrain`, `map-vector`, `multi-source`, `non-geospatial` (v2: medical images, lab experiments, literature — science-adjacent records), `in-situ-timeseries` (v2: ground sensor series), `unknown` |
 | `language_source` | list | `labels-as-language` (class labels/annotations verbalized) \| `structured-observations` (measurements, event records, metadata rendered as text) \| `expert-interpretation` (analyst/scientist-written descriptions of the specific scene) \| `scientific-knowledge` (domain knowledge not tied to one scene: encyclopedic text, ATBDs, ontologies) \| `reports` (operational documents: damage assessments, bulletins, news) \| `decision-workflow` (task guidance, alerts, recommended actions) \| `crowd-caption` (crowdworker/volunteer free-text written for the dataset) \| `web-text` (alt-text/co-occurring web text) \| `llm-generated` (language authored by an LLM, from whatever seed) \| `unknown` |
 | `semantic_relationship` | string | free text, one line: what the language *says about* the geodata (describes contents / explains cause / assesses impact / instructs action / names entities / quantifies state …) |
 | `alignment` | list | `spatial` \| `temporal` \| `entity` \| `event` \| `unknown` |

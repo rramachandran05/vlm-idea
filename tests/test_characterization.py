@@ -20,6 +20,7 @@ ALIGNMENT = {"spatial", "temporal", "entity", "event", "unknown"}
 GEODATA = {
     "optical-satellite", "sar", "hyperspectral", "aerial", "street-level",
     "weather-climate-field", "dem-terrain", "map-vector", "multi-source",
+    "non-geospatial", "in-situ-timeseries",  # v2 extension
     "unknown",
 }
 SCALABILITY = {"high", "medium", "low", "unknown"}

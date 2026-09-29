@@ -57,6 +57,20 @@ def main() -> None:
     ]
     print(f"\ndecision-support prototype or beyond ({len(hi_mat)}):", hi_mat)
 
+    v2_path = ROOT / "data" / "characterization" / "records-v2.json"
+    if v2_path.exists():
+        v2 = json.loads(v2_path.read_text())
+        for field in ("evidence_to_lm", "fm_role", "reasoning_ops"):
+            c = Counter(v for r in v2 for v in r[field])
+            print(f"\n{field} (v2):")
+            for v, n in c.most_common():
+                print(f"  {v}: {n}")
+        multi = sum(
+            1 for r in v2
+            if len(set(r["evidence_to_lm"]) - {"unknown"}) >= 2
+        )
+        print(f"\nrecords composing >=2 evidence classes: {multi}/{len(v2)}")
+
     unk = Counter()
     for r in records:
         for f in ("language_source", "pair_generation", "alignment",

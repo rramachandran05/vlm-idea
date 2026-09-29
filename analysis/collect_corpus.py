@@ -93,6 +93,23 @@ QUERIES = [
     "language model && climate && satellite",
     "vision language && target recognition",
     "geo-localization && language",
+    # round 4 — v2 reframe (science-data → language beyond geodata-text pairs):
+    # medicine, scientific agents, FM-embedding+LLM systems, evidence-grounded
+    # generation. Scope extension logged in methods/schema-v2.md.
+    "radiology report generation",
+    "chest x-ray && report generation && language model",
+    "clinical && evidence && report generation && multimodal",
+    "ECG && language model && diagnosis",
+    "electronic health record && multimodal && language model",
+    "scientific discovery && large language model && agent",
+    "AI scientist && hypothesis",
+    "hypothesis generation && scientific && language model",
+    "foundation model && embedding && retrieval && scientific",
+    "time series && language model && explanation && anomaly",
+    "sensor data && large language model && reasoning",
+    "astronomy && large language model && transient",
+    "grounded generation && evidence && scientific",
+    "structured report && findings && vision language && medical",
 ]
 
 WINDOW = (2021, 2026)

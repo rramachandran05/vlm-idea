@@ -15,6 +15,7 @@ DOMAINS = {
     "mapping",
     "infrastructure",
     "defense-intelligence",
+    "science-adjacent",  # v2 extension, methods/schema-v2.md
 }
 REQUIRED = {"id", "source", "title", "year", "month", "venue", "domains", "url"}
 

@@ -40,3 +40,13 @@ from verified arXiv abstracts).
   logged metadata); full-text-only details (exact generation prompts, dataset
   licensing) are systematically `unknown` rather than guessed. The frequency
   of `unknown` is reported by the analysis scripts and is itself a finding.
+
+## v2-axis pass (2026-09-29, per methods/schema-v2.md)
+- Corpus extended to 76 records (17 new science-adjacent works, live-retrieved
+  round-4 queries); new records characterized on v1+v2 axes, all 76 on v2 axes.
+- **Sample:** 16 of 76 (21%), `random.Random(99).sample(sorted(ids), 16)`.
+- **Checked:** all three v2 axes per sampled record against stored abstracts
+  (48 axis-fields). **Errors: 0.** One definitional ambiguity surfaced
+  (does `evidence_to_lm` include supervision-construction injections?) —
+  resolved as *yes* and the definition clarified in `methods/schema-v2.md`;
+  no values changed. No axis exceeded the 10% re-pass threshold.
