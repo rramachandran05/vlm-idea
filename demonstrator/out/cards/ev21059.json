@@ -1,0 +1,189 @@
+{
+ "card_id": "sc_ev21059",
+ "card_type": "before-after",
+ "phenomenon": {
+  "description": "Wildfire Horse Head, San Juan, Utah",
+  "status": "externally-reported",
+  "external_reference": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21059"
+ },
+ "spatial": {
+  "lat": 37.71545,
+  "lon": -109.18345,
+  "extent_m": 2240.0,
+  "crs": "EPSG:4326"
+ },
+ "temporal": {
+  "timestamps": [
+   "2026-03-09",
+   "2026-09-10"
+  ],
+  "reference_event_time": "2026-06-27"
+ },
+ "evidence": [
+  {
+   "key": "band_means_before",
+   "value": [
+    0.05117740109562874,
+    0.08476437628269196,
+    0.12623146176338196,
+    0.21347162127494812,
+    0.2627429962158203,
+    0.22698543965816498
+   ],
+   "units": "reflectance",
+   "class": "observed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "windowed COG read, 6 HLS-equivalent bands, mean over 224x224 chip",
+   "provenance": "S2C_12SXG_20260309_0_L2A",
+   "uncertainty": {
+    "type": "window-cloud-fraction",
+    "value": 0.0
+   }
+  },
+  {
+   "key": "band_means_after",
+   "value": [
+    0.07573407888412476,
+    0.10826843976974487,
+    0.16282209753990173,
+    0.23875007033348083,
+    0.3364662528038025,
+    0.32619142532348633
+   ],
+   "units": "reflectance",
+   "class": "observed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "windowed COG read, 6 HLS-equivalent bands, mean over 224x224 chip",
+   "provenance": "S2B_12SXG_20260910_0_L2A",
+   "uncertainty": {
+    "type": "window-cloud-fraction",
+    "value": 0.0
+   }
+  },
+  {
+   "key": "ndvi_mean_before",
+   "value": 0.28294995427131653,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NDVI=(NIR-Red)/(NIR+Red), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "ndvi_mean_after",
+   "value": 0.2004203051328659,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NDVI=(NIR-Red)/(NIR+Red), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "nbr_mean_before",
+   "value": -0.010661446489393711,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NBR=(NIR-SWIR2)/(NIR+SWIR2), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "nbr_mean_after",
+   "value": -0.15143248438835144,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NBR=(NIR-SWIR2)/(NIR+SWIR2), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "delta_ndvi",
+   "value": -0.08252964913845062,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "after minus before chip-mean NDVI",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "delta_nbr",
+   "value": -0.14077103789895773,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "after minus before chip-mean NBR",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "repr_change_cosine_dist",
+   "value": 0.024028122425079346,
+   "units": null,
+   "class": "learned-representation",
+   "source": "Prithvi-EO-1.0-100M (ibm-nasa-geospatial, Apache-2.0)",
+   "method": "1 - cosine(mean patch embedding before, after)",
+   "provenance": "demonstrator/prithvi_embed.py",
+   "uncertainty": null,
+   "uncertainty_note": "no calibrated uncertainty for FM embedding distances; interpretation is relative to the control distribution"
+  },
+  {
+   "key": "reported_event",
+   "value": {
+    "title": "Wildfire Horse Head, San Juan, Utah",
+    "date": "2026-06-27",
+    "category": "wildfires"
+   },
+   "units": null,
+   "class": "contextual",
+   "source": "NASA EONET",
+   "method": "spatio-temporal catalog join",
+   "provenance": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21059",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  }
+ ],
+ "analogs": [
+  {
+   "ref": "ev21081",
+   "similarity": 0.9779,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  },
+  {
+   "ref": "ev20718_ctl",
+   "similarity": 0.9726,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  },
+  {
+   "ref": "ev21059_ctl",
+   "similarity": 0.9688,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  }
+ ],
+ "relationships": [],
+ "reasoning_affordances": [
+  "compare",
+  "describe",
+  "detect",
+  "discriminate",
+  "explain",
+  "integrate",
+  "retrieve-analogs"
+ ],
+ "provenance": {
+  "pipeline": "demonstrator/build_cards.py",
+  "built_at_data_time": "2026-09-10",
+  "notes": "repr-change control-derived threshold: 0.0629"
+ },
+ "insufficiencies": []
+}

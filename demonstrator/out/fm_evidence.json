@@ -1,0 +1,574 @@
+{
+ "ev20883": {
+  "repr_change_cosine_dist": 0.08197259902954102,
+  "embedding_norm_before": 9.141087532043457,
+  "embedding_norm_after": 9.118688583374023,
+  "analogs": [
+   {
+    "ref": "ev20883_ctl",
+    "similarity": 0.9829,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20573",
+    "similarity": 0.9557,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20737",
+    "similarity": 0.9456,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20883_ctl": {
+  "repr_change_cosine_dist": 0.05198800563812256,
+  "embedding_norm_before": 9.133028030395508,
+  "embedding_norm_after": 8.994760513305664,
+  "analogs": [
+   {
+    "ref": "ev20883",
+    "similarity": 0.9829,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20701_ctl",
+    "similarity": 0.9636,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714",
+    "similarity": 0.9636,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21357": {
+  "repr_change_cosine_dist": 0.016202986240386963,
+  "embedding_norm_before": 9.066916465759277,
+  "embedding_norm_after": 9.089707374572754,
+  "analogs": [
+   {
+    "ref": "ev20701_ctl",
+    "similarity": 0.9889,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714",
+    "similarity": 0.977,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20581",
+    "similarity": 0.9731,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21357_ctl": {
+  "repr_change_cosine_dist": 0.0037947893142700195,
+  "embedding_norm_before": 8.357016563415527,
+  "embedding_norm_after": 8.28010368347168,
+  "analogs": [
+   {
+    "ref": "ev20737_ctl",
+    "similarity": 0.9851,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21059_ctl",
+    "similarity": 0.9838,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714_ctl",
+    "similarity": 0.9778,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21358": {
+  "repr_change_cosine_dist": 0.024228215217590332,
+  "embedding_norm_before": 8.697311401367188,
+  "embedding_norm_after": 8.8138427734375,
+  "analogs": [
+   {
+    "ref": "ev20767_ctl",
+    "similarity": 0.9858,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21006",
+    "similarity": 0.9833,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20581",
+    "similarity": 0.9813,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21358_ctl": {
+  "repr_change_cosine_dist": 0.005699276924133301,
+  "embedding_norm_before": 8.713777542114258,
+  "embedding_norm_after": 8.672164916992188,
+  "analogs": [
+   {
+    "ref": "ev21006",
+    "similarity": 0.9884,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21006_ctl",
+    "similarity": 0.9807,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20767_ctl",
+    "similarity": 0.9767,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21059": {
+  "repr_change_cosine_dist": 0.024028122425079346,
+  "embedding_norm_before": 8.584574699401855,
+  "embedding_norm_after": 8.534214973449707,
+  "analogs": [
+   {
+    "ref": "ev21081",
+    "similarity": 0.9779,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718_ctl",
+    "similarity": 0.9726,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21059_ctl",
+    "similarity": 0.9688,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21059_ctl": {
+  "repr_change_cosine_dist": 0.016296207904815674,
+  "embedding_norm_before": 8.510345458984375,
+  "embedding_norm_after": 8.583050727844238,
+  "analogs": [
+   {
+    "ref": "ev20718_ctl",
+    "similarity": 0.9901,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714_ctl",
+    "similarity": 0.986,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718",
+    "similarity": 0.986,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20737": {
+  "repr_change_cosine_dist": 0.0586358904838562,
+  "embedding_norm_before": 8.427791595458984,
+  "embedding_norm_after": 8.513497352600098,
+  "analogs": [
+   {
+    "ref": "ev20573",
+    "similarity": 0.9816,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21081",
+    "similarity": 0.9779,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714_ctl",
+    "similarity": 0.9721,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20737_ctl": {
+  "repr_change_cosine_dist": 0.09238386154174805,
+  "embedding_norm_before": 7.803096771240234,
+  "embedding_norm_after": 8.307002067565918,
+  "analogs": [
+   {
+    "ref": "ev21357_ctl",
+    "similarity": 0.9851,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21059_ctl",
+    "similarity": 0.9846,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718_ctl",
+    "similarity": 0.9727,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21081": {
+  "repr_change_cosine_dist": 0.014515876770019531,
+  "embedding_norm_before": 8.703770637512207,
+  "embedding_norm_after": 8.441855430603027,
+  "analogs": [
+   {
+    "ref": "ev21059_ctl",
+    "similarity": 0.9811,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21059",
+    "similarity": 0.9779,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20737",
+    "similarity": 0.9779,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21081_ctl": {
+  "repr_change_cosine_dist": 0.0032845139503479004,
+  "embedding_norm_before": 8.997322082519531,
+  "embedding_norm_after": 9.008892059326172,
+  "analogs": [
+   {
+    "ref": "ev21059",
+    "similarity": 0.9566,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20573",
+    "similarity": 0.9542,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718_ctl",
+    "similarity": 0.9442,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20767": {
+  "repr_change_cosine_dist": 0.2389925718307495,
+  "embedding_norm_before": 8.263715744018555,
+  "embedding_norm_after": 8.988931655883789,
+  "analogs": [
+   {
+    "ref": "ev20581",
+    "similarity": 0.9705,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21358",
+    "similarity": 0.964,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21357",
+    "similarity": 0.957,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20767_ctl": {
+  "repr_change_cosine_dist": 0.14142370223999023,
+  "embedding_norm_before": 8.282383918762207,
+  "embedding_norm_after": 8.981283187866211,
+  "analogs": [
+   {
+    "ref": "ev21006_ctl",
+    "similarity": 0.9919,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21006",
+    "similarity": 0.9868,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21358",
+    "similarity": 0.9858,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20714": {
+  "repr_change_cosine_dist": 0.027208149433135986,
+  "embedding_norm_before": 8.930663108825684,
+  "embedding_norm_after": 8.858482360839844,
+  "analogs": [
+   {
+    "ref": "ev20701",
+    "similarity": 0.9925,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20701_ctl",
+    "similarity": 0.992,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718",
+    "similarity": 0.9881,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20714_ctl": {
+  "repr_change_cosine_dist": 0.014309167861938477,
+  "embedding_norm_before": 8.864178657531738,
+  "embedding_norm_after": 8.755277633666992,
+  "analogs": [
+   {
+    "ref": "ev20718",
+    "similarity": 0.9894,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20701",
+    "similarity": 0.9886,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21059_ctl",
+    "similarity": 0.986,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20718": {
+  "repr_change_cosine_dist": 0.003875434398651123,
+  "embedding_norm_before": 8.837085723876953,
+  "embedding_norm_after": 8.745328903198242,
+  "analogs": [
+   {
+    "ref": "ev20701",
+    "similarity": 0.9924,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714_ctl",
+    "similarity": 0.9894,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718_ctl",
+    "similarity": 0.9885,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20718_ctl": {
+  "repr_change_cosine_dist": 0.014889299869537354,
+  "embedding_norm_before": 8.767280578613281,
+  "embedding_norm_after": 8.74307632446289,
+  "analogs": [
+   {
+    "ref": "ev21059_ctl",
+    "similarity": 0.9901,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718",
+    "similarity": 0.9885,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714_ctl",
+    "similarity": 0.9819,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21006": {
+  "repr_change_cosine_dist": 0.009850502014160156,
+  "embedding_norm_before": 8.919720649719238,
+  "embedding_norm_after": 8.688261985778809,
+  "analogs": [
+   {
+    "ref": "ev21358_ctl",
+    "similarity": 0.9884,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21006_ctl",
+    "similarity": 0.9877,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20767_ctl",
+    "similarity": 0.9868,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev21006_ctl": {
+  "repr_change_cosine_dist": 0.13742095232009888,
+  "embedding_norm_before": 8.512553215026855,
+  "embedding_norm_after": 8.9229097366333,
+  "analogs": [
+   {
+    "ref": "ev20767_ctl",
+    "similarity": 0.9919,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20581_ctl",
+    "similarity": 0.9917,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21006",
+    "similarity": 0.9877,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20701": {
+  "repr_change_cosine_dist": 0.02477848529815674,
+  "embedding_norm_before": 8.80480670928955,
+  "embedding_norm_after": 8.770050048828125,
+  "analogs": [
+   {
+    "ref": "ev20714",
+    "similarity": 0.9925,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718",
+    "similarity": 0.9924,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714_ctl",
+    "similarity": 0.9886,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20701_ctl": {
+  "repr_change_cosine_dist": 0.07101821899414062,
+  "embedding_norm_before": 8.519135475158691,
+  "embedding_norm_after": 9.01630973815918,
+  "analogs": [
+   {
+    "ref": "ev20714",
+    "similarity": 0.992,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21357",
+    "similarity": 0.9889,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20573_ctl",
+    "similarity": 0.9888,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20573": {
+  "repr_change_cosine_dist": 0.04683220386505127,
+  "embedding_norm_before": 8.889223098754883,
+  "embedding_norm_after": 8.816570281982422,
+  "analogs": [
+   {
+    "ref": "ev20701",
+    "similarity": 0.9828,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20737",
+    "similarity": 0.9816,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20718",
+    "similarity": 0.9798,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20573_ctl": {
+  "repr_change_cosine_dist": 0.02095264196395874,
+  "embedding_norm_before": 9.065242767333984,
+  "embedding_norm_after": 9.116559028625488,
+  "analogs": [
+   {
+    "ref": "ev20701_ctl",
+    "similarity": 0.9888,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20714",
+    "similarity": 0.9867,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20701",
+    "similarity": 0.9798,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20581": {
+  "repr_change_cosine_dist": 0.17090803384780884,
+  "embedding_norm_before": 8.55508804321289,
+  "embedding_norm_after": 9.04731273651123,
+  "analogs": [
+   {
+    "ref": "ev21358",
+    "similarity": 0.9813,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20767_ctl",
+    "similarity": 0.9761,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21357",
+    "similarity": 0.9731,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ },
+ "ev20581_ctl": {
+  "repr_change_cosine_dist": 0.0987924337387085,
+  "embedding_norm_before": 8.643895149230957,
+  "embedding_norm_after": 8.865700721740723,
+  "analogs": [
+   {
+    "ref": "ev21006_ctl",
+    "similarity": 0.9917,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev20767_ctl",
+    "similarity": 0.9786,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   },
+   {
+    "ref": "ev21006",
+    "similarity": 0.971,
+    "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+   }
+  ]
+ }
+}

@@ -1,1 +1,470 @@
-[]
+[
+ {
+  "site_id": "ev20883",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2A_34LDR_20260601_0_L2A",
+    "datetime": "2026-06-01",
+    "scene_cloud_cover": 0.000126,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2A_34LDR_20260721_0_L2A",
+    "datetime": "2026-07-21",
+    "scene_cloud_cover": 0.000136,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20883_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2C_34LDR_20260530_0_L2A",
+    "datetime": "2026-05-30",
+    "scene_cloud_cover": 0.000126,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2A_34LDR_20260721_0_L2A",
+    "datetime": "2026-07-21",
+    "scene_cloud_cover": 0.000136,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21357",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2A_54LYK_20260614_1_L2A",
+    "datetime": "2026-06-14",
+    "scene_cloud_cover": 6.503665,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_54LYK_20260717_0_L2A",
+    "datetime": "2026-07-17",
+    "scene_cloud_cover": 0.002906,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21357_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2B_55LBE_20260604_0_L2A",
+    "datetime": "2026-06-04",
+    "scene_cloud_cover": 6.246588,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_54LZK_20260828_0_L2A",
+    "datetime": "2026-08-28",
+    "scene_cloud_cover": 1.598147,
+    "window_cloud_fraction": 0.0041
+   }
+  }
+ },
+ {
+  "site_id": "ev21358",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2A_15UXP_20260601_0_L2A",
+    "datetime": "2026-06-01",
+    "scene_cloud_cover": 0.000196,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2A_15UXP_20260922_1_L2A",
+    "datetime": "2026-09-22",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21358_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2A_15UXP_20260601_0_L2A",
+    "datetime": "2026-06-01",
+    "scene_cloud_cover": 0.000196,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_15UXP_20260922_0_L2A",
+    "datetime": "2026-09-22",
+    "scene_cloud_cover": 0.02417,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21059",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2C_12SXG_20260309_0_L2A",
+    "datetime": "2026-03-09",
+    "scene_cloud_cover": 6.6e-05,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_12SXG_20260910_0_L2A",
+    "datetime": "2026-09-10",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21059_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2B_12SYG_20260304_0_L2A",
+    "datetime": "2026-03-04",
+    "scene_cloud_cover": 0.001172,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_12SYG_20260910_0_L2A",
+    "datetime": "2026-09-10",
+    "scene_cloud_cover": 4e-06,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20737",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2B_12SVJ_20260317_0_L2A",
+    "datetime": "2026-03-17",
+    "scene_cloud_cover": 0.000541,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2A_12SVJ_20260804_1_L2A",
+    "datetime": "2026-08-04",
+    "scene_cloud_cover": 0.007685,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20737_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2B_12SVJ_20260317_0_L2A",
+    "datetime": "2026-03-17",
+    "scene_cloud_cover": 0.000541,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_12SVJ_20260804_0_L2A",
+    "datetime": "2026-08-04",
+    "scene_cloud_cover": 0.022389,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21081",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2C_11TLE_20260602_0_L2A",
+    "datetime": "2026-06-02",
+    "scene_cloud_cover": 0.027613,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_11TLE_20260831_0_L2A",
+    "datetime": "2026-08-31",
+    "scene_cloud_cover": 0.04327,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21081_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2B_11TLE_20260604_1_L2A",
+    "datetime": "2026-06-04",
+    "scene_cloud_cover": 0.051294,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_11TLE_20260709_0_L2A",
+    "datetime": "2026-07-09",
+    "scene_cloud_cover": 0.108404,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20767",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2B_13VCE_20260502_0_L2A",
+    "datetime": "2026-05-02",
+    "scene_cloud_cover": 0.010713,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_13VCE_20260924_0_L2A",
+    "datetime": "2026-09-24",
+    "scene_cloud_cover": 1.485499,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20767_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2B_13VDE_20260509_0_L2A",
+    "datetime": "2026-05-09",
+    "scene_cloud_cover": 0.054323,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_13VDE_20260924_0_L2A",
+    "datetime": "2026-09-24",
+    "scene_cloud_cover": 2.197547,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20714",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2B_52LFK_20260413_0_L2A",
+    "datetime": "2026-04-13",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_52LFK_20260727_0_L2A",
+    "datetime": "2026-07-27",
+    "scene_cloud_cover": 0.000289,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20714_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2B_52LGK_20260413_0_L2A",
+    "datetime": "2026-04-13",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2A_52LGK_20260629_1_L2A",
+    "datetime": "2026-06-29",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20718",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2B_53LLE_20260530_1_L2A",
+    "datetime": "2026-05-30",
+    "scene_cloud_cover": 0.0001,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_53LLE_20260719_0_L2A",
+    "datetime": "2026-07-19",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20718_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2A_53LLE_20260414_0_L2A",
+    "datetime": "2026-04-14",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_53LLE_20260810_0_L2A",
+    "datetime": "2026-08-10",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev21006",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2C_5WPM_20260603_0_L2A",
+    "datetime": "2026-06-03",
+    "scene_cloud_cover": 0.146818,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_5WPM_20260725_0_L2A",
+    "datetime": "2026-07-25",
+    "scene_cloud_cover": 2.231446,
+    "window_cloud_fraction": 0.0491
+   }
+  }
+ },
+ {
+  "site_id": "ev21006_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2B_6WVS_20260123_0_L2A",
+    "datetime": "2026-01-23",
+    "scene_cloud_cover": 0.098996,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_6WVS_20260725_0_L2A",
+    "datetime": "2026-07-25",
+    "scene_cloud_cover": 0.533349,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20701",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2C_54LXL_20260413_0_L2A",
+    "datetime": "2026-04-13",
+    "scene_cloud_cover": 4.991191,
+    "window_cloud_fraction": 0.0324
+   },
+   "after": {
+    "scene": "S2B_54LXL_20260717_0_L2A",
+    "datetime": "2026-07-17",
+    "scene_cloud_cover": 0.000156,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20701_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2A_54LYM_20260326_0_L2A",
+    "datetime": "2026-03-26",
+    "scene_cloud_cover": 10.824642,
+    "window_cloud_fraction": 0.2149
+   },
+   "after": {
+    "scene": "S2B_54LXL_20260717_0_L2A",
+    "datetime": "2026-07-17",
+    "scene_cloud_cover": 0.000156,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20573",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2A_34KFC_20260605_0_L2A",
+    "datetime": "2026-06-05",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_34KFC_20260906_0_L2A",
+    "datetime": "2026-09-06",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20573_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2A_34KGC_20260426_3_L2A",
+    "datetime": "2026-04-26",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2B_34KGC_20260708_0_L2A",
+    "datetime": "2026-07-08",
+    "scene_cloud_cover": 0,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20581",
+  "kind": "event",
+  "scenes": {
+   "before": {
+    "scene": "S2C_45VWG_20260123_0_L2A",
+    "datetime": "2026-01-23",
+    "scene_cloud_cover": 0.113034,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_45VWG_20260913_0_L2A",
+    "datetime": "2026-09-13",
+    "scene_cloud_cover": 0.006493,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ },
+ {
+  "site_id": "ev20581_ctl",
+  "kind": "control",
+  "scenes": {
+   "before": {
+    "scene": "S2C_45VXG_20260123_0_L2A",
+    "datetime": "2026-01-23",
+    "scene_cloud_cover": 0.061098,
+    "window_cloud_fraction": 0.0
+   },
+   "after": {
+    "scene": "S2C_45VXG_20260824_0_L2A",
+    "datetime": "2026-08-24",
+    "scene_cloud_cover": 0.016949,
+    "window_cloud_fraction": 0.0
+   }
+  }
+ }
+]

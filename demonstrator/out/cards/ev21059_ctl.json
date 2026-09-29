@@ -1,0 +1,188 @@
+{
+ "card_id": "sc_ev21059_ctl",
+ "card_type": "before-after",
+ "phenomenon": {
+  "description": "control site, no reported event",
+  "status": "none-expected",
+  "external_reference": null
+ },
+ "spatial": {
+  "lat": 37.71545,
+  "lon": -108.48344999999999,
+  "extent_m": 2240.0,
+  "crs": "EPSG:4326"
+ },
+ "temporal": {
+  "timestamps": [
+   "2026-03-04",
+   "2026-09-10"
+  ],
+  "reference_event_time": null
+ },
+ "evidence": [
+  {
+   "key": "band_means_before",
+   "value": [
+    0.06342314928770065,
+    0.07574737071990967,
+    0.09266580641269684,
+    0.14943638443946838,
+    0.19250285625457764,
+    0.15169958770275116
+   ],
+   "units": "reflectance",
+   "class": "observed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "windowed COG read, 6 HLS-equivalent bands, mean over 224x224 chip",
+   "provenance": "S2B_12SYG_20260304_0_L2A",
+   "uncertainty": {
+    "type": "window-cloud-fraction",
+    "value": 0.0
+   }
+  },
+  {
+   "key": "band_means_after",
+   "value": [
+    0.054492127150297165,
+    0.07621534913778305,
+    0.09107796102762222,
+    0.20519396662712097,
+    0.26563969254493713,
+    0.2083301544189453
+   ],
+   "units": "reflectance",
+   "class": "observed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "windowed COG read, 6 HLS-equivalent bands, mean over 224x224 chip",
+   "provenance": "S2B_12SYG_20260910_0_L2A",
+   "uncertainty": {
+    "type": "window-cloud-fraction",
+    "value": 0.0
+   }
+  },
+  {
+   "key": "ndvi_mean_before",
+   "value": 0.2597212791442871,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NDVI=(NIR-Red)/(NIR+Red), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "ndvi_mean_after",
+   "value": 0.40535396337509155,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NDVI=(NIR-Red)/(NIR+Red), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "nbr_mean_before",
+   "value": -0.004771218169480562,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NBR=(NIR-SWIR2)/(NIR+SWIR2), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "nbr_mean_after",
+   "value": 0.007899853400886059,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NBR=(NIR-SWIR2)/(NIR+SWIR2), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "delta_ndvi",
+   "value": 0.14563268423080444,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "after minus before chip-mean NDVI",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "delta_nbr",
+   "value": 0.012671071570366621,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "after minus before chip-mean NBR",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "repr_change_cosine_dist",
+   "value": 0.016296207904815674,
+   "units": null,
+   "class": "learned-representation",
+   "source": "Prithvi-EO-1.0-100M (ibm-nasa-geospatial, Apache-2.0)",
+   "method": "1 - cosine(mean patch embedding before, after)",
+   "provenance": "demonstrator/prithvi_embed.py",
+   "uncertainty": null,
+   "uncertainty_note": "no calibrated uncertainty for FM embedding distances; interpretation is relative to the control distribution"
+  },
+  {
+   "key": "event_catalog_check",
+   "value": "no EONET event reported at this location/date",
+   "units": null,
+   "class": "contextual",
+   "source": "NASA EONET",
+   "method": "spatio-temporal catalog join (negative result)",
+   "provenance": "https://eonet.gsfc.nasa.gov/api/v3/events",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  }
+ ],
+ "analogs": [
+  {
+   "ref": "ev20718_ctl",
+   "similarity": 0.9901,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  },
+  {
+   "ref": "ev20714_ctl",
+   "similarity": 0.986,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  },
+  {
+   "ref": "ev20718",
+   "similarity": 0.986,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  }
+ ],
+ "relationships": [
+  {
+   "type": "control-for",
+   "subject": "sc_ev21059_ctl",
+   "object": "sc_ev21059"
+  }
+ ],
+ "reasoning_affordances": [
+  "compare",
+  "describe",
+  "detect",
+  "retrieve-analogs"
+ ],
+ "provenance": {
+  "pipeline": "demonstrator/build_cards.py",
+  "built_at_data_time": "2026-09-10",
+  "notes": "repr-change control-derived threshold: 0.0629"
+ },
+ "insufficiencies": []
+}

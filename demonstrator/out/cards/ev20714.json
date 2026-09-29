@@ -1,0 +1,189 @@
+{
+ "card_id": "sc_ev20714",
+ "card_type": "before-after",
+ "phenomenon": {
+  "description": "Wildfire in Australia 1029092",
+  "status": "externally-reported",
+  "external_reference": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20714"
+ },
+ "spatial": {
+  "lat": -13.707298870541324,
+  "lon": 130.21613084656167,
+  "extent_m": 2240.0,
+  "crs": "EPSG:4326"
+ },
+ "temporal": {
+  "timestamps": [
+   "2026-04-13",
+   "2026-07-27"
+  ],
+  "reference_event_time": "2026-06-23"
+ },
+ "evidence": [
+  {
+   "key": "band_means_before",
+   "value": [
+    0.03352024406194687,
+    0.056941431015729904,
+    0.06728451699018478,
+    0.2418241649866104,
+    0.22679223120212555,
+    0.12938818335533142
+   ],
+   "units": "reflectance",
+   "class": "observed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "windowed COG read, 6 HLS-equivalent bands, mean over 224x224 chip",
+   "provenance": "S2B_52LFK_20260413_0_L2A",
+   "uncertainty": {
+    "type": "window-cloud-fraction",
+    "value": 0.0
+   }
+  },
+  {
+   "key": "band_means_after",
+   "value": [
+    0.04124439135193825,
+    0.06044349446892738,
+    0.07634296268224716,
+    0.18426573276519775,
+    0.22413024306297302,
+    0.16623401641845703
+   ],
+   "units": "reflectance",
+   "class": "observed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "windowed COG read, 6 HLS-equivalent bands, mean over 224x224 chip",
+   "provenance": "S2C_52LFK_20260727_0_L2A",
+   "uncertainty": {
+    "type": "window-cloud-fraction",
+    "value": 0.0
+   }
+  },
+  {
+   "key": "ndvi_mean_before",
+   "value": 0.5670914649963379,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NDVI=(NIR-Red)/(NIR+Red), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "ndvi_mean_after",
+   "value": 0.4092525839805603,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NDVI=(NIR-Red)/(NIR+Red), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "nbr_mean_before",
+   "value": 0.30598998069763184,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NBR=(NIR-SWIR2)/(NIR+SWIR2), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "nbr_mean_after",
+   "value": 0.051300954073667526,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "NBR=(NIR-SWIR2)/(NIR+SWIR2), chip mean",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "delta_ndvi",
+   "value": -0.1578388810157776,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "after minus before chip-mean NDVI",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "delta_nbr",
+   "value": -0.2546890266239643,
+   "units": null,
+   "class": "computed",
+   "source": "Sentinel-2 L2A COG (Earth Search STAC, earth-search.aws.element84.com)",
+   "method": "after minus before chip-mean NBR",
+   "provenance": "demonstrator/evidence.py",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  },
+  {
+   "key": "repr_change_cosine_dist",
+   "value": 0.027208149433135986,
+   "units": null,
+   "class": "learned-representation",
+   "source": "Prithvi-EO-1.0-100M (ibm-nasa-geospatial, Apache-2.0)",
+   "method": "1 - cosine(mean patch embedding before, after)",
+   "provenance": "demonstrator/prithvi_embed.py",
+   "uncertainty": null,
+   "uncertainty_note": "no calibrated uncertainty for FM embedding distances; interpretation is relative to the control distribution"
+  },
+  {
+   "key": "reported_event",
+   "value": {
+    "title": "Wildfire in Australia 1029092",
+    "date": "2026-06-23",
+    "category": "wildfires"
+   },
+   "units": null,
+   "class": "contextual",
+   "source": "NASA EONET",
+   "method": "spatio-temporal catalog join",
+   "provenance": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20714",
+   "uncertainty": null,
+   "uncertainty_note": "no formal uncertainty model for this quantity in this demonstrator"
+  }
+ ],
+ "analogs": [
+  {
+   "ref": "ev20701",
+   "similarity": 0.9925,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  },
+  {
+   "ref": "ev20701_ctl",
+   "similarity": 0.992,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  },
+  {
+   "ref": "ev20718",
+   "similarity": 0.9881,
+   "method": "cosine over Prithvi-EO-1.0-100M mean patch embeddings (after-scene)"
+  }
+ ],
+ "relationships": [],
+ "reasoning_affordances": [
+  "compare",
+  "describe",
+  "detect",
+  "discriminate",
+  "explain",
+  "integrate",
+  "retrieve-analogs"
+ ],
+ "provenance": {
+  "pipeline": "demonstrator/build_cards.py",
+  "built_at_data_time": "2026-07-27",
+  "notes": "repr-change control-derived threshold: 0.0629"
+ },
+ "insufficiencies": []
+}

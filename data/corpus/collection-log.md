@@ -56,3 +56,10 @@ inclusion rules.
   arXiv-primary rule, revisit if a pattern rests on a single arXiv record.
 - Defense/intelligence is thin on arXiv (5 kept), consistent with the domain's
   publication practices; noted rather than padded.
+
+## v2 extension (2026-09-29, round 4)
+14 additional queries for the science-data→language pattern class (medicine
+report generation, scientific agents, sensor/time-series reasoning; scope
+extension documented in `methods/schema-v2.md`). Candidate pool grew to 812;
+17 new works kept under the extended rules (tag `science-adjacent`), corpus
+now 76. Same retrieval guarantees (live API, verified by construction).

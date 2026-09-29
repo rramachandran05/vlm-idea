@@ -1,0 +1,89 @@
+{
+ "task": "event vs control discrimination (paired wildfire design)",
+ "n_event": 13,
+ "n_control": 13,
+ "metric": "rank AUC over all event x control pairs",
+ "auc": {
+  "T1_raw_band_delta": 0.4438,
+  "T2_deterministic_negative_dNBR": 0.6331,
+  "T3_fm_repr_change": 0.5444,
+  "T4_combined_T2_T3": 0.5888
+ },
+ "median_split_misclassifications": {
+  "T1_raw_band_delta": {
+   "events_below_split": [
+    "ev20701",
+    "ev20714",
+    "ev20718",
+    "ev21006",
+    "ev21081",
+    "ev21357",
+    "ev21358"
+   ],
+   "controls_above_split": [
+    "ev20573_ctl",
+    "ev20581_ctl",
+    "ev20718_ctl",
+    "ev20737_ctl",
+    "ev20767_ctl",
+    "ev20883_ctl",
+    "ev21006_ctl"
+   ]
+  },
+  "T2_deterministic_negative_dNBR": {
+   "events_below_split": [
+    "ev20714",
+    "ev20718",
+    "ev21006",
+    "ev21059",
+    "ev21081",
+    "ev21357"
+   ],
+   "controls_above_split": [
+    "ev20573_ctl",
+    "ev20701_ctl",
+    "ev20718_ctl",
+    "ev20737_ctl",
+    "ev20767_ctl",
+    "ev20883_ctl"
+   ]
+  },
+  "T3_fm_repr_change": {
+   "events_below_split": [
+    "ev20718",
+    "ev21006",
+    "ev21059",
+    "ev21081",
+    "ev21357",
+    "ev21358"
+   ],
+   "controls_above_split": [
+    "ev20581_ctl",
+    "ev20701_ctl",
+    "ev20737_ctl",
+    "ev20767_ctl",
+    "ev20883_ctl",
+    "ev21006_ctl"
+   ]
+  },
+  "T4_combined_T2_T3": {
+   "events_below_split": [
+    "ev20714",
+    "ev20718",
+    "ev21006",
+    "ev21059",
+    "ev21081",
+    "ev21357"
+   ],
+   "controls_above_split": [
+    "ev20573_ctl",
+    "ev20701_ctl",
+    "ev20737_ctl",
+    "ev20767_ctl",
+    "ev20883_ctl",
+    "ev21006_ctl"
+   ]
+  }
+ },
+ "note": "demonstration-grade n; controls share dates/regions with their paired events (0.7 deg offset), so seasonal effects are partially controlled"
+}

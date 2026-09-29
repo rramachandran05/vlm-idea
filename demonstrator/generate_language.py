@@ -110,6 +110,13 @@ def products_for(card):
             + KNOWLEDGE["ndvi_causes"],
             ["delta_nbr", "repr_change_cosine_dist", "event_catalog_check",
              "knowledge:ndvi_causes"], "hypothesis"))
+    else:  # control, no substantial change: stable-baseline integration
+        out.append(s(
+            "Spectral indices and the learned representation agree that this "
+            "site is stable over the interval, and no event is cataloged — "
+            "consistent with its role as an undisturbed reference.",
+            ["delta_nbr", "repr_change_cosine_dist", "event_catalog_check"],
+            "derived-interpretation"))
 
     # 5 — uncertainty / abstention statement
     if card["insufficiencies"]:

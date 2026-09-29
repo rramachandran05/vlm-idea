@@ -1,0 +1,1987 @@
+[
+ {
+  "card_id": "sc_ev20573",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-06-05 and 2026-09-06, chip-mean NDVI moved from 0.495 to 0.235 and chip-mean NBR from 0.144 to -0.175 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.320) and a Prithvi representation change of 0.0468 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20701 (cosine similarity 0.983), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Botswana 1028958' (2026-06-15): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20701 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20573_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-04-26 and 2026-07-08, chip-mean NDVI moved from 0.672 to 0.371 and chip-mean NBR from 0.329 to -0.050 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.379) and a Prithvi representation change of 0.0210 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20701_ctl (cosine similarity 0.989), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev20701_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20581",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-01-23 and 2026-09-13, chip-mean NDVI moved from 0.059 to 0.626 and chip-mean NBR from 0.669 to 0.074 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.595) and a Prithvi representation change of 0.1709 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21358 (cosine similarity 0.981), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Russian Federation 1028969' (2026-06-09): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev21358 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20581_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-01-23 and 2026-08-24, chip-mean NDVI moved from 0.093 to 0.757 and chip-mean NBR from 0.675 to 0.581 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a moderate decline in NBR (\u0394=-0.094) and a Prithvi representation change of 0.0988 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21006_ctl (cosine similarity 0.992), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev21006_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20701",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-04-13 and 2026-07-17, chip-mean NDVI moved from 0.680 to 0.461 and chip-mean NBR from 0.426 to 0.089 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.337) and a Prithvi representation change of 0.0248 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20714 (cosine similarity 0.993), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Australia 1029071' (2026-06-18): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20714 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20701_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-03-26 and 2026-07-17, chip-mean NDVI moved from 0.632 to 0.526 and chip-mean NBR from 0.435 to 0.165 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.270) and a Prithvi representation change of 0.0710 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20714 (cosine similarity 0.992), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Interpretation is limited: before chip has 21% cloud/shadow fraction \u2014 index means partly contaminated. Conclusions beyond the description above should be withheld until a cleaner acquisition is available.",
+    "trace": [
+     "insufficiencies"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "Is the available evidence sufficient to attribute the observed index changes, or should attribution be withheld?",
+    "rule": "insufficiency-present -> abstention"
+   },
+   {
+    "q": "What does comparison with analog site ev20714 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20714",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-04-13 and 2026-07-27, chip-mean NDVI moved from 0.567 to 0.409 and chip-mean NBR from 0.306 to 0.051 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.255) and a Prithvi representation change of 0.0272 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20701 (cosine similarity 0.993), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Australia 1029092' (2026-06-23): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20701 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20714_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-04-13 and 2026-06-29, chip-mean NDVI moved from 0.641 to 0.421 and chip-mean NBR from 0.290 to 0.056 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.234) and a Prithvi representation change of 0.0143 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20718 (cosine similarity 0.989), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev20718 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20718",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-05-30 and 2026-07-19, chip-mean NDVI moved from 0.467 to 0.397 and chip-mean NBR from 0.144 to 0.080 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a moderate decline in NBR (\u0394=-0.064) and a Prithvi representation change of 0.0039 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20701 (cosine similarity 0.992), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Although 'Wildfire in Australia 1029077' is cataloged for this area, neither the spectral indices nor the learned representation shows commensurate change; the burn may lie outside this chip, predate the before-scene, or be sub-resolution.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: no follow-up indicated; retain as a stable reference site for analog retrieval.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Why does a cataloged wildfire show no commensurate spectral or representation change in this chip?",
+    "rule": "no-change AND event-context -> conflict/counterfactual"
+   },
+   {
+    "q": "What does comparison with analog site ev20701 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20718_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-04-14 and 2026-08-10, chip-mean NDVI moved from 0.557 to 0.314 and chip-mean NBR from 0.262 to -0.014 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.276) and a Prithvi representation change of 0.0149 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21059_ctl (cosine similarity 0.990), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev21059_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20737",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-03-17 and 2026-08-04, chip-mean NDVI moved from 0.495 to 0.282 and chip-mean NBR from 0.451 to -0.206 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.657) and a Prithvi representation change of 0.0586 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20573 (cosine similarity 0.982), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in United States 1029113' (2026-06-26): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20573 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20737_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-03-17 and 2026-08-04, chip-mean NDVI moved from 0.070 to 0.472 and chip-mean NBR from 0.716 to 0.196 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.520) and a Prithvi representation change of 0.0924 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21357_ctl (cosine similarity 0.985), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev21357_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20767",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-05-02 and 2026-09-24, chip-mean NDVI moved from 0.013 to 0.320 and chip-mean NBR from 0.904 to -0.364 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-1.267) and a Prithvi representation change of 0.2390 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20581 (cosine similarity 0.971), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Canada 1029140' (2026-06-24): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20581 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20767_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-05-09 and 2026-09-24, chip-mean NDVI moved from 0.076 to 0.663 and chip-mean NBR from 0.809 to 0.374 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.435) and a Prithvi representation change of 0.1414 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21006_ctl (cosine similarity 0.992), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev21006_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20883",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-06-01 and 2026-07-21, chip-mean NDVI moved from 0.569 to 0.120 and chip-mean NBR from 0.366 to -0.261 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.627) and a Prithvi representation change of 0.0820 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20883_ctl (cosine similarity 0.983), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Angola 1029229' (2026-06-30): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20883_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev20883_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-05-30 and 2026-07-21, chip-mean NDVI moved from 0.597 to 0.144 and chip-mean NBR from 0.380 to -0.132 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.512) and a Prithvi representation change of 0.0520 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20883 (cosine similarity 0.983), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev20883 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21006",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-06-03 and 2026-07-25, chip-mean NDVI moved from 0.686 to 0.660 and chip-mean NBR from 0.463 to 0.357 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.106) and a Prithvi representation change of 0.0099 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21358_ctl (cosine similarity 0.988), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire Starry, Denali, Alaska' (2026-06-20): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev21358_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21006_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-01-23 and 2026-07-25, chip-mean NDVI moved from 0.029 to 0.764 and chip-mean NBR from 0.792 to 0.523 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.269) and a Prithvi representation change of 0.1374 (above the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20767_ctl (cosine similarity 0.992), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "A substantial change signal appears with no corresponding event in the consulted catalog; plausible processes include an uncataloged fire, harvest, or land clearing. NDVI decline alone is ambiguous among fire, drought stress, harvest, and senescence; discriminating them requires SWIR behavior and contextual records.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check",
+     "knowledge:ndvi_causes"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects; query active-fire detections for the interval to test the uncataloged-fire hypothesis.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "What process could explain a change of this magnitude with no catalogued event at this location?",
+    "rule": "large-change AND no-event-context -> hypothesize"
+   },
+   {
+    "q": "What additional observation would best distinguish an uncataloged fire from harvest or clearing here?",
+    "rule": "large-change AND no-event-context -> test-hypotheses"
+   },
+   {
+    "q": "What does comparison with analog site ev20767_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21059",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-03-09 and 2026-09-10, chip-mean NDVI moved from 0.283 to 0.200 and chip-mean NBR from -0.011 to -0.151 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.141) and a Prithvi representation change of 0.0240 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21081 (cosine similarity 0.978), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire Horse Head, San Juan, Utah' (2026-06-27): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev21081 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21059_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-03-04 and 2026-09-10, chip-mean NDVI moved from 0.260 to 0.405 and chip-mean NBR from -0.005 to 0.008 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows no substantial change in NBR (\u0394=+0.013) and a Prithvi representation change of 0.0163 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20718_ctl (cosine similarity 0.990), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Spectral indices and the learned representation agree that this site is stable over the interval, and no event is cataloged \u2014 consistent with its role as an undisturbed reference.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: no follow-up indicated; retain as a stable reference site for analog retrieval.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Is this site suitable as a stable reference for analog retrieval and baseline construction?",
+    "rule": "stable-state -> monitoring/baseline"
+   },
+   {
+    "q": "What does comparison with analog site ev20718_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21081",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-06-02 and 2026-08-31, chip-mean NDVI moved from 0.133 to 0.096 and chip-mean NBR from -0.146 to -0.171 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows no substantial change in NBR (\u0394=-0.025) and a Prithvi representation change of 0.0145 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21059_ctl (cosine similarity 0.981), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Although 'Wildfire Kumiva, Pershing, Nevada' is cataloged for this area, neither the spectral indices nor the learned representation shows commensurate change; the burn may lie outside this chip, predate the before-scene, or be sub-resolution.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "hypothesis"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: no follow-up indicated; retain as a stable reference site for analog retrieval.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Why does a cataloged wildfire show no commensurate spectral or representation change in this chip?",
+    "rule": "no-change AND event-context -> conflict/counterfactual"
+   },
+   {
+    "q": "What does comparison with analog site ev21059_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21081_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-06-04 and 2026-07-09, chip-mean NDVI moved from 0.139 to 0.128 and chip-mean NBR from -0.116 to -0.100 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows no substantial change in NBR (\u0394=+0.016) and a Prithvi representation change of 0.0033 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21059 (cosine similarity 0.957), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Spectral indices and the learned representation agree that this site is stable over the interval, and no event is cataloged \u2014 consistent with its role as an undisturbed reference.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: no follow-up indicated; retain as a stable reference site for analog retrieval.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Is this site suitable as a stable reference for analog retrieval and baseline construction?",
+    "rule": "stable-state -> monitoring/baseline"
+   },
+   {
+    "q": "What does comparison with analog site ev21059 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21357",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-06-14 and 2026-07-17, chip-mean NDVI moved from 0.685 to 0.609 and chip-mean NBR from 0.510 to 0.279 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.230) and a Prithvi representation change of 0.0162 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20701_ctl (cosine similarity 0.989), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Australia 1029494' (2026-06-30): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20701_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21357_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-06-04 and 2026-08-28, chip-mean NDVI moved from 0.471 to 0.387 and chip-mean NBR from 0.298 to 0.272 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows no substantial change in NBR (\u0394=-0.026) and a Prithvi representation change of 0.0038 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20737_ctl (cosine similarity 0.985), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Spectral indices and the learned representation agree that this site is stable over the interval, and no event is cataloged \u2014 consistent with its role as an undisturbed reference.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: no follow-up indicated; retain as a stable reference site for analog retrieval.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Is this site suitable as a stable reference for analog retrieval and baseline construction?",
+    "rule": "stable-state -> monitoring/baseline"
+   },
+   {
+    "q": "What does comparison with analog site ev20737_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21358",
+  "kind": "event",
+  "statements": [
+   {
+    "text": "Between 2026-06-01 and 2026-09-22, chip-mean NDVI moved from 0.657 to 0.488 and chip-mean NBR from 0.418 to 0.041 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows a pronounced decline in NBR (\u0394=-0.377) and a Prithvi representation change of 0.0242 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev20767_ctl (cosine similarity 0.986), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "The spectral change is consistent with the reported event 'Wildfire in Canada 1029495' (2026-06-29): A substantial NBR decrease between dates is the standard spectral indicator of burn scarring (basis of the dNBR burn-severity convention).",
+    "trace": [
+     "delta_nbr",
+     "reported_event",
+     "knowledge:nbr_fire"
+    ],
+    "epistemic": "retrieved-knowledge"
+   },
+   {
+    "text": "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: acquire an intermediate-date scene to bracket the change onset; compute dNBR against a one-year-earlier baseline to separate seasonal effects.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "reported_event"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?",
+    "rule": "large-change AND event-context -> discriminate"
+   },
+   {
+    "q": "When between the two acquisition dates did the surface state transition most plausibly begin?",
+    "rule": "large-change AND event-context -> detect-onset"
+   },
+   {
+    "q": "What does comparison with analog site ev20767_ctl indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ },
+ {
+  "card_id": "sc_ev21358_ctl",
+  "kind": "control",
+  "statements": [
+   {
+    "text": "Between 2026-06-01 and 2026-09-22, chip-mean NDVI moved from 0.649 to 0.655 and chip-mean NBR from 0.471 to 0.509 at this 2.24 km site.",
+    "trace": [
+     "ndvi_mean_before",
+     "ndvi_mean_after",
+     "nbr_mean_before",
+     "nbr_mean_after",
+     "temporal"
+    ],
+    "epistemic": "evidence-supported"
+   },
+   {
+    "text": "The surface shows an increase in NBR (\u0394=+0.038) and a Prithvi representation change of 0.0057 (within the control-derived threshold of 0.0629).",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "provenance"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "In Prithvi embedding space, the post-date scene most resembles site ev21006 (cosine similarity 0.988), making it the first analog to consult for comparative interpretation.",
+    "trace": [
+     "analogs"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Spectral indices and the learned representation agree that this site is stable over the interval, and no event is cataloged \u2014 consistent with its role as an undisturbed reference.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Both acquisitions passed the cloud screen (window cloud fraction \u226410%), so the index changes are unlikely to be acquisition artifacts.",
+    "trace": [
+     "band_means_before",
+     "band_means_after"
+    ],
+    "epistemic": "derived-interpretation"
+   },
+   {
+    "text": "Recommended next analyses: no follow-up indicated; retain as a stable reference site for analog retrieval.",
+    "trace": [
+     "delta_nbr",
+     "repr_change_cosine_dist",
+     "event_catalog_check"
+    ],
+    "epistemic": "derived-interpretation"
+   }
+  ],
+  "questions": [
+   {
+    "q": "Is this site suitable as a stable reference for analog retrieval and baseline construction?",
+    "rule": "stable-state -> monitoring/baseline"
+   },
+   {
+    "q": "What does comparison with analog site ev21006 indicate about whether this state is typical for the region?",
+    "rule": "analogs-present -> retrieve-analogs/compare"
+   }
+  ]
+ }
+]

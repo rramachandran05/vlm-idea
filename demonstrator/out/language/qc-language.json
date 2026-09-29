@@ -1,0 +1,8 @@
+{
+ "sample_size": 24,
+ "seed": 7,
+ "numeric_grounding_checked": 22,
+ "numeric_mismatches": 0,
+ "mismatch_detail": [],
+ "manual_review": "all 24 sampled statements read against their cards: 24/24 faithful to traced evidence; epistemic tags appropriate; numbers ground to card values (incl. provenance-quoted threshold)"
+}
