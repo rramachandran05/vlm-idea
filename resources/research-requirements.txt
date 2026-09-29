@@ -1,0 +1,56 @@
+Research Requirements
+
+
+- **Survey the current GeoVLM landscape** (arxiv holdings) across Earth observation and adjacent geospatial domains, including agriculture, disasters, urban systems, mapping, infrastructure, and defense/intelligence applications.
+
+- **Characterize how geodata–language supervision is constructed**, including:
+  - type of geospatial data used,
+  - source and type of language/information,
+  - semantic relationship between the two,
+  - spatial, temporal, entity, or event alignment,
+  - method used to generate training pairs.
+
+- **Distinguish different sources of language supervision**, including labels converted to language, structured observations, expert interpretations, scientific knowledge, reports, and decision/workflow information.
+
+- **Assess scalability of each data-construction approach**, especially methods that exploit existing authoritative information through deterministic generation, templates, combinatorial construction, LLM-assisted synthesis, weak supervision, or knowledge-based generation.
+
+- **Identify the capability created by each geodata–language pairing**, rather than focusing only on the nominal ML task such as VQA, captioning, retrieval, or classification.
+
+- **Identify the scientific and operational use enabled by the capability**, with particular emphasis on decision-support prototypes and operational applications.
+
+- **Assess application maturity**, distinguishing benchmark research from domain research, workflow-relevant systems, decision-support prototypes, operational prototypes, and deployed applications.
+
+- **Evaluate four dimensions of novelty**:
+  - data novelty,
+  - task novelty,
+  - science novelty,
+  - application novelty.
+
+- **Capture negative cases** where novel datasets or VLM methods produce limited scientific or operational value, to identify patterns that should not be replicated.
+
+- **Abstract recurring data-construction strategies into reusable metapatterns** of the form:
+
+  **Application need → required capability → geospatial evidence → information source → semantic relationship → alignment → supervision generation → scaling strategy → VLM adaptation → application evaluation**
+
+- **Develop a model-independent GeoData–Language Pair Spec Card** for formally describing candidate multimodal supervision opportunities.
+
+- **Use the literature-derived patterns to search existing geospatial and Earth-science information holdings** for previously unexploited geodata–language relationships.
+
+- **Identify opportunities where authoritative information already exists but has not yet been transformed into multimodal supervision**, especially within NASA and related Earth-science ecosystems.
+
+- **Generate candidate GeoVLM research opportunities** by systematically combining:
+  - real-world application needs,
+  - available geospatial observations,
+  - available scientific or operational information sources,
+  - scalable alignment and pair-generation mechanisms.
+
+- **Prioritize opportunities based on**:
+  - application value,
+  - scientific relevance,
+  - novelty,
+  - scalability,
+  - data availability,
+  - grounding quality,
+  - feasibility of constructing the dataset.
+
+- **Select a small number of high-value candidates for demonstration**, showing that the framework can produce novel, grounded, application-driven geodata–language datasets and VLM capabilities.
