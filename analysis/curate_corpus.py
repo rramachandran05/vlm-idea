@@ -51,7 +51,6 @@ KEEP: dict[str, list[str]] = {
     "2509.20628": ["disasters", "urban"],                         # Recov-Vision (street view recovery)
     "2509.21609": ["disasters"],                                  # VLCE knowledge-enhanced description
     "2608.21529": ["disasters"],                                  # DamageScope retrieval at scale
-    "2607.11838": ["disasters"],                                  # HASTE platform
     "2606.17246": ["disasters"],                                  # GeoDisaster operational benchmark
     "2603.17108": ["disasters", "urban"],                         # flood depth from social media
     "2508.01380": ["disasters"],                                  # damage data gen w/ human knowledge
@@ -74,7 +73,6 @@ KEEP: dict[str, list[str]] = {
     "2406.18572": ["mapping", "urban"],                           # GeoReasoner
     "2603.11804": ["mapping", "earth-observation-general"],       # OSMDA
     "2601.19099": ["mapping"],                                    # m2sv (scalable benchmark gen)
-    "2512.14228": ["mapping"],                                    # georeferencing locality descriptions
     # infrastructure
     "2504.06785": ["infrastructure"],                             # road pavement monitoring
     "2302.09208": ["infrastructure"],                             # bridge damage VQA

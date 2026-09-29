@@ -1,0 +1,2030 @@
+[
+ {
+  "id": "2106.10548",
+  "geodata_type": [
+   "aerial"
+  ],
+  "language_source": [
+   "crowd-caption"
+  ],
+  "semantic_relationship": "QA text queries and asserts damage state visible in post-hurricane UAV scenes",
+  "alignment": [
+   "spatial",
+   "event"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "unknown",
+  "scalability_note": "annotation method not stated in abstract; dataset collected during one event",
+  "nominal_task": [
+   "vqa"
+  ],
+  "capability": "answer natural-language queries about damage in post-disaster aerial scenes",
+  "use_enabled": "post-disaster damage assessment to speed recovery triage",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "early (2021) disaster VQA; small manual dataset"
+ },
+ {
+  "id": "2302.09208",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "QA names bridge members and damage types present in inspection images",
+  "alignment": [
+   "entity",
+   "spatial"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "unknown",
+  "scalability_note": "dataset-creation method not stated in abstract",
+  "nominal_task": [
+   "vqa"
+  ],
+  "capability": "interactively identify members/damage and narrow damage causes via sequential VQA over SfM-localized images",
+  "use_enabled": "bridge inspection focus-area selection and damage-cause estimation for maintenance",
+  "maturity": "decision-support-prototype",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "applied to an actual bridge; site imagery rather than overhead"
+ },
+ {
+  "id": "2306.11029",
+  "geodata_type": [
+   "optical-satellite",
+   "aerial"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "captions verbalize object/box/mask annotations describing scene contents",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "Box-to-Caption / Mask-to-Box conversion scales over all existing annotated RS datasets at zero marginal human cost",
+  "nominal_task": [
+   "retrieval",
+   "classification",
+   "captioning"
+  ],
+  "capability": "general zero-shot recognition, retrieval, and counting over RS imagery via language",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "annotation-to-caption conversion is the canonical labels-as-language scaling move"
+ },
+ {
+  "id": "2306.11300",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "web-text",
+   "llm-generated",
+   "labels-as-language"
+  ],
+  "semantic_relationship": "captions describe scene contents; filtered web pairs plus VLM-captioned label-only datasets",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "weak-supervision",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "5M pairs from filtering public image-text data plus automated captioning of label-only RS sets",
+  "nominal_task": [
+   "retrieval",
+   "classification"
+  ],
+  "capability": "domain-adapted contrastive VLM for RS zero-shot classification, retrieval, semantic localization",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "first RS image-text dataset at 5M scale"
+ },
+ {
+  "id": "2307.15266",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "expert-interpretation"
+  ],
+  "semantic_relationship": "human-written rich captions describe scene type and object attributes/positions",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "manual"
+  ],
+  "scalability": "low",
+  "scalability_note": "2,585 human-annotated captions; quality over scale by design",
+  "nominal_task": [
+   "captioning",
+   "vqa"
+  ],
+  "capability": "detailed, accurate scene and object description of RS imagery",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "shows small high-quality expert data can rival large noisy data"
+ },
+ {
+  "id": "2310.18340",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "llm-generated"
+  ],
+  "semantic_relationship": "LLM-generated descriptions supplement urban satellite views for region profiling",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "captions generated automatically by an image-to-text LLM for any city imagery",
+  "nominal_task": [
+   "other"
+  ],
+  "capability": "text-enhanced urban region representations that predict socioeconomic indicators",
+  "use_enabled": "urban planning indicator estimation (economy/population proxies) in four metropolises",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "first text modality in urban region profiling"
+ },
+ {
+  "id": "2311.15826",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "llm-generated",
+   "labels-as-language"
+  ],
+  "semantic_relationship": "instructions/dialogues about scenes and regions generated by extending existing RS image-text pairs",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "combinatorial",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "instruction data machine-generated from existing datasets",
+  "nominal_task": [
+   "vqa",
+   "captioning",
+   "grounding",
+   "instruction-following"
+  ],
+  "capability": "multitask region-grounded conversational analysis of high-resolution RS imagery",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "first versatile grounded RS VLM"
+ },
+ {
+  "id": "2311.16782",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "template QA over RS scenes (existing RSVQA datasets under analysis)",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "analyzes existing template-generated RSVQA data",
+  "nominal_task": [
+   "vqa"
+  ],
+  "capability": "diagnostic: shows RSVQA models exploit language priors rather than imagery",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 0,
+  "novelty_task": 0,
+  "novelty_science": 1,
+  "novelty_application": 0,
+  "negative_case": true,
+  "negative_reason": "template-generated QA with simple vocabulary lets visual-blind models score well, so the nominal VQA capability is partly illusory; biases worse than in natural-image VQA",
+  "note": "anti-pattern source: capability claims need bias-controlled evaluation"
+ },
+ {
+  "id": "2312.12222",
+  "geodata_type": [
+   "optical-satellite",
+   "aerial"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "decision-workflow"
+  ],
+  "semantic_relationship": "QA pairs encode urban/rural governance queries answerable from semantic masks",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "high",
+  "scalability_note": "208,593 QA pairs over 6,000 images demonstrated; generation method not stated in abstract",
+  "nominal_task": [
+   "vqa"
+  ],
+  "capability": "relational reasoning, counting, and comprehensive analysis of urban scenes tied to governance needs",
+  "use_enabled": "city planning and rural governance assessment queries",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "governance requirements embedded into QA generation"
+ },
+ {
+  "id": "2312.12856",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "structured-observations"
+  ],
+  "semantic_relationship": "OSM tags name objects, categories, and attributes present at the imaged location",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "knowledge-based"
+  ],
+  "scalability": "high",
+  "scalability_note": "2.6M pairs auto-connected via geo-coordinates between open imagery and OSM; grows with both sources",
+  "nominal_task": [
+   "classification",
+   "retrieval",
+   "captioning"
+  ],
+  "capability": "open-vocabulary recognition of fine-grained semantics (29K tags) in RS imagery",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 3,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "canonical geo-coordinate alignment of imagery with VGI semantics"
+ },
+ {
+  "id": "2401.17600",
+  "geodata_type": [
+   "optical-satellite",
+   "aerial"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "benchmark instructions probe scene understanding, localization/counting, change on EO data",
+  "alignment": [
+   "spatial",
+   "temporal"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "unknown",
+  "scalability_note": "benchmark construction method not stated in abstract",
+  "nominal_task": [
+   "vqa",
+   "captioning",
+   "detection"
+  ],
+  "capability": "diagnostic: quantifies general-VLM transfer limits to EO (spatial reasoning fails)",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 1,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 0,
+  "negative_case": true,
+  "negative_reason": "strong world knowledge and captioning do not translate into usable localization/counting on EO imagery, so open-ended fluency overstates operational readiness",
+  "note": "motivated by urban monitoring, disaster relief, conservation scenarios"
+ },
+ {
+  "id": "2402.02544",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "structured-observations",
+   "llm-generated"
+  ],
+  "semantic_relationship": "VGI-derived facts and LLM instructions describe and interrogate globally sampled RS scenes",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "unknown"
+  ],
+  "scalability": "high",
+  "scalability_note": "leverages globally available VGI and imagery (stated); instruction-generation mechanism not stated",
+  "nominal_task": [
+   "vqa",
+   "captioning",
+   "instruction-following"
+  ],
+  "capability": "nuanced multi-level RS image understanding and reasoning",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "VGI as knowledge source for alignment and instructions"
+ },
+ {
+  "id": "2402.11325",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "LLM captions verbalize WorldCover land-cover semantics of Sentinel-2 scenes",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "llm-synthesis",
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "163K+ captions from global Sentinel-2 + ESA WorldCover labels via prompted ChatGPT, plus manual verification pass",
+  "nominal_task": [
+   "captioning"
+  ],
+  "capability": "describe global land cover of satellite scenes in accessible natural language",
+  "use_enabled": "making satellite imagery legible to non-expert users",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "authoritative label product (WorldCover) seeds LLM captioning"
+ },
+ {
+  "id": "2404.12606",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "text prompts name building elements (front door) to segment for elevation measurement",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "zero-shot text-prompted segmentation applies to any street-view archive without training data",
+  "nominal_task": [
+   "segmentation",
+   "other"
+  ],
+  "capability": "scalable lowest-floor-elevation estimation from street view via text-prompted segmentation",
+  "use_enabled": "property-level flood risk and damage-extent assessment inputs",
+  "maturity": "workflow-relevant",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "raised LFE availability from 33% to 56% of properties"
+ },
+ {
+  "id": "2406.09838",
+  "geodata_type": [
+   "weather-climate-field"
+  ],
+  "language_source": [
+   "structured-observations"
+  ],
+  "semantic_relationship": "QA text quantifies and localizes extreme-weather features shown in reanalysis heatmaps",
+  "alignment": [
+   "spatial",
+   "temporal"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "762K instruction samples generated from ERA5-class reanalysis with SPOT-extracted coordinates",
+  "nominal_task": [
+   "vqa"
+  ],
+  "capability": "interpret and describe extreme-weather structures (gusts, precipitation, heat/chill) on meteorological maps",
+  "use_enabled": "meteorology anomaly analysis support",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "reanalysis products as structured-observation language source"
+ },
+ {
+  "id": "2406.11217",
+  "geodata_type": [
+   "weather-climate-field"
+  ],
+  "language_source": [
+   "expert-interpretation"
+  ],
+  "semantic_relationship": "forecaster-written analyses explain convective ingredients visible in paired parameter/radar imagery",
+  "alignment": [
+   "temporal",
+   "event",
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "pairs existing SPC expert discussions with concurrent ingredient imagery; archive grows daily",
+  "nominal_task": [
+   "vqa",
+   "classification"
+  ],
+  "capability": "reason about severe-convection development potential from multi-parameter weather maps like a forecaster",
+  "use_enabled": "severe weather outlook preparation support",
+  "maturity": "domain-research",
+  "novelty_data": 3,
+  "novelty_task": 2,
+  "novelty_science": 2,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "substantial VLM-human gap reported; authoritative forecaster text exploited as supervision"
+ },
+ {
+  "id": "2406.18572",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "expert-interpretation"
+  ],
+  "semantic_relationship": "human geo-game reasoning explains which visual clues locate a street view",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "weak-supervision"
+  ],
+  "scalability": "medium",
+  "scalability_note": "bounded by harvested geo-localization game reasoning; locatability filtering is automatic",
+  "nominal_task": [
+   "other",
+   "instruction-following"
+  ],
+  "capability": "country/city-level image geo-localization with human-like reasoning chains",
+  "use_enabled": "image provenance and OSINT-style localization",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "game-derived human inference as a language source"
+ },
+ {
+  "id": "2407.19719",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "llm-generated"
+  ],
+  "semantic_relationship": "MLLM judgments rank perceived safety of street scenes against a human anchor set",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "weak-supervision"
+  ],
+  "scalability": "high",
+  "scalability_note": "city-scale scoring via CLIP feature + KNN retrieval needs only a small human anchor set",
+  "nominal_task": [
+   "other"
+  ],
+  "capability": "citywide urban safety-perception mapping without training a bespoke model",
+  "use_enabled": "urban planning and policy safety assessments",
+  "maturity": "domain-research",
+  "novelty_data": 1,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "MLLM-as-annotator validated against human perception"
+ },
+ {
+  "id": "2408.14744",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "structured-observations",
+   "llm-generated"
+  ],
+  "semantic_relationship": "LLM captions verbalize OSM features present in GEE imagery of the same location",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "1.3M images captioned from plain OSM data; pipeline uses only openly available sources",
+  "nominal_task": [
+   "captioning",
+   "classification"
+  ],
+  "capability": "semantically rich scene description supervision for RS VLM continual pre-training",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "OSM+LLM captioning workflow; democratizes annotation"
+ },
+ {
+  "id": "2409.00255",
+  "geodata_type": [
+   "map-vector"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "template questions interrogate values and spatial relations encoded in choropleth maps",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "template",
+   "combinatorial"
+  ],
+  "scalability": "high",
+  "scalability_note": "43 templates instantiated over map corpora for three regions",
+  "nominal_task": [
+   "vqa"
+  ],
+  "capability": "answer relational and value questions over thematic (choropleth) maps",
+  "use_enabled": "map-based data analysis assistance",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "maps as first-class geodata modality for VLMs"
+ },
+ {
+  "id": "2410.01407",
+  "geodata_type": [
+   "aerial",
+   "street-level",
+   "optical-satellite"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "prompt-generated captions verbalize class semantics of agriculture/livestock/fishery images",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "600K pairs via customized prompt generation strategy (stated), bypassing expert annotation scarcity",
+  "nominal_task": [
+   "classification"
+  ],
+  "capability": "fine-grained zero-shot recognition across crops, livestock, and fishery",
+  "use_enabled": "agricultural monitoring tasks (nutrient deficiency detection, breed classification)",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "domain-specialized CLIP for agriculture"
+ },
+ {
+  "id": "2410.06234",
+  "geodata_type": [
+   "optical-satellite",
+   "multi-source"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "instructions interrogate change, damage, and scene evolution across temporal image sequences",
+  "alignment": [
+   "temporal",
+   "spatial"
+  ],
+  "pair_generation": [
+   "combinatorial",
+   "unknown"
+  ],
+  "scalability": "high",
+  "scalability_note": "instruction data curated from existing EO datasets (stated); generation mechanism beyond curation not stated",
+  "nominal_task": [
+   "vqa",
+   "captioning",
+   "change-description",
+   "instruction-following"
+  ],
+  "capability": "conversational spatial and temporal reasoning over EO image sequences, including damage assessment",
+  "use_enabled": "building change and disaster damage assessment dialogue",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "first temporal-sequence EO vision-language assistant"
+ },
+ {
+  "id": "2410.08405",
+  "geodata_type": [
+   "aerial",
+   "street-level"
+  ],
+  "language_source": [
+   "scientific-knowledge",
+   "llm-generated"
+  ],
+  "semantic_relationship": "LLM-composed expert instructions attach curated agronomic class knowledge to vision-only images",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "combinatorial",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "70K expert-tuning instructions built from vision-only datasets plus curated class information \u2014 no paired data needed",
+  "nominal_task": [
+   "instruction-following",
+   "vqa"
+  ],
+  "capability": "expert-level agricultural conversation and fine-grained concept identification",
+  "use_enabled": "agronomic advice for multimodal agriculture questions",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "instruction data from vision-only sources \u2014 a scaling move for label-poor domains"
+ },
+ {
+  "id": "2411.01511",
+  "geodata_type": [
+   "multi-source"
+  ],
+  "language_source": [
+   "decision-workflow",
+   "llm-generated"
+  ],
+  "semantic_relationship": "agent outputs express assessments, alerts, allocations, and plans grounded in disaster imagery",
+  "alignment": [
+   "event",
+   "spatial"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "unknown",
+  "scalability_note": "framework composes pretrained LVLMs; no supervision dataset constructed",
+  "nominal_task": [
+   "instruction-following",
+   "other"
+  ],
+  "capability": "automated coordination of post-disaster tasks: on-site assessment, emergency alerts, resource allocation, recovery planning",
+  "use_enabled": "post-disaster management automation, especially for under-resourced regions",
+  "maturity": "decision-support-prototype",
+  "novelty_data": 0,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 3,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "multi-agent LVLM framework (DisasTeller); evaluated by humans and LVLMs"
+ },
+ {
+  "id": "2411.03491",
+  "geodata_type": [
+   "aerial"
+  ],
+  "language_source": [
+   "decision-workflow"
+  ],
+  "semantic_relationship": "end-user natural-language target descriptions define what to detect at runtime",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "manual"
+  ],
+  "scalability": "high",
+  "scalability_note": "no training pairs needed \u2014 targets defined by a few descriptions/exemplars just before runtime",
+  "nominal_task": [
+   "detection"
+  ],
+  "capability": "define and detect novel targets via natural language without retraining",
+  "use_enabled": "unexploded-ordnance detection and clearance on airfield runways",
+  "maturity": "decision-support-prototype",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "open-vocabulary ATR; tubelet aggregation and survey mosaics for analysts"
+ },
+ {
+  "id": "2411.19325",
+  "geodata_type": [
+   "optical-satellite",
+   "aerial"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "manually verified instructions probe geospatial tasks over RS imagery",
+  "alignment": [
+   "spatial",
+   "temporal"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "medium",
+  "scalability_note": "10K+ instructions, manually verified (stated); authoring method not stated",
+  "nominal_task": [
+   "vqa",
+   "classification",
+   "grounding",
+   "segmentation",
+   "change-description"
+  ],
+  "capability": "diagnostic: measures VLM competence on geospatial-specific tasks",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 1,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 0,
+  "negative_case": true,
+  "negative_reason": "best model reaches only 41.7% on MCQs (~2x random), showing geospatial capability claims from generic VLM benchmarks do not transfer; the benchmark documents absence of usable capability",
+  "note": "motivating domains: environmental monitoring, urban planning, disaster management"
+ },
+ {
+  "id": "2412.00465",
+  "geodata_type": [
+   "street-level",
+   "aerial"
+  ],
+  "language_source": [
+   "structured-observations"
+  ],
+  "semantic_relationship": "official LUCAS survey attributes (land cover/use taxonomy, location, scores) describe each landscape image",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "derived from the EU-wide LUCAS statistical survey; grows with each survey wave",
+  "nominal_task": [
+   "vqa",
+   "classification"
+  ],
+  "capability": "agriculture scene understanding grounded in an authoritative land-use/land-cover survey",
+  "use_enabled": "EU land-use and land-cover monitoring support",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "authoritative statistical survey exploited as multimodal supervision"
+ },
+ {
+  "id": "2501.13925",
+  "geodata_type": [
+   "optical-satellite",
+   "aerial"
+  ],
+  "language_source": [
+   "llm-generated"
+  ],
+  "semantic_relationship": "grounded conversations tie phrases to pixel masks in high-resolution RS scenes",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "llm-synthesis",
+   "weak-supervision"
+  ],
+  "scalability": "high",
+  "scalability_note": "semi-automated set-of-marks pipeline with RS spatial priors controls generation",
+  "nominal_task": [
+   "grounding",
+   "segmentation",
+   "captioning"
+  ],
+  "capability": "pixel-level grounded conversation over up-to-4K RS imagery",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "finest-grained (pixel) alignment in RS VLMs to date"
+ },
+ {
+  "id": "2501.14905",
+  "geodata_type": [
+   "optical-satellite",
+   "map-vector"
+  ],
+  "language_source": [
+   "llm-generated",
+   "structured-observations"
+  ],
+  "semantic_relationship": "captions describe scenes with map/metadata context injected to keep claims grounded",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "llm-synthesis",
+   "knowledge-based"
+  ],
+  "scalability": "high",
+  "scalability_note": "automatic caption generation with external map grounding; hallucination measured and mitigated",
+  "nominal_task": [
+   "captioning",
+   "detection"
+  ],
+  "capability": "context-rich, hallucination-controlled caption supervision enabling few-shot target recognition",
+  "use_enabled": "automatic target recognition in few-shot settings",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "explicit hallucination measurement in supervision generation \u2014 a QC template"
+ },
+ {
+  "id": "2502.08168",
+  "geodata_type": [
+   "sar"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "dialogue/QA text describes targets and scenes annotated in SAR imagery",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "high",
+  "scalability_note": "~2M pairs demonstrated; construction method not stated in abstract",
+  "nominal_task": [
+   "vqa",
+   "captioning",
+   "detection"
+  ],
+  "capability": "natural-language interpretation of SAR imagery (all-weather sensing) including target description",
+  "use_enabled": "military reconnaissance, maritime surveillance, infrastructure monitoring support",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "first large-scale SAR multimodal dialogue dataset; paradigm for other RS verticals"
+ },
+ {
+  "id": "2502.09598",
+  "geodata_type": [
+   "multi-source",
+   "optical-satellite"
+  ],
+  "language_source": [
+   "web-text",
+   "llm-generated"
+  ],
+  "semantic_relationship": "scientifically grounded captions describe environmental changes and hazards depicted by RS imagery from reputable sources",
+  "alignment": [
+   "spatial",
+   "temporal",
+   "event"
+  ],
+  "pair_generation": [
+   "weak-supervision",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "201K pairs from targeted scraping of reputable RS sources plus GPT-4o captioning",
+  "nominal_task": [
+   "classification",
+   "retrieval",
+   "captioning"
+  ],
+  "capability": "multi-scale, multi-sensor RS analysis attentive to dynamic phenomena (disasters, environmental change)",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "25-year, globally balanced coverage; scientific accuracy emphasized over web noise"
+ },
+ {
+  "id": "2504.02866",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "structured-observations",
+   "llm-generated"
+  ],
+  "semantic_relationship": "OSM attributes and VLM captions characterize building properties visible in facade views",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "isovist-based auto-pairing of Mapillary imagery with OSM geometries across seven cities",
+  "nominal_task": [
+   "captioning",
+   "classification"
+  ],
+  "capability": "holistic building-attribute inference (height, usage, material) plus open-vocabulary description at scale",
+  "use_enabled": "enriching building stock data for spatial data infrastructures",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "multimodal crowdsourced integration (Mapillary x OSM)"
+ },
+ {
+  "id": "2504.06785",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "scientific-knowledge"
+  ],
+  "semantic_relationship": "PSCI standard definitions in prompts map road imagery to official condition ratings",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "zero-shot prompting against published standards; applies to any street-view archive",
+  "nominal_task": [
+   "classification",
+   "other"
+  ],
+  "capability": "standards-compliant pavement condition rating from street imagery without training data",
+  "use_enabled": "road maintenance prioritization per PSCI workflow",
+  "maturity": "workflow-relevant",
+  "novelty_data": 1,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "validated against official PSCI results; exceeded expert consistency"
+ },
+ {
+  "id": "2504.10568",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "expert-interpretation",
+   "decision-workflow"
+  ],
+  "semantic_relationship": "USDA extension experts' answers diagnose and advise on grower-submitted images",
+  "alignment": [
+   "entity",
+   "event"
+  ],
+  "pair_generation": [
+   "llm-synthesis",
+   "manual"
+  ],
+  "scalability": "high",
+  "scalability_note": "distilled from 116K authentic dialogues via automated extraction + QA generation + human verification; archive keeps growing",
+  "nominal_task": [
+   "vqa",
+   "instruction-following"
+  ],
+  "capability": "knowledge-intensive diagnosis and management advice grounded in real expert consultations",
+  "use_enabled": "extension-service-style trustworthy agricultural decision support",
+  "maturity": "domain-research",
+  "novelty_data": 3,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "authentic expert-user consultations as supervision; AgBase corpus of 57K multimodal facts"
+ },
+ {
+  "id": "2504.19742",
+  "geodata_type": [
+   "aerial"
+  ],
+  "language_source": [
+   "scientific-knowledge",
+   "structured-observations"
+  ],
+  "semantic_relationship": "Wikipedia habitat descriptions of species observed at a location describe ecological properties of the imaged site",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "weak-supervision",
+   "knowledge-based"
+  ],
+  "scalability": "high",
+  "scalability_note": "pairs grow with geolocated species observation networks and encyclopedic text; supervision is weak/noisy by design (WINCEL loss)",
+  "nominal_task": [
+   "classification"
+  ],
+  "capability": "predict ecological properties (EUNIS ecosystem types) of RS scenes zero-shot via habitat language",
+  "use_enabled": "ecosystem and habitat mapping for ecology",
+  "maturity": "domain-research",
+  "novelty_data": 3,
+  "novelty_task": 2,
+  "novelty_science": 2,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "opportunistic three-way pairing: imagery x species observations x encyclopedic knowledge"
+ },
+ {
+  "id": "2505.03334",
+  "geodata_type": [
+   "aerial"
+  ],
+  "language_source": [
+   "llm-generated",
+   "labels-as-language"
+  ],
+  "semantic_relationship": "word/phrase/sentence descriptions specify open-set objects to detect in aerial scenes",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "llm-synthesis",
+   "weak-supervision"
+  ],
+  "scalability": "high",
+  "scalability_note": "automatic label engine (VLM + BERT post-processing) expanded existing datasets ~40x to 2M pairs",
+  "nominal_task": [
+   "detection",
+   "grounding"
+  ],
+  "capability": "language-guided open-set aerial object detection at sentence-level specificity",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "annotation engine as reusable infrastructure (OS-W2S)"
+ },
+ {
+  "id": "2505.19358",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "material-class labels (14 roofing materials) describe building instances in EO imagery",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "manual",
+   "llm-synthesis",
+   "weak-supervision"
+  ],
+  "scalability": "medium",
+  "scalability_note": "SME-guided labeling with VLM assistance, rule validation, and human-in-the-loop verification \u2014 automated but QC-bound",
+  "nominal_task": [
+   "classification"
+  ],
+  "capability": "global roof-material identification from EO imagery",
+  "use_enabled": "material-aware exposure and vulnerability estimates for hazard risk modeling",
+  "maturity": "workflow-relevant",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "zero-shot RemoteCLIP got 4.9% top-1 before fine-tuning (47.7% after) \u2014 transfer gap evidence"
+ },
+ {
+  "id": "2505.21089",
+  "geodata_type": [
+   "optical-satellite",
+   "sar",
+   "multi-source"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated",
+   "reports"
+  ],
+  "semantic_relationship": "instructions progress from damage recognition to relational reasoning to long-form disaster reports over bi-temporal imagery",
+  "alignment": [
+   "temporal",
+   "spatial",
+   "event"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "high",
+  "scalability_note": "123K instruction pairs over 27K bi-temporal images demonstrated; curation method not stated",
+  "nominal_task": [
+   "vqa",
+   "change-description",
+   "captioning",
+   "instruction-following"
+  ],
+  "capability": "cross-sensor (optical+SAR) disaster damage assessment culminating in report generation",
+  "use_enabled": "global-scale disaster assessment and response support",
+  "maturity": "domain-research",
+  "novelty_data": 3,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "SOTA VLMs struggle: disaster corpus gap, cross-sensor gap, counting insensitivity"
+ },
+ {
+  "id": "2506.00530",
+  "geodata_type": [
+   "optical-satellite",
+   "street-level"
+  ],
+  "language_source": [
+   "structured-observations"
+  ],
+  "semantic_relationship": "official socioeconomic indicators (economy, education, crime, transport, health, environment) are targets for imagery of the same areas",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "indicator-imagery pairing by spatial join over 17 global cities",
+  "nominal_task": [
+   "other"
+  ],
+  "capability": "predict urban socioeconomic indicators from satellite and street imagery",
+  "use_enabled": "urban policy planning diagnostics",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": true,
+  "negative_reason": "LVLMs show perceptual promise but still fail at reliable socioeconomic indicator prediction, cautioning against imagery-to-statistics capability claims without domain grounding",
+  "note": "three evaluation paradigms; most extensive socioeconomic benchmark"
+ },
+ {
+  "id": "2506.20100",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "expert-interpretation",
+   "decision-workflow"
+  ],
+  "semantic_relationship": "expert-authored consultative responses answer underspecified user queries about crop/pest images",
+  "alignment": [
+   "entity",
+   "event"
+  ],
+  "pair_generation": [
+   "manual",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "grounded in 35K+ real user-expert interactions curated by a multi-step pipeline",
+  "nominal_task": [
+   "vqa",
+   "instruction-following"
+  ],
+  "capability": "expert-level consultative reasoning with clarification strategies in open-world, underspecified settings",
+  "use_enabled": "agricultural consultation (crop health, pest diagnosis, management)",
+  "maturity": "domain-research",
+  "novelty_data": 3,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "7K+ biological entities; captures interaction dynamics, not just answers"
+ },
+ {
+  "id": "2507.16716",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "llm-generated"
+  ],
+  "semantic_relationship": "multi-perspective machine captions integrated by an LLM describe RS scene contents in depth",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "llm-synthesis",
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "210K images / 1.3M captions via Rule-MLLM relay + MLLM generation + LLM integration",
+  "nominal_task": [
+   "captioning",
+   "retrieval",
+   "classification"
+  ],
+  "capability": "high-quality caption supervision \u2014 matches prior SOTA with 4.2% of the training data",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "quality-over-quantity evidence for synthetic caption pipelines"
+ },
+ {
+  "id": "2508.01380",
+  "geodata_type": [
+   "optical-satellite",
+   "aerial"
+  ],
+  "language_source": [
+   "scientific-knowledge",
+   "llm-generated"
+  ],
+  "semantic_relationship": "human damage-domain knowledge steers VLM generation of graded structural-damage examples",
+  "alignment": [
+   "event",
+   "spatial"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "generative augmentation targets scarce classes (moderate damage) without new field data",
+  "nominal_task": [
+   "classification",
+   "other"
+  ],
+  "capability": "generate diversified graded damage imagery to fix class imbalance in damage classifiers",
+  "use_enabled": "humanitarian assistance and disaster response damage classification",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "initial results only; supervision generated for the image side, not the text side"
+ },
+ {
+  "id": "2509.01907",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "llm-generated"
+  ],
+  "semantic_relationship": "change captions narrate disaster impacts between pre/post image pairs",
+  "alignment": [
+   "temporal",
+   "spatial",
+   "event"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "62,351 pre/post pairs across earthquakes, floods, wildfires with machine-generated human-like captions",
+  "nominal_task": [
+   "change-description",
+   "captioning"
+  ],
+  "capability": "disaster-aware bi-temporal change narration",
+  "use_enabled": "disaster monitoring interpretation support",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "fills temporal-pair + rich-text gap in disaster RS datasets"
+ },
+ {
+  "id": "2509.20628",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "decision-workflow",
+   "llm-generated"
+  ],
+  "semantic_relationship": "language-elicited facade attributes (entry blockage, coverings, debris) drive occupancy decisions per building",
+  "alignment": [
+   "spatial",
+   "entity",
+   "event"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "panoramic video auto-linked to parcels; attributes elicited zero-shot, no training set",
+  "nominal_task": [
+   "classification",
+   "other"
+  ],
+  "capability": "building-level post-disaster occupancy/habitability assessment with interpretable intermediate attributes",
+  "use_enabled": "post-disaster triage, inspections, utility re-energization, resource allocation",
+  "maturity": "decision-support-prototype",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "evaluated on two real post-Hurricane-Helene surveys; auditable two-stage design"
+ },
+ {
+  "id": "2509.21609",
+  "geodata_type": [
+   "optical-satellite",
+   "aerial"
+  ],
+  "language_source": [
+   "scientific-knowledge",
+   "llm-generated"
+  ],
+  "semantic_relationship": "knowledge-graph vocabulary (ConceptNet/WordNet) enriches captions describing damage in disaster imagery",
+  "alignment": [
+   "spatial",
+   "event"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "automated enrichment with 1,566 domain terms over existing xBD/RescueNet imagery",
+  "nominal_task": [
+   "captioning"
+  ],
+  "capability": "domain-vocabulary, factually consistent disaster damage descriptions (reduced hallucination)",
+  "use_enabled": "actionable post-disaster imagery description",
+  "maturity": "domain-research",
+  "novelty_data": 1,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "knowledge grounding as hallucination control"
+ },
+ {
+  "id": "2512.03623",
+  "geodata_type": [
+   "weather-climate-field"
+  ],
+  "language_source": [
+   "decision-workflow",
+   "reports"
+  ],
+  "semantic_relationship": "the operational Shipping Forecast text is the target product for video-encoded gridded weather inputs",
+  "alignment": [
+   "temporal",
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "pairs an ongoing authoritative forecast product with concurrent gridded data; archive grows daily",
+  "nominal_task": [
+   "captioning",
+   "forecasting"
+  ],
+  "capability": "generate an operational marine forecast text product directly from gridded weather data",
+  "use_enabled": "weather-service production efficiency for an iconic operational product",
+  "maturity": "workflow-relevant",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "early results; operational product as supervision target"
+ },
+ {
+  "id": "2512.15977",
+  "geodata_type": [
+   "street-level",
+   "aerial"
+  ],
+  "language_source": [
+   "labels-as-language"
+  ],
+  "semantic_relationship": "class names as prompts label crop disease/pest/species images",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "template"
+  ],
+  "scalability": "high",
+  "scalability_note": "evaluation-only pairing over 27 AgML datasets, 248K images",
+  "nominal_task": [
+   "classification"
+  ],
+  "capability": "diagnostic: quantifies zero-shot VLM readiness for agricultural recognition",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 1,
+  "novelty_task": 0,
+  "novelty_science": 1,
+  "novelty_application": 0,
+  "negative_case": true,
+  "negative_reason": "zero-shot VLMs substantially underperform a supervised YOLO11 baseline across all 27 tasks (open-ended accuracy often <25%), so off-the-shelf VLMs are not usable as standalone agricultural diagnostics",
+  "note": "evaluation methodology (LLM judging, constrained prompting) changes rankings \u2014 measurement matters"
+ },
+ {
+  "id": "2601.01416",
+  "geodata_type": [
+   "aerial"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "spatial instructions interrogate 3D-grounded vehicle attributes in drone imagery",
+  "alignment": [
+   "spatial",
+   "entity"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "high",
+  "scalability_note": "206K instructions with 3DBB demonstrated; generation method not stated in abstract",
+  "nominal_task": [
+   "grounding",
+   "vqa",
+   "retrieval"
+  ],
+  "capability": "spatially aware fine-grained vehicle attribute recognition and retrieval by an aerial agent",
+  "use_enabled": "drone-based surveillance and vehicle search",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "first RS grounding dataset with 3D bounding boxes"
+ },
+ {
+  "id": "2601.18493",
+  "geodata_type": [
+   "optical-satellite",
+   "sar"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "structured-observations"
+  ],
+  "semantic_relationship": "instructions combine xBD damage labels with OSM-derived building functions for instance-level reasoning and reports",
+  "alignment": [
+   "spatial",
+   "entity",
+   "event",
+   "temporal"
+  ],
+  "pair_generation": [
+   "combinatorial",
+   "knowledge-based"
+  ],
+  "scalability": "high",
+  "scalability_note": "134K instruction records generated from xBD + OSM functional enrichment",
+  "nominal_task": [
+   "vqa",
+   "classification",
+   "captioning"
+  ],
+  "capability": "building-centric damage plus building-function reasoning and grounded report generation",
+  "use_enabled": "disaster response prioritization by building function (hospitals, schools)",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "models handle visible damage better than function/multi-instance reasoning \u2014 a persistent gap"
+ },
+ {
+  "id": "2601.19099",
+  "geodata_type": [
+   "map-vector",
+   "street-level"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "questions require aligning a north-up map with an egocentric street view at the same intersection to infer viewing direction",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "unknown"
+  ],
+  "scalability": "high",
+  "scalability_note": "co-located map/street-view pairing is automatic (stated); reasoning-trace curation method not stated",
+  "nominal_task": [
+   "vqa",
+   "other"
+  ],
+  "capability": "cross-view geometric alignment between overhead maps and ground views",
+  "use_enabled": "navigation verification and spatial reasoning support",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "best VLM 65.2% vs expert 95% \u2014 geometric alignment gap; scalable benchmark construction"
+ },
+ {
+  "id": "2602.20066",
+  "geodata_type": [
+   "optical-satellite",
+   "map-vector"
+  ],
+  "language_source": [
+   "llm-generated"
+  ],
+  "semantic_relationship": "VLM-extracted visual attributes (roof age, density) verbalize thermal-load-relevant building properties",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "zero-shot attribute extraction from satellite imagery + basic GIS; regressor is lightweight",
+  "nominal_task": [
+   "other",
+   "captioning"
+  ],
+  "capability": "building-level annual heat-demand estimation in data-scarce municipalities",
+  "use_enabled": "municipal heat-planning and space-heating decarbonization",
+  "maturity": "domain-research",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "language captions as interpretable intermediate features for regression"
+ },
+ {
+  "id": "2603.11804",
+  "geodata_type": [
+   "aerial",
+   "optical-satellite",
+   "map-vector"
+  ],
+  "language_source": [
+   "structured-observations",
+   "llm-generated"
+  ],
+  "semantic_relationship": "model reads rendered OSM tiles (names, metadata) to caption co-located aerial imagery",
+  "alignment": [
+   "spatial"
+  ],
+  "pair_generation": [
+   "knowledge-based",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "self-contained: base VLM annotates itself from rendered OSM tiles, no frontier-model teacher",
+  "nominal_task": [
+   "captioning",
+   "classification",
+   "vqa"
+  ],
+  "capability": "teacher-free domain adaptation of VLMs to remote sensing via crowd-sourced geographic data",
+  "use_enabled": "none identified",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "OSM rendering + OCR/chart-reading as an alignment trick"
+ },
+ {
+  "id": "2603.17108",
+  "geodata_type": [
+   "street-level"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "llm-generated"
+  ],
+  "semantic_relationship": "depth values (0-40cm) label synthetic and crowd flood images; CoT text reasons to a depth estimate",
+  "alignment": [
+   "spatial",
+   "event"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "190K synthetic images with known depth by construction; TikTok pipeline adds real crowd imagery",
+  "nominal_task": [
+   "other",
+   "vqa"
+  ],
+  "capability": "centimeter-level street flood-depth estimation from single ground images in real time",
+  "use_enabled": "dynamic routing, EV safety, AV operations during urban flooding",
+  "maturity": "workflow-relevant",
+  "novelty_data": 2,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "synthetic-first supervision validated on 676 real Detroit flood frames"
+ },
+ {
+  "id": "2604.16451",
+  "geodata_type": [
+   "weather-climate-field"
+  ],
+  "language_source": [
+   "expert-interpretation",
+   "reports"
+  ],
+  "semantic_relationship": "NWS Area Forecast Discussions explain synoptic phenomena visible in paired forecast-field images",
+  "alignment": [
+   "temporal",
+   "spatial"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "1.37M AFD texts paired with forecast fields; the authoritative archive grows continuously",
+  "nominal_task": [
+   "captioning",
+   "forecasting"
+  ],
+  "capability": "generate and evaluate synoptic weather discussion text from forecast fields",
+  "use_enabled": "forecast-discussion drafting support for weather services",
+  "maturity": "domain-research",
+  "novelty_data": 3,
+  "novelty_task": 2,
+  "novelty_science": 2,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "includes SPACE evaluation framework for synoptic text quality"
+ },
+ {
+  "id": "2605.10772",
+  "geodata_type": [
+   "sar"
+  ],
+  "language_source": [
+   "labels-as-language",
+   "expert-interpretation"
+  ],
+  "semantic_relationship": "captions/QA describe fine-grained military target qualities in MSTAR SAR chips",
+  "alignment": [
+   "entity"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "medium",
+  "scalability_note": "extends fixed MSTAR imagery with captions/QA; authoring method not stated",
+  "nominal_task": [
+   "vqa",
+   "captioning",
+   "classification"
+  ],
+  "capability": "fine-grained military target identification in SAR with natural-language interaction",
+  "use_enabled": "machine-assisted ATR for military/intelligence analysts",
+  "maturity": "domain-research",
+  "novelty_data": 2,
+  "novelty_task": 1,
+  "novelty_science": 0,
+  "novelty_application": 1,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "analyst skill said to take months of training \u2014 expertise capture framing"
+ },
+ {
+  "id": "2606.13148",
+  "geodata_type": [
+   "multi-source",
+   "weather-climate-field",
+   "optical-satellite"
+  ],
+  "language_source": [
+   "decision-workflow"
+  ],
+  "semantic_relationship": "agentic tasks pose earth-science questions answerable only by tool-grounded workflows over heterogeneous data",
+  "alignment": [
+   "spatial",
+   "temporal"
+  ],
+  "pair_generation": [
+   "unknown"
+  ],
+  "scalability": "medium",
+  "scalability_note": "403 tasks with 24.5K verified execution steps; task-authoring method not stated",
+  "nominal_task": [
+   "instruction-following",
+   "other"
+  ],
+  "capability": "grounded earth-science reasoning coupling language planning with retrieval, GIS, and simulation tools",
+  "use_enabled": "climate and environmental decision-making workflow support",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 3,
+  "novelty_science": 2,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "process-level tool-use metrics + tolerance-aware numeric scoring"
+ },
+ {
+  "id": "2606.17246",
+  "geodata_type": [
+   "optical-satellite",
+   "sar",
+   "map-vector",
+   "multi-source"
+  ],
+  "language_source": [
+   "decision-workflow"
+  ],
+  "semantic_relationship": "questions demand evidence-backed operational decisions (routing, damage, exposure) grounded in executable geospatial workflows",
+  "alignment": [
+   "spatial",
+   "event",
+   "temporal"
+  ],
+  "pair_generation": [
+   "deterministic"
+  ],
+  "scalability": "high",
+  "scalability_note": "ground truth from executable geospatial workflows and deterministic checks (stated) - no LLM annotation needed",
+  "nominal_task": [
+   "vqa",
+   "instruction-following",
+   "other"
+  ],
+  "capability": "tool-grounded operational disaster geo-intelligence: multi-hazard analysis, damage assessment, flood-safe routing, SAR flood monitoring",
+  "use_enabled": "operational disaster response decision support",
+  "maturity": "benchmark-research",
+  "novelty_data": 2,
+  "novelty_task": 3,
+  "novelty_science": 1,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "workflow-derived ground truth is a scalable, verifiable supervision pattern"
+ },
+ {
+  "id": "2608.00119",
+  "geodata_type": [
+   "map-vector",
+   "optical-satellite"
+  ],
+  "language_source": [
+   "structured-observations",
+   "scientific-knowledge"
+  ],
+  "semantic_relationship": "incident text (location, weapon) plus blast-physics scaling projects impact zones onto pre-strike maps for structure counting",
+  "alignment": [
+   "spatial",
+   "event"
+  ],
+  "pair_generation": [
+   "deterministic",
+   "knowledge-based"
+  ],
+  "scalability": "high",
+  "scalability_note": "builds on live incident feeds (LiveUAMap) and archival maps; zero-shot, no training pairs",
+  "nominal_task": [
+   "detection",
+   "other"
+  ],
+  "capability": "estimate impacted structures under satellite-imagery embargo from incident reports and pre-strike maps",
+  "use_enabled": "conflict-zone humanitarian response when post-strike imagery is unavailable",
+  "maturity": "domain-research",
+  "novelty_data": 3,
+  "novelty_task": 2,
+  "novelty_science": 1,
+  "novelty_application": 3,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "physics scaling (Hopkinson-Cranz) + depth-augmented LVLM counting; evaluated on 2026 Middle East data"
+ },
+ {
+  "id": "2608.21529",
+  "geodata_type": [
+   "optical-satellite"
+  ],
+  "language_source": [
+   "llm-generated",
+   "decision-workflow"
+  ],
+  "semantic_relationship": "structured visual representations of damage support interactive natural-language damage queries",
+  "alignment": [
+   "spatial",
+   "event"
+  ],
+  "pair_generation": [
+   "llm-synthesis"
+  ],
+  "scalability": "high",
+  "scalability_note": "RAG architecture with multi-vector clustering indexes damage at scale (14x faster indexing, 3x cheaper queries)",
+  "nominal_task": [
+   "retrieval",
+   "vqa"
+  ],
+  "capability": "scalable interactive natural-language querying of property damage across large post-disaster EO archives",
+  "use_enabled": "post-disaster property damage assessment at scale",
+  "maturity": "decision-support-prototype",
+  "novelty_data": 1,
+  "novelty_task": 2,
+  "novelty_science": 0,
+  "novelty_application": 2,
+  "negative_case": false,
+  "negative_reason": "",
+  "note": "engineering focus: cost/latency of VLM-EO pipelines; adoption not stated"
+ }
+]

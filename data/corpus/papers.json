@@ -568,18 +568,6 @@
   "url": "https://arxiv.org/abs/2512.03623"
  },
  {
-  "id": "2512.14228",
-  "source": "arxiv",
-  "title": "Georeferencing complex relative locality descriptions with large language models",
-  "year": 2025,
-  "month": 12,
-  "venue": "cs.AI",
-  "domains": [
-   "mapping"
-  ],
-  "url": "https://arxiv.org/abs/2512.14228"
- },
- {
   "id": "2512.15977",
   "source": "arxiv",
   "title": "Are vision-language models ready to zero-shot replace supervised classification models in agriculture?",
@@ -713,18 +701,6 @@
    "disasters"
   ],
   "url": "https://arxiv.org/abs/2606.17246"
- },
- {
-  "id": "2607.11838",
-  "source": "arxiv",
-  "title": "HASTE: A Platform for Rapid Post-Disaster Building Damage Assessment",
-  "year": 2026,
-  "month": 7,
-  "venue": "cs.CV",
-  "domains": [
-   "disasters"
-  ],
-  "url": "https://arxiv.org/abs/2607.11838"
  },
  {
   "id": "2608.00119",

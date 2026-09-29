@@ -26,7 +26,13 @@ Collected 2026-09-29 against `methods/inclusion-rules.md`.
 - All 448 titles reviewed (abstracts for borderline cases) against the
   in/out-of-scope rules; keep decisions recorded in `analysis/curate_corpus.py`
   (KEEP map) so screening is reproducible and diffable.
-- **Kept: 61.** Focused-corpus policy (~40–60 target): seminal + representative
+- **Kept: 59.** Two records initially kept were dropped at characterization time
+  for violating written inclusion rules: 2512.14228 (georeferencing locality
+  descriptions — text-only, no observational modality; adjacent) and 2607.11838
+  (HASTE — operational disaster mapping platform with no language pairing;
+  vision-language is listed only as future work; adjacent, and a useful
+  maturity comparator showing operational damage mapping exists without
+  language today). Focused-corpus policy (~40–60 target): seminal + representative
   per domain and per construction strategy, deliberately including negative-case
   candidates (bias/hallucination/readiness studies).
 - Representative drop reasons: no language pairing (pure-vision EO models,
