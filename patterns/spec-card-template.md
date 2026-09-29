@@ -1,5 +1,11 @@
 # GeoData–Language Pair Spec Card (D4)
 
+> **v2 note (2026-09-29):** for describing the *evidence object itself*, this
+> template is superseded by the Structured Science Card
+> (`methods/science-card-spec.md` + `schema/science_card.schema.json`). This
+> card remains the intake format for *opportunity proposals* (used by
+> `opportunities/cards/` and referenced by `opportunities/catalog-v2.md`).
+
 A model-independent template for formally describing a candidate multimodal
 supervision opportunity — before any data is built. Every field is mandatory;
 `TBD` is allowed only in a Draft card. Vocabulary fields use

@@ -118,7 +118,25 @@ td.num,th.num{text-align:right}
   <div class="stat"><b>55</b><span>pytest tests green</span></div>
 </div>
 
-<h2><span class="no">TL;DR</span>What this delivers</h2>
+<h2><span class="no">V2</span>Reframe update — Structured Science Evidence Cards (2026-09-29)</h2>
+<p>Updated requirements reframed the unit of analysis from <em>geodata–text pair</em> to the pipeline <b>observations → derived/inferred evidence → Structured Science Card → grounded language → capability</b> — turning v1's maturity-cliff finding into the central hypothesis. Executed same-day (spec artifacts under <code>specs/science-evidence-cards/</code>):</p>
+<div class="stats">
+  <div class="stat"><b>76</b><span>corpus incl. 17 science-adjacent works, 3 new axes</span></div>
+  <div class="stat"><b>7</b><span>evidence-composition metapatterns</span></div>
+  <div class="stat"><b>26</b><span>schema-validated Science Cards (HLS-equiv + Prithvi)</span></div>
+  <div class="stat"><b>240</b><span>traced language products + questions</span></div>
+  <div class="stat"><b>0.63 / 0.54</b><span>ablation AUC: ΔNBR vs Prithvi Δ-repr</span></div>
+  <div class="stat"><b>96</b><span>tests green</span></div>
+</div>
+<ul>
+<li><b>Landscape v2:</b> every record characterized on evidence-to-LM class, Science-FM role, and reasoning operation. Headlines: <code>describe</code> dominates (46/76) while <code>discriminate</code>/<code>test-hypotheses</code> are nearly absent (2/2); 51/76 systems use no science FM; only 3/76 feed learned-representation evidence to the language layer. Medicine (MAIRA-2, MMRad-22K, RetiBridge) already runs the structured-evidence composition Earth science lacks.</li>
+<li><b>Science Card spec:</b> model-independent JSON Schema keeping observed → computed → inferred → learned-representation → contextual evidence distinct, five-tuple provenance per entry, schema-enforced uncertainty notes, declared reasoning affordances, first-class insufficiencies.</li>
+<li><b>HLS + Prithvi demonstrator:</b> 13 wildfire + 13 paired-control sites (Sentinel-2 HLS-equivalent bands; Earthdata-credential-free path documented), Prithvi-EO-1.0-100M embeddings, deterministic indices, EONET context → 26 validated cards → 167 statements + 73 evidence-driven questions, every sentence traced and epistemic-tagged; grounding QC: 0 numeric mismatches.</li>
+<li><b>Ablation (honest result):</b> deterministic −ΔNBR separates burns from controls better than naive Prithvi representation-change (AUC 0.63 vs 0.54; raw band deltas 0.44); the FM's irreplaceable contribution here is analog retrieval and confusable-case mining, not detection — codified in the FM-contribution taxonomy with the deterministic-preferable cases listed.</li>
+<li><b>Catalog v2 + agenda:</b> 8 evidence-composition opportunities where the text does not yet exist (C1 demonstrated end-to-end; C8 counterfactual-curriculum and C2 trajectory-science ranked next); 5-direction research agenda.</li>
+</ul>
+
+<h2><span class="no">TL;DR</span>What v1 delivered</h2>
 <p>The research requirements asked a single strategic question: <em>where can existing authoritative Earth-science information be turned into novel, application-driven geodata–language supervision?</em> The framework answers it in three moves. First, a characterized literature corpus shows <b>how</b> the field builds geodata–language pairs and where those constructions stall. Second, the recurring strategies are abstracted into metapatterns and a formal Spec Card so candidate datasets can be specified before any data is built. Third, the patterns are run against live NASA and allied holdings, producing scored opportunities — and the top four are demonstrated with real constructed pairs, not proposals.</p>
 
 <h2><span class="no">D1–D3</span>The survey: how the field builds pairs, and where it stalls</h2>

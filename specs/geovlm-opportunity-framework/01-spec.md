@@ -1,4 +1,4 @@
-Status: Approved
+Status: Approved (completed; superseded for new work by `specs/science-evidence-cards/` — the v2 reframe per `resources/research-requirements-updated.txt`)
 
 # Spec: GeoVLM Data–Language Opportunity Framework
 
