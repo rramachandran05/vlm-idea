@@ -38,9 +38,10 @@ dimension is 0–3 per the rubrics.
 | 7 | `eonet-worldview-event-narration` | 2 | 1 | 1 | 3 | 3 | 2 | 3 | **15** |
 | 8 | `ground-failure-terrain-explanations` | 2 | 2 | 3 | 2 | 3 | 1 | 2 | **15** |
 | 9 | `astronaut-photo-geocaption` | 2 | 1 | 2 | 2 | 3 | 2 | 2 | **14** |
-| 10 | `eonet-advisory-source-briefs` | 2 | 1 | 2 | 3 | 2 | 1 | 2 | **13** |
+| 10 | `gbif-habitat-satellite-scaling` | 2 | 2 | 2 | 3 | 2 | 1 | 2 | **14** |
+| 11 | `eonet-advisory-source-briefs` | 2 | 1 | 2 | 3 | 2 | 1 | 2 | **13** |
 
-## Selection for demonstration (4 of 10)
+## Selection for demonstration (4 of 11)
 
 1. **`pager-shakemap-impact-briefs` (rank 1, 18).** Highest score outright:
    operational-workflow value (App 3), unexploited expert text (Nov 3), open
@@ -72,6 +73,7 @@ dimension is 0–3 per the rubrics.
 - `ground-failure-terrain-explanations` (15): Ground 1 — demo pairs would
   echo model output without the observed-slide validation the card itself
   requires.
-- `astronaut-photo-geocaption` (14), `eonet-advisory-source-briefs` (13):
-  dominated on score; advisory intensity additionally rests on non-visual
-  data (Ground 1).
+- `astronaut-photo-geocaption` (14), `gbif-habitat-satellite-scaling` (14),
+  `eonet-advisory-source-briefs` (13): dominated on score; the GBIF card is
+  additionally a scale-out of corpus EcoWikiRS (discounted novelty), and
+  advisory intensity rests on non-visual data (Ground 1).
