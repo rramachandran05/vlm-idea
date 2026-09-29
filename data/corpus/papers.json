@@ -1,0 +1,754 @@
+[
+ {
+  "id": "2106.10548",
+  "source": "arxiv",
+  "title": "VQA-Aid: Visual Question Answering for Post-Disaster Damage Assessment and Analysis",
+  "year": 2021,
+  "month": 6,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2106.10548"
+ },
+ {
+  "id": "2302.09208",
+  "source": "arxiv",
+  "title": "Bridge Damage Cause Estimation Using Multiple Images Based on Visual Question Answering",
+  "year": 2023,
+  "month": 2,
+  "venue": "cs.CV",
+  "domains": [
+   "infrastructure"
+  ],
+  "url": "https://arxiv.org/abs/2302.09208"
+ },
+ {
+  "id": "2306.11029",
+  "source": "arxiv",
+  "title": "RemoteCLIP: A Vision Language Foundation Model for Remote Sensing",
+  "year": 2023,
+  "month": 6,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2306.11029"
+ },
+ {
+  "id": "2306.11300",
+  "source": "arxiv",
+  "title": "RS5M and GeoRSCLIP: A Large Scale Vision-Language Dataset and A Large Vision-Language Model for Remote Sensing",
+  "year": 2023,
+  "month": 6,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2306.11300"
+ },
+ {
+  "id": "2307.15266",
+  "source": "arxiv",
+  "title": "RSGPT: A Remote Sensing Vision Language Model and Benchmark",
+  "year": 2023,
+  "month": 7,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2307.15266"
+ },
+ {
+  "id": "2310.18340",
+  "source": "arxiv",
+  "title": "UrbanCLIP: Learning Text-enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web",
+  "year": 2023,
+  "month": 10,
+  "venue": "cs.CL",
+  "domains": [
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2310.18340"
+ },
+ {
+  "id": "2311.15826",
+  "source": "arxiv",
+  "title": "GeoChat: Grounded Large Vision-Language Model for Remote Sensing",
+  "year": 2023,
+  "month": 11,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2311.15826"
+ },
+ {
+  "id": "2311.16782",
+  "source": "arxiv",
+  "title": "The curse of language biases in remote sensing VQA: the role of spatial attributes, language diversity, and the need for clear evaluation",
+  "year": 2023,
+  "month": 11,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2311.16782"
+ },
+ {
+  "id": "2312.12222",
+  "source": "arxiv",
+  "title": "EarthVQA: Towards Queryable Earth via Relational Reasoning-Based Remote Sensing Visual Question Answering",
+  "year": 2023,
+  "month": 12,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general",
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2312.12222"
+ },
+ {
+  "id": "2312.12856",
+  "source": "arxiv",
+  "title": "SkyScript: A Large and Semantically Diverse Vision-Language Dataset for Remote Sensing",
+  "year": 2023,
+  "month": 12,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general",
+   "mapping"
+  ],
+  "url": "https://arxiv.org/abs/2312.12856"
+ },
+ {
+  "id": "2401.17600",
+  "source": "arxiv",
+  "title": "Good at captioning, bad at counting: Benchmarking GPT-4V on Earth observation data",
+  "year": 2024,
+  "month": 1,
+  "venue": "cs.CL",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2401.17600"
+ },
+ {
+  "id": "2402.02544",
+  "source": "arxiv",
+  "title": "LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model",
+  "year": 2024,
+  "month": 2,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general",
+   "mapping"
+  ],
+  "url": "https://arxiv.org/abs/2402.02544"
+ },
+ {
+  "id": "2402.11325",
+  "source": "arxiv",
+  "title": "ChatEarthNet: A Global-Scale Image-Text Dataset Empowering Vision-Language Geo-Foundation Models",
+  "year": 2024,
+  "month": 2,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2402.11325"
+ },
+ {
+  "id": "2404.12606",
+  "source": "arxiv",
+  "title": "ELEV-VISION-SAM: Integrated Vision Language and Foundation Model for Automated Estimation of Building Lowest Floor Elevation",
+  "year": 2024,
+  "month": 4,
+  "venue": "cs.CV",
+  "domains": [
+   "infrastructure",
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2404.12606"
+ },
+ {
+  "id": "2406.09838",
+  "source": "arxiv",
+  "title": "ClimateIQA: A New Dataset and Benchmark to Advance Vision-Language Models in Meteorology Anomalies Analysis",
+  "year": 2024,
+  "month": 6,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general",
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2406.09838"
+ },
+ {
+  "id": "2406.11217",
+  "source": "arxiv",
+  "title": "WeatherQA: Can Multimodal Language Models Reason about Severe Weather?",
+  "year": 2024,
+  "month": 6,
+  "venue": "cs.AI",
+  "domains": [
+   "earth-observation-general",
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2406.11217"
+ },
+ {
+  "id": "2406.18572",
+  "source": "arxiv",
+  "title": "GeoReasoner: Geo-localization with Reasoning in Street Views using a Large Vision-Language Model",
+  "year": 2024,
+  "month": 6,
+  "venue": "cs.CV",
+  "domains": [
+   "mapping",
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2406.18572"
+ },
+ {
+  "id": "2407.19719",
+  "source": "arxiv",
+  "title": "Urban Safety Perception Assessments via Integrating Multimodal Large Language Models with Street View Images",
+  "year": 2024,
+  "month": 7,
+  "venue": "cs.CV",
+  "domains": [
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2407.19719"
+ },
+ {
+  "id": "2408.14744",
+  "source": "arxiv",
+  "title": "RSTeller: Scaling Up Visual Language Modeling in Remote Sensing with Rich Linguistic Semantics from Openly Available Data and Large Language Models",
+  "year": 2024,
+  "month": 8,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general",
+   "mapping"
+  ],
+  "url": "https://arxiv.org/abs/2408.14744"
+ },
+ {
+  "id": "2409.00255",
+  "source": "arxiv",
+  "title": "MAPWise: Evaluating Vision-Language Models for Advanced Map Queries",
+  "year": 2024,
+  "month": 8,
+  "venue": "cs.CV",
+  "domains": [
+   "mapping"
+  ],
+  "url": "https://arxiv.org/abs/2409.00255"
+ },
+ {
+  "id": "2410.01407",
+  "source": "arxiv",
+  "title": "AgriCLIP: Adapting CLIP for Agriculture and Livestock via Domain-Specialized Cross-Model Alignment",
+  "year": 2024,
+  "month": 10,
+  "venue": "cs.CV",
+  "domains": [
+   "agriculture"
+  ],
+  "url": "https://arxiv.org/abs/2410.01407"
+ },
+ {
+  "id": "2410.06234",
+  "source": "arxiv",
+  "title": "TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data",
+  "year": 2024,
+  "month": 10,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general",
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2410.06234"
+ },
+ {
+  "id": "2410.08405",
+  "source": "arxiv",
+  "title": "AgroGPT: Efficient Agricultural Vision-Language Model with Expert Tuning",
+  "year": 2024,
+  "month": 10,
+  "venue": "cs.CV",
+  "domains": [
+   "agriculture"
+  ],
+  "url": "https://arxiv.org/abs/2410.08405"
+ },
+ {
+  "id": "2411.01511",
+  "source": "arxiv",
+  "title": "Integration of Large Vision Language Models for Efficient Post-disaster Damage Assessment and Reporting",
+  "year": 2024,
+  "month": 11,
+  "venue": "cs.MA",
+  "domains": [
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2411.01511"
+ },
+ {
+  "id": "2411.03491",
+  "source": "arxiv",
+  "title": "An Application-Agnostic Automatic Target Recognition System Using Vision Language Models",
+  "year": 2024,
+  "month": 11,
+  "venue": "cs.CV",
+  "domains": [
+   "defense-intelligence"
+  ],
+  "url": "https://arxiv.org/abs/2411.03491"
+ },
+ {
+  "id": "2411.19325",
+  "source": "arxiv",
+  "title": "GEOBench-VLM: Benchmarking Vision-Language Models for Geospatial Tasks",
+  "year": 2024,
+  "month": 11,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2411.19325"
+ },
+ {
+  "id": "2412.00465",
+  "source": "arxiv",
+  "title": "AgriBench: A Hierarchical Agriculture Benchmark for Multimodal Large Language Models",
+  "year": 2024,
+  "month": 11,
+  "venue": "cs.CV",
+  "domains": [
+   "agriculture"
+  ],
+  "url": "https://arxiv.org/abs/2412.00465"
+ },
+ {
+  "id": "2501.13925",
+  "source": "arxiv",
+  "title": "GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing",
+  "year": 2025,
+  "month": 1,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2501.13925"
+ },
+ {
+  "id": "2501.14905",
+  "source": "arxiv",
+  "title": "Measuring and Mitigating Hallucinations in Vision-Language Dataset Generation for Remote Sensing",
+  "year": 2025,
+  "month": 1,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2501.14905"
+ },
+ {
+  "id": "2502.08168",
+  "source": "arxiv",
+  "title": "SARChat-Bench-2M: A Multi-Task Vision-Language Benchmark for SAR Image Interpretation",
+  "year": 2025,
+  "month": 2,
+  "venue": "cs.CL",
+  "domains": [
+   "earth-observation-general",
+   "defense-intelligence"
+  ],
+  "url": "https://arxiv.org/abs/2502.08168"
+ },
+ {
+  "id": "2502.09598",
+  "source": "arxiv",
+  "title": "GAIA: A Global, Multi-modal, Multi-scale Vision-Language Dataset for Remote Sensing Image Analysis",
+  "year": 2025,
+  "month": 2,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2502.09598"
+ },
+ {
+  "id": "2504.02866",
+  "source": "arxiv",
+  "title": "OpenFACADES: An Open Framework for Architectural Caption and Attribute Data Enrichment via Street View Imagery",
+  "year": 2025,
+  "month": 4,
+  "venue": "cs.CV",
+  "domains": [
+   "urban",
+   "mapping"
+  ],
+  "url": "https://arxiv.org/abs/2504.02866"
+ },
+ {
+  "id": "2504.06785",
+  "source": "arxiv",
+  "title": "Zero-Shot Image-Based Large Language Model Approach to Road Pavement Monitoring",
+  "year": 2025,
+  "month": 4,
+  "venue": "cs.CV",
+  "domains": [
+   "infrastructure"
+  ],
+  "url": "https://arxiv.org/abs/2504.06785"
+ },
+ {
+  "id": "2504.10568",
+  "source": "arxiv",
+  "title": "AgMMU: A Comprehensive Agricultural Multimodal Understanding Benchmark",
+  "year": 2025,
+  "month": 4,
+  "venue": "cs.CV",
+  "domains": [
+   "agriculture"
+  ],
+  "url": "https://arxiv.org/abs/2504.10568"
+ },
+ {
+  "id": "2504.19742",
+  "source": "arxiv",
+  "title": "EcoWikiRS: Learning Ecological Representation of Satellite Images from Weak Supervision with Species Observations and Wikipedia",
+  "year": 2025,
+  "month": 4,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general",
+   "agriculture"
+  ],
+  "url": "https://arxiv.org/abs/2504.19742"
+ },
+ {
+  "id": "2505.03334",
+  "source": "arxiv",
+  "title": "OS-W2S: An Automatic Labeling Engine for Language-Guided Open-Set Aerial Object Detection",
+  "year": 2025,
+  "month": 5,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2505.03334"
+ },
+ {
+  "id": "2505.19358",
+  "source": "arxiv",
+  "title": "RoofNet: A Global Multimodal Dataset for Roof Material Identification from Earth Observation",
+  "year": 2025,
+  "month": 5,
+  "venue": "cs.CE",
+  "domains": [
+   "infrastructure",
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2505.19358"
+ },
+ {
+  "id": "2505.21089",
+  "source": "arxiv",
+  "title": "DisasterM3: A Remote Sensing Vision-Language Dataset for Disaster Damage Assessment and Response",
+  "year": 2025,
+  "month": 5,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters",
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2505.21089"
+ },
+ {
+  "id": "2506.00530",
+  "source": "arxiv",
+  "title": "CityLens: Evaluating Large Vision-Language Models for Urban Socioeconomic Sensing",
+  "year": 2025,
+  "month": 5,
+  "venue": "cs.AI",
+  "domains": [
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2506.00530"
+ },
+ {
+  "id": "2506.20100",
+  "source": "arxiv",
+  "title": "MIRAGE: A Benchmark for Multimodal Information-Seeking and Reasoning in Agricultural Expert-Guided Conversations",
+  "year": 2025,
+  "month": 6,
+  "venue": "cs.LG",
+  "domains": [
+   "agriculture"
+  ],
+  "url": "https://arxiv.org/abs/2506.20100"
+ },
+ {
+  "id": "2507.16716",
+  "source": "arxiv",
+  "title": "Enhancing Remote Sensing Vision-Language Models Through MLLM and LLM-Based High-Quality Image-Text Dataset Generation",
+  "year": 2025,
+  "month": 7,
+  "venue": "cs.CV",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2507.16716"
+ },
+ {
+  "id": "2508.01380",
+  "source": "arxiv",
+  "title": "Effective Damage Data Generation by Fusing Imagery with Human Knowledge Using Vision-Language Models",
+  "year": 2025,
+  "month": 8,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2508.01380"
+ },
+ {
+  "id": "2509.01907",
+  "source": "arxiv",
+  "title": "RSCC: A Large-Scale Remote Sensing Change Caption Dataset for Disaster Events",
+  "year": 2025,
+  "month": 9,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters",
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2509.01907"
+ },
+ {
+  "id": "2509.20628",
+  "source": "arxiv",
+  "title": "Recov-Vision: Linking Street View Imagery and Vision-Language Models for Post-Disaster Recovery",
+  "year": 2025,
+  "month": 9,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters",
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2509.20628"
+ },
+ {
+  "id": "2509.21609",
+  "source": "arxiv",
+  "title": "VLCE: A Knowledge-Enhanced Framework for Image Description in Disaster Assessment",
+  "year": 2025,
+  "month": 9,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2509.21609"
+ },
+ {
+  "id": "2512.03623",
+  "source": "arxiv",
+  "title": "The promising potential of vision language models for the generation of textual weather forecasts",
+  "year": 2025,
+  "month": 12,
+  "venue": "cs.LG",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2512.03623"
+ },
+ {
+  "id": "2512.14228",
+  "source": "arxiv",
+  "title": "Georeferencing complex relative locality descriptions with large language models",
+  "year": 2025,
+  "month": 12,
+  "venue": "cs.AI",
+  "domains": [
+   "mapping"
+  ],
+  "url": "https://arxiv.org/abs/2512.14228"
+ },
+ {
+  "id": "2512.15977",
+  "source": "arxiv",
+  "title": "Are vision-language models ready to zero-shot replace supervised classification models in agriculture?",
+  "year": 2025,
+  "month": 12,
+  "venue": "cs.CV",
+  "domains": [
+   "agriculture"
+  ],
+  "url": "https://arxiv.org/abs/2512.15977"
+ },
+ {
+  "id": "2601.01416",
+  "source": "arxiv",
+  "title": "AirSpatialBot: A Spatially-Aware Aerial Agent for Fine-Grained Vehicle Attribute Recognization and Retrieval",
+  "year": 2026,
+  "month": 1,
+  "venue": "cs.CV",
+  "domains": [
+   "defense-intelligence"
+  ],
+  "url": "https://arxiv.org/abs/2601.01416"
+ },
+ {
+  "id": "2601.18493",
+  "source": "arxiv",
+  "title": "DisasterInsight: A Building-Centric Benchmark for Evaluating Vision--Language Models in Disaster Response",
+  "year": 2026,
+  "month": 1,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters",
+   "infrastructure"
+  ],
+  "url": "https://arxiv.org/abs/2601.18493"
+ },
+ {
+  "id": "2601.19099",
+  "source": "arxiv",
+  "title": "m2sv: A Scalable Benchmark for Map-to-Street-View Spatial Reasoning",
+  "year": 2026,
+  "month": 1,
+  "venue": "cs.CV",
+  "domains": [
+   "mapping"
+  ],
+  "url": "https://arxiv.org/abs/2601.19099"
+ },
+ {
+  "id": "2602.20066",
+  "source": "arxiv",
+  "title": "HeatPrompt: Zero-Shot Vision-Language Modeling of Urban Heat Demand from Satellite Images",
+  "year": 2026,
+  "month": 2,
+  "venue": "cs.CV",
+  "domains": [
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2602.20066"
+ },
+ {
+  "id": "2603.11804",
+  "source": "arxiv",
+  "title": "OSMDA: OpenStreetMap-based Domain Adaptation for Remote Sensing VLMs",
+  "year": 2026,
+  "month": 3,
+  "venue": "cs.CV",
+  "domains": [
+   "mapping",
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2603.11804"
+ },
+ {
+  "id": "2603.17108",
+  "source": "arxiv",
+  "title": "LLM-Powered Flood Depth Estimation from Social Media Imagery: A Vision-Language Model Framework with Mechanistic Interpretability for Transportation Resilience",
+  "year": 2026,
+  "month": 3,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters",
+   "urban"
+  ],
+  "url": "https://arxiv.org/abs/2603.17108"
+ },
+ {
+  "id": "2604.16451",
+  "source": "arxiv",
+  "title": "SynopticBench: Evaluating Vision-Language Models on Generating Weather Forecast Discussions of the Future",
+  "year": 2026,
+  "month": 4,
+  "venue": "cs.CL",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2604.16451"
+ },
+ {
+  "id": "2605.10772",
+  "source": "arxiv",
+  "title": "Towards a Large Language-Vision Question Answering Model for MSTAR Automatic Target Recognition",
+  "year": 2026,
+  "month": 5,
+  "venue": "cs.CV",
+  "domains": [
+   "defense-intelligence"
+  ],
+  "url": "https://arxiv.org/abs/2605.10772"
+ },
+ {
+  "id": "2606.13148",
+  "source": "arxiv",
+  "title": "TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data?",
+  "year": 2026,
+  "month": 6,
+  "venue": "cs.AI",
+  "domains": [
+   "earth-observation-general"
+  ],
+  "url": "https://arxiv.org/abs/2606.13148"
+ },
+ {
+  "id": "2606.17246",
+  "source": "arxiv",
+  "title": "GeoDisaster: Benchmarking Orchestrated Agents for Operational Disaster Geo-Intelligence",
+  "year": 2026,
+  "month": 6,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2606.17246"
+ },
+ {
+  "id": "2607.11838",
+  "source": "arxiv",
+  "title": "HASTE: A Platform for Rapid Post-Disaster Building Damage Assessment",
+  "year": 2026,
+  "month": 7,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2607.11838"
+ },
+ {
+  "id": "2608.00119",
+  "source": "arxiv",
+  "title": "Counting the Cost of War Under Satellite Embargo: Zero-Shot Estimation of Impacted Infrastructure",
+  "year": 2026,
+  "month": 7,
+  "venue": "cs.CV",
+  "domains": [
+   "defense-intelligence",
+   "infrastructure"
+  ],
+  "url": "https://arxiv.org/abs/2608.00119"
+ },
+ {
+  "id": "2608.21529",
+  "source": "arxiv",
+  "title": "DamageScope: Vision-Language Retrieval at Scale for Disaster Damage Assessment from Satellite Imagery",
+  "year": 2026,
+  "month": 8,
+  "venue": "cs.CV",
+  "domains": [
+   "disasters"
+  ],
+  "url": "https://arxiv.org/abs/2608.21529"
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "query": "remote sensing vision language model",
+  "returned": 29,
+  "in_window": 29
+ },
+ {
+  "query": "remote sensing image captioning",
+  "returned": 23,
+  "in_window": 20
+ },
+ {
+  "query": "remote sensing visual question answering",
+  "returned": 17,
+  "in_window": 17
+ },
+ {
+  "query": "satellite image text retrieval",
+  "returned": 1,
+  "in_window": 1
+ },
+ {
+  "query": "geospatial multimodal large language model",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "remote sensing visual grounding",
+  "returned": 14,
+  "in_window": 14
+ },
+ {
+  "query": "remote sensing instruction tuning",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "remote sensing change captioning",
+  "returned": 11,
+  "in_window": 11
+ },
+ {
+  "query": "agriculture satellite vision language",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "crop monitoring visual question answering",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "disaster damage assessment vision language model",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "flood satellite image text",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "wildfire remote sensing language",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "urban satellite imagery question answering",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "OpenStreetMap vision language",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "map text alignment model",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "infrastructure monitoring satellite language model",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "building damage caption satellite",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "overhead imagery analyst language model",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "aerial reconnaissance visual question answering",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "weather forecast language model multimodal",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "RemoteCLIP",
+  "returned": 10,
+  "in_window": 10
+ },
+ {
+  "query": "GeoChat",
+  "returned": 6,
+  "in_window": 6
+ },
+ {
+  "query": "RS5M",
+  "returned": 2,
+  "in_window": 2
+ },
+ {
+  "query": "SkyScript",
+  "returned": 3,
+  "in_window": 3
+ },
+ {
+  "query": "EarthGPT",
+  "returned": 2,
+  "in_window": 2
+ },
+ {
+  "query": "LHRS-Bot",
+  "returned": 3,
+  "in_window": 3
+ },
+ {
+  "query": "ChatEarthNet",
+  "returned": 1,
+  "in_window": 1
+ },
+ {
+  "query": "GeoPixel",
+  "returned": 1,
+  "in_window": 1
+ },
+ {
+  "query": "vision language model earth observation",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "image-text dataset remote sensing",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "contrastive language image pretraining satellite",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "crop type classification text",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "agricultural monitoring multimodal language",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "flood mapping vision language",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "earthquake damage multimodal",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "hurricane damage assessment deep learning text",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "geo-localization natural language description",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "text-to-image retrieval geographic",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "urban perception street view language",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "scene graph remote sensing",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "weather climate multimodal foundation model",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "poverty mapping satellite imagery",
+  "returned": 0,
+  "in_window": 0
+ },
+ {
+  "query": "vision language && flood",
+  "returned": 26,
+  "in_window": 26
+ },
+ {
+  "query": "vision language && wildfire",
+  "returned": 10,
+  "in_window": 10
+ },
+ {
+  "query": "vision language && disaster",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "visual question answering && damage",
+  "returned": 18,
+  "in_window": 16
+ },
+ {
+  "query": "captioning && disaster && satellite",
+  "returned": 6,
+  "in_window": 6
+ },
+ {
+  "query": "vision language && agriculture",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "vision language && crop",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "multimodal && crop monitoring",
+  "returned": 4,
+  "in_window": 4
+ },
+ {
+  "query": "vision language && OpenStreetMap",
+  "returned": 10,
+  "in_window": 10
+ },
+ {
+  "query": "language model && map && geographic",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "image-text && urban && satellite",
+  "returned": 12,
+  "in_window": 12
+ },
+ {
+  "query": "street view && language model",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "vision language && infrastructure && satellite",
+  "returned": 5,
+  "in_window": 5
+ },
+ {
+  "query": "vision language && weather",
+  "returned": 40,
+  "in_window": 40
+ },
+ {
+  "query": "language model && climate && satellite",
+  "returned": 6,
+  "in_window": 6
+ },
+ {
+  "query": "vision language && target recognition",
+  "returned": 8,
+  "in_window": 8
+ },
+ {
+  "query": "geo-localization && language",
+  "returned": 40,
+  "in_window": 39
+ }
+]
