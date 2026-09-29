@@ -1,0 +1,296 @@
+[
+ {
+  "site_id": "ev20883",
+  "kind": "event",
+  "lat": -8.277766918477814,
+  "lon": 20.210612409383792,
+  "event_date": "2026-06-30",
+  "event_id": "EONET_20883",
+  "event_title": "Wildfire in Angola 1029229",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20883"
+ },
+ {
+  "site_id": "ev20883_ctl",
+  "kind": "control",
+  "lat": -8.277766918477814,
+  "lon": 20.91061240938379,
+  "event_date": "2026-06-30",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20883"
+ },
+ {
+  "site_id": "ev21357",
+  "kind": "event",
+  "lat": -14.320812949243,
+  "lon": 143.63671045078,
+  "event_date": "2026-06-30",
+  "event_id": "EONET_21357",
+  "event_title": "Wildfire in Australia 1029494",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21357"
+ },
+ {
+  "site_id": "ev21357_ctl",
+  "kind": "control",
+  "lat": -14.320812949243,
+  "lon": 144.33671045077998,
+  "event_date": "2026-06-30",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev21357"
+ },
+ {
+  "site_id": "ev21358",
+  "kind": "event",
+  "lat": 48.57853340579,
+  "lon": -91.37827342062,
+  "event_date": "2026-06-29",
+  "event_id": "EONET_21358",
+  "event_title": "Wildfire in Canada 1029495",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21358"
+ },
+ {
+  "site_id": "ev21358_ctl",
+  "kind": "control",
+  "lat": 48.57853340579,
+  "lon": -90.67827342062,
+  "event_date": "2026-06-29",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev21358"
+ },
+ {
+  "site_id": "ev21059",
+  "kind": "event",
+  "lat": 37.71545,
+  "lon": -109.18345,
+  "event_date": "2026-06-27",
+  "event_id": "EONET_21059",
+  "event_title": "Wildfire Horse Head, San Juan, Utah",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21059"
+ },
+ {
+  "site_id": "ev21059_ctl",
+  "kind": "control",
+  "lat": 37.71545,
+  "lon": -108.48344999999999,
+  "event_date": "2026-06-27",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev21059"
+ },
+ {
+  "site_id": "ev20737",
+  "kind": "event",
+  "lat": 39.12308583330315,
+  "lon": -112.11264256950045,
+  "event_date": "2026-06-26",
+  "event_id": "EONET_20737",
+  "event_title": "Wildfire in United States 1029113",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20737"
+ },
+ {
+  "site_id": "ev20737_ctl",
+  "kind": "control",
+  "lat": 39.12308583330315,
+  "lon": -111.41264256950045,
+  "event_date": "2026-06-26",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20737"
+ },
+ {
+  "site_id": "ev21081",
+  "kind": "event",
+  "lat": 40.409217,
+  "lon": -119.201767,
+  "event_date": "2026-06-25",
+  "event_id": "EONET_21081",
+  "event_title": "Wildfire Kumiva, Pershing, Nevada",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21081"
+ },
+ {
+  "site_id": "ev21081_ctl",
+  "kind": "control",
+  "lat": 40.409217,
+  "lon": -118.501767,
+  "event_date": "2026-06-25",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev21081"
+ },
+ {
+  "site_id": "ev20767",
+  "kind": "event",
+  "lat": 58.45472701036584,
+  "lon": -106.68014619366863,
+  "event_date": "2026-06-24",
+  "event_id": "EONET_20767",
+  "event_title": "Wildfire in Canada 1029140",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20767"
+ },
+ {
+  "site_id": "ev20767_ctl",
+  "kind": "control",
+  "lat": 58.45472701036584,
+  "lon": -105.98014619366863,
+  "event_date": "2026-06-24",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20767"
+ },
+ {
+  "site_id": "ev20714",
+  "kind": "event",
+  "lat": -13.707298870541324,
+  "lon": 130.21613084656167,
+  "event_date": "2026-06-23",
+  "event_id": "EONET_20714",
+  "event_title": "Wildfire in Australia 1029092",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20714"
+ },
+ {
+  "site_id": "ev20714_ctl",
+  "kind": "control",
+  "lat": -13.707298870541324,
+  "lon": 130.91613084656166,
+  "event_date": "2026-06-23",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20714"
+ },
+ {
+  "site_id": "ev20718",
+  "kind": "event",
+  "lat": -14.277634879289648,
+  "lon": 133.22660599776344,
+  "event_date": "2026-06-22",
+  "event_id": "EONET_20718",
+  "event_title": "Wildfire in Australia 1029077",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20718"
+ },
+ {
+  "site_id": "ev20718_ctl",
+  "kind": "control",
+  "lat": -14.277634879289648,
+  "lon": 133.92660599776343,
+  "event_date": "2026-06-22",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20718"
+ },
+ {
+  "site_id": "ev21006",
+  "kind": "event",
+  "lat": 64.328883,
+  "lon": -149.1975,
+  "event_date": "2026-06-20",
+  "event_id": "EONET_21006",
+  "event_title": "Wildfire Starry, Denali, Alaska",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21006"
+ },
+ {
+  "site_id": "ev21006_ctl",
+  "kind": "control",
+  "lat": 64.328883,
+  "lon": -148.4975,
+  "event_date": "2026-06-20",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev21006"
+ },
+ {
+  "site_id": "ev20701",
+  "kind": "event",
+  "lat": -12.683278898459884,
+  "lon": 142.18477883871088,
+  "event_date": "2026-06-18",
+  "event_id": "EONET_20701",
+  "event_title": "Wildfire in Australia 1029071",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20701"
+ },
+ {
+  "site_id": "ev20701_ctl",
+  "kind": "control",
+  "lat": -12.683278898459884,
+  "lon": 142.88477883871087,
+  "event_date": "2026-06-18",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20701"
+ },
+ {
+  "site_id": "ev20573",
+  "kind": "event",
+  "lat": -20.498318994572664,
+  "lon": 22.701468830992944,
+  "event_date": "2026-06-15",
+  "event_id": "EONET_20573",
+  "event_title": "Wildfire in Botswana 1028958",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20573"
+ },
+ {
+  "site_id": "ev20573_ctl",
+  "kind": "control",
+  "lat": -20.498318994572664,
+  "lon": 23.401468830992943,
+  "event_date": "2026-06-15",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20573"
+ },
+ {
+  "site_id": "ev20581",
+  "kind": "event",
+  "lat": 59.62540210468415,
+  "lon": 88.30098705677521,
+  "event_date": "2026-06-09",
+  "event_id": "EONET_20581",
+  "event_title": "Wildfire in Russian Federation 1028969",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20581"
+ },
+ {
+  "site_id": "ev20581_ctl",
+  "kind": "control",
+  "lat": 59.62540210468415,
+  "lon": 89.00098705677522,
+  "event_date": "2026-06-09",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20581"
+ },
+ {
+  "site_id": "ev20391",
+  "kind": "event",
+  "lat": 3,
+  "lon": 1,
+  "event_date": "2026-06-04",
+  "event_id": "EONET_20391",
+  "event_title": "MOXEE ORCHARD Wildfire, Yakima, Washington",
+  "event_url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20391"
+ },
+ {
+  "site_id": "ev20391_ctl",
+  "kind": "control",
+  "lat": 3,
+  "lon": 1.7,
+  "event_date": "2026-06-04",
+  "event_id": null,
+  "event_title": null,
+  "event_url": null,
+  "control_for": "ev20391"
+ }
+]

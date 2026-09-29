@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "science_card.schema.json",
+  "title": "Structured Science Evidence Card",
+  "description": "Model-independent intermediate object between scientific data/models and language generation. Every evidence entry preserves value + class + source + method + provenance + uncertainty; classes keep observed / computed / inferred / learned-representation / contextual distinct.",
+  "type": "object",
+  "required": [
+    "card_id", "card_type", "phenomenon", "spatial", "temporal",
+    "evidence", "analogs", "reasoning_affordances", "provenance",
+    "insufficiencies"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "card_id": { "type": "string", "minLength": 3 },
+    "card_type": {
+      "enum": [
+        "single-observation", "before-after", "temporal-sequence",
+        "anomaly-vs-baseline", "representation-trajectory",
+        "cross-location-comparison"
+      ]
+    },
+    "phenomenon": {
+      "type": "object",
+      "required": ["description", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "description": { "type": "string" },
+        "status": {
+          "enum": ["externally-reported", "candidate", "none-expected"]
+        },
+        "external_reference": { "type": ["string", "null"] }
+      }
+    },
+    "spatial": {
+      "type": "object",
+      "required": ["lat", "lon", "extent_m"],
+      "properties": {
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "extent_m": { "type": "number", "exclusiveMinimum": 0 },
+        "crs": { "type": "string" }
+      }
+    },
+    "temporal": {
+      "type": "object",
+      "required": ["timestamps"],
+      "properties": {
+        "timestamps": {
+          "type": "array", "minItems": 1,
+          "items": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}" }
+        },
+        "reference_event_time": { "type": ["string", "null"] }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/evidence_entry" }
+    },
+    "analogs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ref", "similarity", "method"],
+        "properties": {
+          "ref": { "type": "string" },
+          "similarity": { "type": "number" },
+          "method": { "type": "string" }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "subject", "object"],
+        "properties": {
+          "type": { "type": "string" },
+          "subject": { "type": "string" },
+          "object": { "type": "string" }
+        }
+      }
+    },
+    "reasoning_affordances": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "describe", "compare", "detect", "integrate", "explain",
+          "discriminate", "retrieve-analogs", "hypothesize",
+          "test-hypotheses", "recommend-analysis", "abstain"
+        ]
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["pipeline", "built_at_data_time"],
+      "properties": {
+        "pipeline": { "type": "string" },
+        "built_at_data_time": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "insufficiencies": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "definitions": {
+    "evidence_entry": {
+      "type": "object",
+      "required": [
+        "key", "value", "class", "source", "method", "provenance",
+        "uncertainty"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string", "minLength": 2 },
+        "value": {},
+        "units": { "type": ["string", "null"] },
+        "class": {
+          "enum": [
+            "observed", "computed", "inferred",
+            "learned-representation", "contextual"
+          ]
+        },
+        "source": {
+          "type": "string",
+          "description": "dataset/instrument/archive/model the value came from"
+        },
+        "method": {
+          "type": "string",
+          "description": "algorithm or procedure that produced the value"
+        },
+        "provenance": {
+          "type": "string",
+          "description": "resolvable pointer: URL, product id, script path"
+        },
+        "uncertainty": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": ["type", "value"],
+              "properties": {
+                "type": { "type": "string" },
+                "value": {}
+              }
+            },
+            { "type": "null" }
+          ]
+        },
+        "uncertainty_note": {
+          "type": "string",
+          "description": "required rationale when uncertainty is null"
+        }
+      },
+      "if": { "properties": { "uncertainty": { "const": null } } },
+      "then": { "required": ["uncertainty_note"] }
+    }
+  }
+}

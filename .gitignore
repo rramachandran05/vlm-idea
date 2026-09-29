@@ -13,3 +13,8 @@ __pycache__/
 
 # raw data dumps (keep only curated JSON/CSV)
 data/**/raw/
+
+# demonstrator bulk artifacts (regenerable; metadata/evidence JSON is committed)
+demonstrator/out/chips.npz
+demonstrator/out/embeddings.npz
+demonstrator/prithvi/*.pt
