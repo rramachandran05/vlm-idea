@@ -1,0 +1,199 @@
+<title>GeoVLM Opportunity Framework</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f8faf8; --surface:#eef3ee; --ink:#1c2823; --muted:#5a6b62;
+  --accent:#0e7a5f; --link:#2b5f8a; --sand:#8a6a24; --line:#d3ded6;
+  --band:#e6efe9; --mono-bg:#e9efe9;
+}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1613; --surface:#17211c; --ink:#e3ebe5; --muted:#93a49a;
+    --accent:#42b18d; --link:#7fb1d8; --sand:#d3ab55; --line:#2a362f;
+    --band:#15201a; --mono-bg:#1a2620;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1613; --surface:#17211c; --ink:#e3ebe5; --muted:#93a49a;
+  --accent:#42b18d; --link:#7fb1d8; --sand:#d3ab55; --line:#2a362f;
+  --band:#15201a; --mono-bg:#1a2620;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:"Public Sans",-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.62; margin:0;
+}
+.page{max-width:76ch; margin:0 auto; padding:3.5rem 1.4rem 5rem}
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.72rem;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--accent);
+  margin:0 0 .8rem;
+}
+h1{
+  font-family:"Newsreader",Georgia,serif; font-weight:600;
+  font-size:clamp(1.9rem,5vw,2.6rem); line-height:1.15; margin:0 0 .6rem;
+  text-wrap:balance;
+}
+.dek{color:var(--muted); font-size:1.06rem; max-width:62ch; margin:0 0 2.2rem}
+h2{
+  font-family:"Newsreader",Georgia,serif; font-weight:600; font-size:1.42rem;
+  margin:2.8rem 0 .7rem; line-height:1.25; text-wrap:balance;
+}
+h2 .no{
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.78rem;
+  color:var(--accent); vertical-align:.35em; margin-right:.55rem;
+  letter-spacing:.08em;
+}
+h3{font-size:1.02rem; font-weight:700; margin:1.6rem 0 .4rem}
+p{margin:.65rem 0; max-width:68ch}
+a{color:var(--link); text-decoration-thickness:1px; text-underline-offset:2px}
+code,.mono{
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.86em;
+  background:var(--mono-bg); padding:.08em .34em; border-radius:3px;
+}
+.stats{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(115px,1fr));
+  gap:1px; background:var(--line); border:1px solid var(--line);
+  margin:2.2rem 0;
+}
+.stat{background:var(--band); padding:.85rem .9rem}
+.stat b{
+  display:block; font-family:"Newsreader",Georgia,serif; font-weight:600;
+  font-size:1.55rem; font-variant-numeric:tabular-nums; color:var(--accent);
+}
+.stat span{font-size:.76rem; color:var(--muted); letter-spacing:.02em}
+ul{padding-left:1.2rem; max-width:68ch}
+li{margin:.35rem 0}
+li::marker{color:var(--accent)}
+.tablewrap{overflow-x:auto; margin:1rem 0; border:1px solid var(--line)}
+table{border-collapse:collapse; width:100%; font-size:.88rem; min-width:560px}
+th{
+  text-align:left; font-size:.72rem; text-transform:uppercase;
+  letter-spacing:.09em; color:var(--muted); font-weight:600;
+  padding:.55rem .7rem; border-bottom:1px solid var(--line);
+  background:var(--surface);
+}
+td{
+  padding:.5rem .7rem; border-bottom:1px solid var(--line);
+  font-variant-numeric:tabular-nums; vertical-align:top;
+}
+tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right}
+.sel td{background:var(--band)}
+.sel td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+.callout{
+  background:var(--band); border-left:3px solid var(--sand);
+  padding:.9rem 1.1rem; margin:1.3rem 0; max-width:68ch;
+}
+.callout p{margin:.3rem 0}
+.caveat{color:var(--muted); font-size:.9rem}
+.foot{
+  margin-top:3.4rem; padding-top:1.2rem; border-top:1px solid var(--line);
+  color:var(--muted); font-size:.82rem;
+}
+.pathline{
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.8rem;
+  color:var(--muted); margin:.2rem 0;
+}
+@media (prefers-reduced-motion: no-preference){
+  .page{animation:rise .45s ease-out}
+  @keyframes rise{from{opacity:0; transform:translateY(6px)}to{opacity:1}}
+}
+</style>
+
+<div class="page">
+<p class="eyebrow">Summary report · vlm-idea · 2026-09-29</p>
+<h1>GeoVLM Opportunity Framework</h1>
+<p class="dek">From a 59-work survey of the geospatial vision-language literature to seven reusable data-construction metapatterns, eleven scored dataset opportunities in NASA and allied holdings, and four demonstration datasets built and quality-checked against live sources — all reproducible from one tested repository.</p>
+
+<div class="stats">
+  <div class="stat"><b>59</b><span>works surveyed &amp; characterized</span></div>
+  <div class="stat"><b>7</b><span>metapatterns abstracted</span></div>
+  <div class="stat"><b>11</b><span>opportunity spec cards</span></div>
+  <div class="stat"><b>736</b><span>demonstration pairs built</span></div>
+  <div class="stat"><b>80/80</b><span>grounding QC checks pass</span></div>
+  <div class="stat"><b>55</b><span>pytest tests green</span></div>
+</div>
+
+<h2><span class="no">TL;DR</span>What this delivers</h2>
+<p>The research requirements asked a single strategic question: <em>where can existing authoritative Earth-science information be turned into novel, application-driven geodata–language supervision?</em> The framework answers it in three moves. First, a characterized literature corpus shows <b>how</b> the field builds geodata–language pairs and where those constructions stall. Second, the recurring strategies are abstracted into metapatterns and a formal Spec Card so candidate datasets can be specified before any data is built. Third, the patterns are run against live NASA and allied holdings, producing scored opportunities — and the top four are demonstrated with real constructed pairs, not proposals.</p>
+
+<h2><span class="no">D1–D3</span>The survey: how the field builds pairs, and where it stalls</h2>
+<p>Sixty logged arXiv queries yielded 448 candidates, screened to a focused corpus of <b>59 works (2021–2026)</b> across all seven target domains (EO-general, agriculture, disasters, urban, mapping, infrastructure, defense/intelligence). Every record was retrieved live — nothing memory-cited — and characterized on controlled vocabularies: geodata type, language source, semantic relationship, alignment basis, pair-generation mechanism, scalability, capability-beyond-task, maturity, and four novelty dimensions. An LLM-assisted characterization was QC'd per protocol: a seeded 20% sample measured a 2.9% field error rate, one axis breached the 10% re-pass threshold and was re-verified across all records to a clean re-check.</p>
+<h3>The headline finding: the maturity cliff</h3>
+<p>30 of 59 works stop at benchmark research; only 5 reach a decision-support prototype; <b>none reach operational deployment</b>. All 16 works with no identifiable enabled use sit at benchmark maturity. The cliff is a construction choice, not fate: the works that climb it import an <em>application evaluation together with the data</em> — expert-written operational products, executable workflows, published standards — while pure semantics imports (web text, verbalized labels) stall on leaderboards.</p>
+<div class="callout">
+<p><b>Six anti-patterns</b> distilled from the negative cases, each a "don't replicate" rule: template QA that answers itself; fluency mistaken for capability; assumed zero-shot transfer into expert domains; the imagery-to-statistics leap; LLM-synthesized supervision without hallucination control; and stopping at the benchmark.</p>
+</div>
+
+<h2><span class="no">D4</span>Seven metapatterns and a Spec Card</h2>
+<p>Every construction in the corpus instantiates one of seven recurring strategies, each documented as the full ten-element chain (application need → … → application evaluation) with at least two corpus citations:</p>
+<ul>
+<li><b>MP-1 Geo-registered knowledge verbalization</b> — OSM/VGI joined to imagery by coordinates (SkyScript, RSTeller, LHRS-Bot).</li>
+<li><b>MP-2 Label-to-language conversion</b> — legacy annotations verbalized (RemoteCLIP, RS5M, ChatEarthNet).</li>
+<li><b>MP-3 Expert interpretation harvesting</b> — operational expert text paired with the data it interprets (WeatherQA, SynopticBench, AgMMU). <em>The strongest NASA-relevant pattern.</em></li>
+<li><b>MP-4 Structured observation rendering</b> — surveys, event records, indicators rendered to language (LUCAS/AgriBench, ClimateIQA).</li>
+<li><b>MP-5 Knowledge-bridged weak pairing</b> — an observed entity bridges imagery to encyclopedic knowledge (EcoWikiRS).</li>
+<li><b>MP-6 Workflow-grounded task synthesis</b> — executable workflows and standards generate verifiable supervision (GeoDisaster, Recov-Vision). <em>The shortest path past the maturity cliff.</em></li>
+<li><b>MP-7 Constructed-truth synthesis</b> — simulation and physics scaling where truth is known by construction (FloodLlama).</li>
+</ul>
+<p>The model-independent <b>GeoData–Language Pair Spec Card</b> (16 mandatory fields including a named workflow owner, a negative-control plan, and metapattern lineage) was validated by back-filling two published datasets — SkyScript and WeatherQA — without needing any field the template lacked.</p>
+
+<h2><span class="no">D5</span>Opportunities in NASA and allied holdings</h2>
+<p>Twelve holdings were probed live — content samples inspected, no hypothetical sources: NASA CMR/Earthdata, EONET, GIBS/Worldview, granule metadata, the NASA Image Library, astronaut photography, Earth Observatory feeds, NWS forecast products, USGS earthquake products, GLOBE Observer, GBIF, and USDA NASS. The unexploited-by-the-corpus check confirmed that <b>CMR collection summaries, USGS PAGER impact text, GLOBE citizen captions, NASA's narrative archives, and NASS crop-condition language have never been used as multimodal supervision</b> in the surveyed literature. Crossing metapatterns × holdings × domains produced eleven candidates, each a complete Spec Card.</p>
+
+<h2><span class="no">D6</span>Prioritization and four built demonstrations</h2>
+<p>All eleven cards were scored 0–3 on seven rubric dimensions (application value, scientific relevance, novelty, scalability, data availability, grounding quality, construction feasibility); the table regenerates from <code>analysis/score_table.py</code>. Shaded rows were selected for demonstration.</p>
+<div class="tablewrap">
+<table>
+<tr><th>#</th><th>Candidate</th><th class="num">App</th><th class="num">Sci</th><th class="num">Nov</th><th class="num">Scale</th><th class="num">Avail</th><th class="num">Grnd</th><th class="num">Feas</th><th class="num">Total</th></tr>
+<tr class="sel"><td>1</td><td>PAGER ShakeMap impact briefs</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num"><b>18</b></td></tr>
+<tr class="sel"><td>2</td><td>NWS AFD hydrology outlook pairs</td><td class="num">2</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">3</td><td class="num">2</td><td class="num">2</td><td class="num"><b>16</b></td></tr>
+<tr class="sel"><td>3</td><td>CMR summary product grounding</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">2</td><td class="num"><b>16</b></td></tr>
+<tr><td>4</td><td>Earth Observatory story grounding</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">2</td><td class="num"><b>16</b></td></tr>
+<tr><td>5</td><td>GLOBE ground-truth captions</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">3</td><td class="num">3</td><td class="num">1</td><td class="num">2</td><td class="num"><b>16</b></td></tr>
+<tr><td>6</td><td>NASS crop-condition scenes</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">3</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num"><b>16</b></td></tr>
+<tr class="sel"><td>7</td><td>EONET–Worldview event narration</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">3</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num"><b>15</b></td></tr>
+<tr><td>8</td><td>Ground-failure terrain explanations</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">1</td><td class="num">2</td><td class="num"><b>15</b></td></tr>
+<tr><td>9</td><td>Astronaut photo geocaption</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">2</td><td class="num"><b>14</b></td></tr>
+<tr><td>10</td><td>GBIF habitat satellite scaling</td><td class="num">2</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num"><b>14</b></td></tr>
+<tr><td>11</td><td>EONET advisory source briefs</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num">3</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num"><b>13</b></td></tr>
+</table>
+</div>
+<p class="caveat">EONET–Worldview (rank 7) joins the top three as the feasibility pick — the one card fully constructible by deterministic join with zero parsing risk — so the demo set covers MP-3, MP-4, and MP-5 end to end. NASS (rank 6) is the strongest deferred candidate; it needs a free API key this phase did not sign up for.</p>
+
+<h3>Demonstration results</h3>
+<div class="tablewrap">
+<table>
+<tr><th>Demo dataset</th><th class="num">Pairs</th><th>Geodata side</th><th>Language side</th><th class="num">Image QC</th></tr>
+<tr><td>EONET–Worldview event narration</td><td class="num">300</td><td>GIBS VIIRS tile refs</td><td>Template event narration</td><td class="num">20/20</td></tr>
+<tr><td>PAGER ShakeMap impact briefs</td><td class="num">200</td><td>ShakeMap intensity images</td><td>PAGER-derived impact briefs</td><td class="num">20/20</td></tr>
+<tr><td>CMR summary product grounding</td><td class="num">120</td><td>Granule browse images</td><td>Collection-summary captions + QA</td><td class="num">20/20</td></tr>
+<tr><td>NWS AFD hydrology outlook pairs</td><td class="num">116</td><td>IMERG precipitation tile refs</td><td>Verbatim forecaster sections</td><td class="num">20/20</td></tr>
+</table>
+</div>
+<p>Each demo has a runnable builder script, a seeded 20-pair grounding QC with recorded pass rates, and a manual language review. The QC loop caught three real defects before they could poison the datasets — a wrong GIBS tile-grid formula, IMERG's one-day publication latency, and unvalidated DAAC browse links — all fixed and re-verified to 80/80.</p>
+
+<h2><span class="no">✓</span>Verification and honest caveats</h2>
+<ul>
+<li><b>Tests:</b> 55 pytest tests pass, covering corpus schema, characterization vocabularies, spec-card completeness, and byte-for-byte reproducibility of curation and score tables.</li>
+<li><b>Numbers:</b> every count in this report regenerates from <code>analysis/</code> scripts over committed data.</li>
+<li class="caveat"><b>Caveats:</b> characterization is abstract-based (fields papers don't state are an explicit <code>unknown</code> — 14 records on pair-generation); demo geodata sides are authoritative product references, not downloaded rasters; the corpus is arXiv-only under documented inclusion rules, so journal-only GeoVLM work is not represented.</li>
+</ul>
+
+<h2><span class="no">→</span>Recommended next steps</h2>
+<ul>
+<li>Take <b>PAGER impact briefs</b> (rank 1) from demo to full dataset: version-matched pairing plus onePAGER prose parsing, then a fine-tuning pilot evaluated on alert-level agreement.</li>
+<li>Obtain a free <b>NASS API key</b> to unlock the highest-application-value deferred candidate (crop-condition scenes).</li>
+<li>Back-fill the <b>AFD archive</b> beyond the single-day snapshot (116 pairs → 10<sup>5</sup>-scale) with per-office imagery clipping.</li>
+<li>Use the Spec Card as the standing intake format for any proposed geodata–language dataset — its mandatory workflow-owner and negative-control fields are what keep new work off the maturity cliff.</li>
+</ul>
+
+<div class="foot">
+<p>Repository: <span class="mono">Projects/vlm-idea/</span> — spec-driven (four approved artifacts under <span class="mono">specs/geovlm-opportunity-framework/</span>), 8 commits, all sources cited per record in <span class="mono">data/corpus/papers.json</span>.</p>
+<p class="pathline">methods/ · data/corpus/ · data/characterization/ · patterns/ · opportunities/ · prioritization/ · data/demos/ · analysis/ · tests/</p>
+</div>
+</div>
