@@ -1,0 +1,529 @@
+I would reframe the project substantially. The unit of analysis should no longer be simply **“geodata + text pair.”** It should be the richer pipeline:
+
+**Scientific observations → derived/inferred evidence → structured evidence card → grounded language → scientific/operational capability**
+
+That lets you study where Science FMs such as Prithvi-EO add value, where deterministic science should be used instead, and how LLM-generated text can be made scientifically meaningful rather than just descriptive.
+
+# HIGH-LEVEL REQUIREMENT
+
+**Investigate how Earth-science observations can be transformed into structured, evidence-grounded representations that enable LLMs to generate scientifically meaningful text, explanations, comparisons, hypotheses, and decision-support outputs.**
+
+The research should move beyond conventional **image–caption, image–QA, and label-to-language pairing** and examine how heterogeneous scientific evidence can be assembled into an intermediate **Structured Science Card** that serves as the interface between scientific data/models and language models.
+
+## 1. Survey the broader Science Data → Language landscape
+
+* Survey GeoVLM, multimodal scientific AI, scientific agents, and adjacent domains where language models are combined with scientific observations, measurements, models, or derived evidence.
+* Include Earth observation and adjacent geospatial domains such as agriculture, disasters, urban systems, mapping, infrastructure, weather/climate, and defense/intelligence.
+* Include relevant patterns from other scientific domains, particularly medicine, where images, measurements, patient/context data, predictive models, and expert knowledge are integrated before language generation.
+* Do not restrict the survey to datasets explicitly described as VQA, captioning, or vision-language datasets.
+
+## 2. Identify the actual scientific evidence provided to the language model
+
+For each system, determine what information lies between the raw scientific observation and the generated language.
+
+Distinguish explicitly among:
+
+* **Observed evidence**
+
+  * sensor measurements,
+  * bands,
+  * acquisition metadata,
+  * spatial and temporal coordinates,
+  * directly observed quantities.
+
+* **Deterministically derived evidence**
+
+  * spectral indices,
+  * physical quantities,
+  * temporal anomalies,
+  * change metrics,
+  * statistics,
+  * outputs of established scientific algorithms.
+
+* **AI-inferred evidence**
+
+  * segmentation,
+  * classification,
+  * object/event detection,
+  * disturbance identification,
+  * predicted physical variables,
+  * task-specific Science FM outputs.
+
+* **Learned representation evidence**
+
+  * Science FM embeddings,
+  * representation similarity,
+  * anomaly/novelty scores,
+  * temporal representation change,
+  * nearest-neighbor analogs,
+  * clustering or learned state trajectories.
+
+* **External contextual evidence**
+
+  * weather,
+  * terrain,
+  * land cover,
+  * event databases,
+  * ancillary observations,
+  * historical measurements,
+  * model forecasts,
+  * knowledge graphs,
+  * literature and authoritative scientific knowledge.
+
+## 3. Characterize the role of the Science Foundation Model
+
+For each approach, determine whether a Science FM is being used as:
+
+* a direct multimodal encoder,
+* a feature extractor,
+* an embedding generator,
+* a similarity/retrieval mechanism,
+* an anomaly detector,
+* a temporal-change representation,
+* a foundation representation supporting a downstream task head,
+* a semantic inference model,
+* or not required at all.
+
+Explicitly identify cases where established scientific computation is preferable to learned inference.
+
+The objective is to determine:
+
+**What information does a Science FM contribute that cannot be obtained more transparently or reliably from metadata, physical variables, or deterministic algorithms?**
+
+## 4. Study Structured Science Cards as the data–language interface
+
+Investigate representations in which heterogeneous scientific evidence is normalized into a structured intermediate object before being presented to an LLM.
+
+A candidate Science Card should be capable of representing:
+
+* observation identity and provenance,
+* spatial and temporal extent,
+* observed measurements,
+* derived measurements,
+* AI-inferred variables,
+* Science FM representation descriptors,
+* historical context,
+* external contextual observations,
+* uncertainty and confidence,
+* evidence provenance,
+* model and algorithm provenance,
+* relationships among evidence,
+* comparison or reference cases,
+* and relevant scientific knowledge.
+
+The card should explicitly preserve the distinction between:
+
+**observed → computed → inferred → retrieved/contextual**
+
+so that downstream language generation does not collapse all evidence into equivalent “facts.”
+
+## 5. Move beyond static single-scene descriptions
+
+Prioritize data constructions that represent **scientific state and change**, rather than merely describing image content.
+
+Investigate cards representing:
+
+* a single observation,
+* paired before/after observations,
+* temporal sequences,
+* change events,
+* anomalies relative to climatology or historical behavior,
+* trajectories through Science FM representation space,
+* spatial neighborhoods,
+* cross-location comparisons,
+* analog events,
+* and linked multi-sensor observations.
+
+For example:
+
+**HLS time series → Prithvi representation trajectory → abrupt learned-state change → spectral/physical evidence → external event evidence → structured card → grounded explanation**
+
+## 6. Study how Structured Science Cards can generate different forms of language supervision
+
+Do not treat “caption” as the default output.
+
+Determine how the same evidence card could produce multiple scientifically useful language products, including:
+
+* factual observation descriptions,
+* scientific summaries,
+* temporal-change descriptions,
+* comparative descriptions,
+* anomaly explanations,
+* event characterizations,
+* evidence-based QA,
+* hypothesis generation,
+* competing-hypothesis evaluation,
+* causal or mechanistic explanations where scientifically justified,
+* uncertainty statements,
+* analog-event descriptions,
+* recommended follow-up analyses,
+* workflow instructions,
+* decision-support narratives,
+* and expert-report-style outputs.
+
+The goal is to transform one authoritative scientific evidence object into a **family of grounded language supervision products**.
+
+## 7. Characterize the semantic operation required of the LLM
+
+For each generated text type, identify what the LLM is actually being trained or evaluated to do.
+
+Examples include:
+
+**Describe**
+
+> What is observed here?
+
+**Compare**
+
+> How does this observation differ from its historical state?
+
+**Detect**
+
+> What changed and when?
+
+**Integrate**
+
+> What do the spectral, temporal, weather, and event observations collectively indicate?
+
+**Explain**
+
+> What processes are consistent with the observed evidence?
+
+**Discriminate**
+
+> Which evidence supports wildfire versus drought versus harvest?
+
+**Retrieve analogs**
+
+> Where have similar spatiotemporal states occurred previously?
+
+**Hypothesize**
+
+> What plausible processes could explain this observation?
+
+**Test hypotheses**
+
+> What additional observation would distinguish between competing explanations?
+
+**Recommend analysis**
+
+> What scientific analysis should be performed next?
+
+This **reasoning operation** should become a primary characterization axis, rather than nominal dataset labels such as VQA or captioning.
+
+## 8. Identify evidence-composition patterns
+
+Study how multiple evidence sources can be combined to create capabilities unavailable from any individual source.
+
+Examples:
+
+**Observation + temporal context**
+→ change interpretation
+
+**Observation + Science FM representation**
+→ semantic similarity / anomaly discovery
+
+**Observation + physical variables + event records**
+→ event attribution support
+
+**Observation + historical analogs**
+→ comparative reasoning
+
+**Observation + model prediction**
+→ observation–forecast discrepancy explanation
+
+**Observation + literature**
+→ scientifically contextualized interpretation
+
+**Observation + workflow rules**
+→ decision-support recommendation
+
+Identify recurring **evidence-composition metapatterns** rather than only geodata–text pairing patterns.
+
+## 9. Investigate scalable card construction
+
+Determine which Science Card fields can be generated through:
+
+* direct metadata extraction,
+* deterministic scientific computation,
+* catalog joins,
+* spatial joins,
+* temporal joins,
+* event alignment,
+* Science FM inference,
+* task-specific model inference,
+* vector similarity search,
+* knowledge-graph traversal,
+* retrieval from scientific literature,
+* LLM-assisted synthesis,
+* and combinations of these methods.
+
+For every field, preserve:
+
+**value + source + method + provenance + uncertainty**
+
+where applicable.
+
+The objective is to determine whether millions of scientifically grounded cards can be constructed without requiring manual expert annotation.
+
+## 10. Investigate scalable language generation from cards
+
+Evaluate methods for converting structured evidence into language through:
+
+* deterministic templates,
+* controlled natural-language generation,
+* schema-conditioned LLM generation,
+* retrieval-grounded generation,
+* constrained generation,
+* expert-guided generation,
+* contrastive generation,
+* multi-question generation from the same evidence,
+* and agent-based generation with verification.
+
+The generated language must remain traceable to specific evidence fields.
+
+Develop mechanisms to distinguish:
+
+* statements directly supported by evidence,
+* scientifically derived interpretations,
+* hypotheses,
+* retrieved domain knowledge,
+* and speculative conclusions.
+
+## 11. Generate questions from scientific evidence rather than attaching generic questions to imagery
+
+Investigate whether the Science Card itself can determine **which questions are scientifically interesting**.
+
+For example, a card showing:
+
+* an abrupt Prithvi representation shift,
+* large ΔNBR,
+* vegetation decline,
+* coincident VIIRS detections,
+* and drought conditions
+
+should naturally generate questions such as:
+
+> What process most likely explains the abrupt land-surface change?
+
+> Does the evidence support wildfire rather than drought stress alone?
+
+> When did the state transition begin?
+
+> Are there analogous events elsewhere?
+
+rather than generic questions such as:
+
+> What is visible in this image?
+
+The research should therefore examine **evidence-driven question generation** as a mechanism for creating higher-value supervision.
+
+## 12. Study negative and counterfactual supervision
+
+Structured cards should support scientifically useful negative examples.
+
+Examples include:
+
+* visually similar scenes with different physical causes,
+* similar NDVI decline caused by drought versus fire versus harvest,
+* similar Science FM embeddings with conflicting ancillary evidence,
+* apparent change caused by clouds or acquisition artifacts,
+* events where expected evidence is absent,
+* and cases where available evidence is insufficient to discriminate among explanations.
+
+Investigate how such examples can teach models:
+
+* uncertainty,
+* discrimination,
+* evidence weighting,
+* rejection,
+* and appropriate abstention.
+
+## 13. Evaluate whether language generation creates a new scientific capability
+
+Do not evaluate success primarily on linguistic quality.
+
+Determine whether the resulting system enables capabilities such as:
+
+* scientific search by phenomenon rather than metadata,
+* analog discovery,
+* automated event characterization,
+* cross-dataset evidence synthesis,
+* explanation of observed change,
+* hypothesis generation,
+* hypothesis discrimination,
+* scientific triage,
+* workflow guidance,
+* and operational decision support.
+
+Ask explicitly:
+
+**What can a scientist or operational user now do that was difficult or impossible with the original datasets, Science FM, or LLM independently?**
+
+## 14. Assess the contribution of each architectural component
+
+Design ablation studies comparing:
+
+**Raw imagery → LLM/VLM**
+
+versus
+
+**Derived science variables → LLM**
+
+versus
+
+**Science FM representation → LLM**
+
+versus
+
+**Structured Science Card → LLM**
+
+versus
+
+**Structured Science Card + external knowledge → LLM**
+
+versus
+
+**Structured Science Card + tools/agents → LLM**
+
+This should establish whether the structured evidence layer provides measurable value and where the Science FM materially improves the result.
+
+## 15. Develop a model-independent Structured Science Card specification
+
+Replace or extend the existing **GeoData–Language Pair Spec Card** with a **Science Evidence Card specification** describing:
+
+**Scientific phenomenon
+→ observations
+→ deterministic derivations
+→ learned representations
+→ AI inferences
+→ contextual evidence
+→ temporal/spatial relationships
+→ provenance
+→ uncertainty
+→ possible reasoning operations
+→ generated language products
+→ enabled capability
+→ application evaluation**
+
+The specification should remain independent of Prithvi, HLS, or any particular LLM.
+
+## 16. Search existing NASA holdings for latent Science Card opportunities
+
+Rather than asking only:
+
+> Where does geodata already have associated text?
+
+ask:
+
+> Where can existing NASA observations, derived products, models, event catalogs, metadata, scientific algorithms, foundation models, and knowledge resources be automatically assembled into a scientifically meaningful evidence object?
+
+Prioritize opportunities where the **text does not yet exist** but can be generated from authoritative evidence.
+
+This is a major distinction from conventional geodata–language dataset mining.
+
+## 17. Generate new multimodal research opportunities through evidence composition
+
+Systematically search for combinations of:
+
+**application need
+× scientific observation
+× deterministic measurement
+× Science FM representation
+× contextual datasets
+× scientific knowledge
+× reasoning operation
+× language product**
+
+to identify capabilities that have not previously been constructed as training data.
+
+Prioritize opportunities where the novelty lies not merely in a new dataset but in a **new composition of scientific evidence enabling a new reasoning capability**.
+
+## 18. Prioritize candidate demonstrations
+
+Rank candidate Science Card applications based on:
+
+* scientific value,
+* operational value,
+* evidence quality,
+* grounding strength,
+* ability to construct at scale,
+* contribution of the Science FM,
+* reasoning novelty,
+* availability of negative/control examples,
+* temporal richness,
+* interpretability,
+* evaluation feasibility,
+* and potential pathway from research prototype to operational use.
+
+## 19. Demonstrate the concept with HLS + Prithvi-EO
+
+Use HLS as an initial controlled testbed.
+
+Construct Science Cards containing appropriate combinations of:
+
+* HLS observations,
+* conventional spectral/physical variables,
+* temporal change metrics,
+* Prithvi-EO embeddings,
+* Prithvi representation-change metrics,
+* nearest-neighbor/analog observations,
+* downstream semantic model outputs,
+* contextual Earth-science datasets,
+* and event/knowledge information.
+
+Generate multiple grounded language products from each card and evaluate whether adding the structured evidence and Prithvi-derived information improves scientific reasoning relative to simpler image–text approaches.
+
+# CORE RESEARCH QUESTION
+
+**Can a structured evidence layer transform scientific observations and Science Foundation Model representations into grounded language supervision that teaches LLMs not merely to describe geospatial imagery, but to compare observations, recognize state changes, integrate heterogeneous evidence, evaluate hypotheses, and support scientific and operational reasoning?**
+
+# REVISED METAPATTERN
+
+Replace:
+
+**Application need → geospatial evidence → information source → alignment → geodata–language pair**
+
+with:
+
+**Application need
+→ scientific question
+→ required reasoning capability
+→ observations
+→ deterministic evidence
+→ Science FM evidence
+→ contextual evidence
+→ Structured Science Card
+→ language-generation strategy
+→ grounding/verification
+→ LLM/VLM adaptation
+→ scientific evaluation
+→ operational capability**
+
+# OUTPUT
+
+The research should produce:
+
+1. **Landscape Analysis** — taxonomy of how scientific evidence is currently connected to language models, extending beyond conventional geodata–text pairs.
+
+2. **Evidence-Composition Metapatterns** — recurring strategies for transforming observations, measurements, model outputs, and knowledge into language-grounded scientific reasoning tasks.
+
+3. **Structured Science Card Specification** — a model-independent schema separating observed, computed, inferred, learned-representation, and contextual evidence.
+
+4. **Science FM Contribution Taxonomy** — clear characterization of when models such as Prithvi-EO contribute meaningful information beyond conventional Earth-science variables.
+
+5. **Evidence → Language Generation Framework** — methods for generating descriptions, comparisons, explanations, hypotheses, QA, and decision-support language from cards.
+
+6. **Evidence-Driven Question Generator** — methods for deriving scientifically meaningful questions from unusual, changing, conflicting, or otherwise informative evidence states.
+
+7. **NASA Opportunity Catalog** — candidate datasets that can be created by combining existing NASA observations, algorithms, foundation models, contextual datasets, and scientific knowledge.
+
+8. **HLS + Prithvi Demonstrator** — an end-to-end implementation:
+
+   **HLS → scientific computation + Prithvi → Structured Science Card → grounded LLM-generated text/questions → evaluation**
+
+9. **Ablation Study** — quantitative comparison of raw imagery, deterministic variables, Science FM representations, structured cards, and cards augmented with external scientific knowledge.
+
+10. **Research Agenda** — identify where this architecture creates genuinely new scientific or operational capabilities rather than simply producing another large image-caption or VQA dataset.
+
+The conceptual shift I would emphasize is **from “finding text associated with geodata” to “constructing an evidence state from which scientifically useful language can be generated.”** Your existing work already found that much of the literature stalls at benchmark-level semantic pairings and that stronger cases incorporate expert interpretation or workflow-grounded information.  This revised requirement turns that observation into the central research hypothesis.
