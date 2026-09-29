@@ -1,0 +1,130 @@
+{
+ "demo": "afd-hydro-outlook-pairs",
+ "total_pairs": 116,
+ "sample_size": 20,
+ "seed": 42,
+ "image_resolve_pass": 20,
+ "image_resolve_rate": 1.0,
+ "results": [
+  {
+   "pair_id": "8d2cfe3f-bcd9-4b2d-9f35-5c44abc12ac5_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Rain continues to progress east across the region today. The rain will settle to the south tonight with fog developing area wide overnight. - Another period o"
+  },
+  {
+   "pair_id": "9ab054b3-3559-456e-8f28-72a60c0ae57e_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Drier and warmer weather through Friday. - Passing frontal boundary brings light rain showers Friday night into early Saturday, then drying out Saturday with "
+  },
+  {
+   "pair_id": "c02d597f-2b54-4204-868d-8deeeb7b2d8f_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "1) Patchy fog possible overnight, followed by a warming trend that will bring above normal temperatures late in the week, along with dry conditions. 2) An unset"
+  },
+  {
+   "pair_id": "0bf29fda-c508-411e-8963-d3b695958b21_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Prolonged Quiet Weather Period: High pressure and dry air will keep eastern Idaho completely dry with minimal cloud cover through the workweek, upcoming weeke"
+  },
+  {
+   "pair_id": "ec20fe5a-ce23-40a7-84e7-5f9d51ebbc26_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "Updated at 925 AM MDT Tue Sep 29 2026 - Moisture from tropical remnants of Polo will bring more widespread showers and thunderstorms to the Borderland today. St"
+  },
+  {
+   "pair_id": "8a917f61-2a94-42b4-9e57-8114f4623f61_HYDROLOGY",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "The transport of tropical moisture into southern Michigan and an approaching cold front will lead to widespread rain Wednesday into Friday. The heaviest rain is"
+  },
+  {
+   "pair_id": "a96b503f-5cea-4335-a507-92eb2dc28d06_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Ongoing showers and thunderstorms will prime the area through the remainder of the afternoon into the late evening. - Widespread, prolonged period of rainfall"
+  },
+  {
+   "pair_id": "f06d1903-1b2e-4d80-9228-02649be4747a_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "As of 302 PM EDT Tuesday... 1. Warmer and sunnier mid week, with sharply rebounding temperatures following a cool and cloudy start to the week. 2. Shower chance"
+  },
+  {
+   "pair_id": "488ac339-848e-4990-8186-a9871d92b4fa_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Widespread rainfall, heavy at times, remains likely across the far southern portions of our forecast area late tonight through early Thursday. A sharp gradien"
+  },
+  {
+   "pair_id": "e895f9d5-1297-4458-bf0a-2d13bc5d9473_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "Updated at 1225 PM CDT Tue Sep 29 2026 - Well above normal temperatures through Friday with highs reaching the 80s to lower 90s. - Low to medium shower chances "
+  },
+  {
+   "pair_id": "762782d0-d5b3-47a1-aef8-e24ae96c45b3_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Near or slightly above normal through the forecast period. - Mostly dry conditions expected the remainder of the week."
+  },
+  {
+   "pair_id": "88b4a0bd-dfad-49de-a043-1d5b38901ef0_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "Updated at 1242 PM CDT Tue Sep 29 2026 - Heavy showers and thunderstorms remain possible Tuesday evening through early Wednesday morning, heavy rainfall, strong"
+  },
+  {
+   "pair_id": "116d804e-6678-4729-be28-fd070412c2e1_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "Issued at 1218 PM CDT TUE SEP 29 2026 - Dry conditions and comfortable mornings will persist through mid-week. - Look for increasing chances of showers and stor"
+  },
+  {
+   "pair_id": "4a8b24fc-f8c6-4bc0-b32a-fd0221e2b2fb_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "* Low impact weather expected through the forecast period. * Temperatures trend warmer through the week, peaking around 10-15 degrees above normal over the week"
+  },
+  {
+   "pair_id": "0e4a33a2-faa2-4657-8bcf-ff44fc628366_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "1) A gradual warming trend is expected this week, with rain chances returning Friday into early Saturday. 2) Cooler and drier conditions will return Sunday into"
+  },
+  {
+   "pair_id": "6d08f254-8ec1-4661-957c-f226a5d00238_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "1) After one last cloudy day today with a few isolated showers tapering off tonight, we turn drier and warmer than normal tomorrow and Thursday. 2) There is hig"
+  },
+  {
+   "pair_id": "97f3331e-a1c6-4835-95f0-d828d984a985_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Areas of rain showers push east and diminish through this evening. - Next best chance for some light rain Saturday with scattered showers. - Temperatures peak"
+  },
+  {
+   "pair_id": "a96b503f-5cea-4335-a507-92eb2dc28d06_HYDROLOGY",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "Issued at 306 PM CDT Tue Sep 29 2026 Potentially significant hydrologic event will affect our CWA over the next several days, with flash flooding, areal floodin"
+  },
+  {
+   "pair_id": "0653987b-441c-4dac-a6c0-e9da5fe9a123_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "Updated at 1250 PM CDT Tue Sep 29 2026 - Scattered to locally numerous showers and a few storms will return to the area Thursday afternoon. One or two storms co"
+  },
+  {
+   "pair_id": "f3c3df5e-1eeb-4028-b5ae-361e0f46dbe0_KEY_MESSAGES",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "- Rounds of moderate rain will spread into southern Wisconsin tonight into Wednesday morning, with rounds of moderate to heavy rain at times Wednesday night int"
+  }
+ ]
+}

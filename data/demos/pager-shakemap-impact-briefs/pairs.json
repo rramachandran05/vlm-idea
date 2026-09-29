@@ -1,0 +1,2002 @@
+[
+ {
+  "pair_id": "us6000txpi",
+  "event_title": "M 6.6 - 80 km ENE of Tadine, New Caledonia",
+  "time_ms": 1790371383309,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000txpi/us/1790458009805/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 80 km ENE of Tadine, New Caledonia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txpi"
+ },
+ {
+  "pair_id": "us7000tiqc",
+  "event_title": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
+  "time_ms": 1789895855624,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000tiqc/us/1789982462297/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 49 km NNE of Kainantu, Papua New Guinea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc"
+ },
+ {
+  "pair_id": "us7000ti1p",
+  "event_title": "M 6.5 - 177 km W of Nikolski, Alaska",
+  "time_ms": 1789654792472,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000ti1p/us/1790282713802/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 177 km W of Nikolski, Alaska. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p"
+ },
+ {
+  "pair_id": "us7000tgrk",
+  "event_title": "M 6.5 - 126 km NNE of Teluknaga, Indonesia",
+  "time_ms": 1789161835907,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000tgrk/us/1789248418779/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 126 km NNE of Teluknaga, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgrk"
+ },
+ {
+  "pair_id": "us7000tdvt",
+  "event_title": "M 6.3 - 89 km SSW of Nikolski, Alaska",
+  "time_ms": 1788434241717,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000tdvt/us/1790576633576/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 89 km SSW of Nikolski, Alaska. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdvt"
+ },
+ {
+  "pair_id": "us7000tdrv",
+  "event_title": "M 6.2 - South Sandwich Islands region",
+  "time_ms": 1788392816213,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000tdrv/us/1789705925642/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - South Sandwich Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdrv"
+ },
+ {
+  "pair_id": "us6000tn41",
+  "event_title": "M 6.0 - 211 km NNE of Lospalos, Timor Leste",
+  "time_ms": 1787580617347,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tn41/us/1788445134787/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 211 km NNE of Lospalos, Timor Leste. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn41"
+ },
+ {
+  "pair_id": "us6000tmz6",
+  "event_title": "M 6.0 - 32 km SSW of Honch\u014d, Japan",
+  "time_ms": 1787492693389,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tmz6/us/1788039913517/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 32 km SSW of Honch\u014d, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmz6"
+ },
+ {
+  "pair_id": "us6000tmrw",
+  "event_title": "M 6.2 - Scotia Sea",
+  "time_ms": 1787386957731,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tmrw/us/1790676567751/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - Scotia Sea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrw"
+ },
+ {
+  "pair_id": "us6000tm81",
+  "event_title": "M 6.7 - 35 km ENE of Tambo, Peru",
+  "time_ms": 1787248818508,
+  "magnitude": 6.7,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tm81/us/1790259182662/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.7 - 35 km ENE of Tambo, Peru. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81"
+ },
+ {
+  "pair_id": "us6000tl4w",
+  "event_title": "M 6.1 - 63 km NNE of Port-Olry, Vanuatu",
+  "time_ms": 1786850419914,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tl4w/us/1789771823477/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 63 km NNE of Port-Olry, Vanuatu. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl4w"
+ },
+ {
+  "pair_id": "us6000tkyk",
+  "event_title": "M 6.9 - 9 km WNW of Pematangsiantar, Indonesia",
+  "time_ms": 1786791291798,
+  "magnitude": 6.9,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tkyk/us/1787399849162/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.9 - 9 km WNW of Pematangsiantar, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyk"
+ },
+ {
+  "pair_id": "us6000tkuc",
+  "event_title": "M 6.1 - 62 km N of Ende, Indonesia",
+  "time_ms": 1786746517743,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tkuc/us/1788229086441/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 62 km N of Ende, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkuc"
+ },
+ {
+  "pair_id": "us6000tkt2",
+  "event_title": "M 7.8 - 66 km NNW of Ende, Indonesia",
+  "time_ms": 1786744701561,
+  "magnitude": 7.8,
+  "alert": "orange",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tkt2/us/1789857706443/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.8 - 66 km NNW of Ende, Indonesia. USGS PAGER issued a ORANGE alert for this event, meaning significant casualties and damage are likely and the disaster is potentially widespread. Maximum estimated shaking intensity is MMI 8.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2"
+ },
+ {
+  "pair_id": "us6000tk74",
+  "event_title": "M 6.0 - South Sandwich Islands region",
+  "time_ms": 1786535232188,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tk74/us/1788527354454/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - South Sandwich Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk74"
+ },
+ {
+  "pair_id": "us6000tjl2",
+  "event_title": "M 7.4 - 2 km SE of San Jos\u00e9 del Palmar, Colombia",
+  "time_ms": 1786365268009,
+  "magnitude": 7.4,
+  "alert": "red",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tjl2/us/1789760983889/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.4 - 2 km SE of San Jos\u00e9 del Palmar, Colombia. USGS PAGER issued a RED alert for this event, meaning high casualties and extensive damage are probable and the disaster is likely widespread. Maximum estimated shaking intensity is MMI 8.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2"
+ },
+ {
+  "pair_id": "us6000ti8i",
+  "event_title": "M 6.3 - south of the Kermadec Islands",
+  "time_ms": 1785915803574,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000ti8i/us/1789048985075/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - south of the Kermadec Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti8i"
+ },
+ {
+  "pair_id": "us6000ti6x",
+  "event_title": "M 6.3 - 32 km SW of Sarangani, Philippines",
+  "time_ms": 1785903246079,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000ti6x/us/1788472426621/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 32 km SW of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 7.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x"
+ },
+ {
+  "pair_id": "us6000tgb9",
+  "event_title": "M 6.8 - The 2026 Kumamoto Region, Japan Earthquake",
+  "time_ms": 1785223634658,
+  "magnitude": 6.8,
+  "alert": "red",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000tgb9/us/1790687886631/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.8 - The 2026 Kumamoto Region, Japan Earthquake. USGS PAGER issued a RED alert for this event, meaning high casualties and extensive damage are probable and the disaster is likely widespread. Maximum estimated shaking intensity is MMI 9.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9"
+ },
+ {
+  "pair_id": "us7000t37a",
+  "event_title": "M 6.0 - 63 km WSW of Sola, Vanuatu",
+  "time_ms": 1784929071634,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000t37a/us/1787870901507/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 63 km WSW of Sola, Vanuatu. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t37a"
+ },
+ {
+  "pair_id": "us7000t1cc",
+  "event_title": "M 6.4 - 96 km SW of Puerto Madero, Mexico",
+  "time_ms": 1784301606584,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000t1cc/us/1787851633130/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 96 km SW of Puerto Madero, Mexico. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1cc"
+ },
+ {
+  "pair_id": "us7000t1bu",
+  "event_title": "M 7.3 - 60 km WSW of Puerto Madero, Mexico",
+  "time_ms": 1784299719881,
+  "magnitude": 7.3,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000t1bu/us/1787848546354/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.3 - 60 km WSW of Puerto Madero, Mexico. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 6.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu"
+ },
+ {
+  "pair_id": "us7000t0d0",
+  "event_title": "M 6.2 - 33 km WSW of Sarangani, Philippines",
+  "time_ms": 1784044179376,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000t0d0/us/1787075887026/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 33 km WSW of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0d0"
+ },
+ {
+  "pair_id": "us7000t01n",
+  "event_title": "M 6.3 - southeast of the Loyalty Islands",
+  "time_ms": 1783953949568,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000t01n/us/1787002338199/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - southeast of the Loyalty Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t01n"
+ },
+ {
+  "pair_id": "us7000szzy",
+  "event_title": "M 6.4 - 196 km SE of Lorengau, Papua New Guinea",
+  "time_ms": 1783932807219,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000szzy/us/1785845751556/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 196 km SE of Lorengau, Papua New Guinea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szzy"
+ },
+ {
+  "pair_id": "us7000szpb",
+  "event_title": "M 6.4 - South Sandwich Islands region",
+  "time_ms": 1783765602630,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000szpb/us/1784977837663/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - South Sandwich Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szpb"
+ },
+ {
+  "pair_id": "us6000t9sj",
+  "event_title": "M 6.1 - 147 km NNE of Hirara, Japan",
+  "time_ms": 1783051488166,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t9sj/us/1785295577394/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 147 km NNE of Hirara, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9sj"
+ },
+ {
+  "pair_id": "us6000t9r5",
+  "event_title": "M 6.2 - 61 km W of Tobelo, Indonesia",
+  "time_ms": 1783045887674,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t9r5/us/1785290838329/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 61 km W of Tobelo, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9r5"
+ },
+ {
+  "pair_id": "us6000t9ej",
+  "event_title": "M 6.0 - 54 km ENE of Noda, Japan",
+  "time_ms": 1782907709154,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t9ej/us/1784725163028/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 54 km ENE of Noda, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ej"
+ },
+ {
+  "pair_id": "us6000t99j",
+  "event_title": "M 6.0 - 75 km SSW of El Progreso, Mexico",
+  "time_ms": 1782848739422,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t99j/us/1783627501823/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 75 km SSW of El Progreso, Mexico. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t99j"
+ },
+ {
+  "pair_id": "us6000t8pa",
+  "event_title": "M 6.1 - 47 km S of Jurm, Afghanistan",
+  "time_ms": 1782567292204,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t8pa/us/1784904031908/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 47 km S of Jurm, Afghanistan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8pa"
+ },
+ {
+  "pair_id": "us6000t8ec",
+  "event_title": "M 6.5 - 44 km SW of Balangonan, Philippines",
+  "time_ms": 1782473681463,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t8ec/us/1784637310458/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 44 km SW of Balangonan, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t8ec"
+ },
+ {
+  "pair_id": "us6000t7zq",
+  "event_title": "M 6.9 - 35 km ENE of Noda, Japan",
+  "time_ms": 1782340212962,
+  "magnitude": 6.9,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t7zq/us/1787629976850/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.9 - 35 km ENE of Noda, Japan. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 6.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zq"
+ },
+ {
+  "pair_id": "us6000t7zp",
+  "event_title": "M 7.5 - 20 km W of Catia La Mar, Venezuela",
+  "time_ms": 1782338704053,
+  "magnitude": 7.5,
+  "alert": "red",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t7zp/us/1788824357255/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.5 - 20 km W of Catia La Mar, Venezuela. USGS PAGER issued a RED alert for this event, meaning high casualties and extensive damage are probable and the disaster is likely widespread. Maximum estimated shaking intensity is MMI 9.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp"
+ },
+ {
+  "pair_id": "us6000t7zc",
+  "event_title": "M 7.2 - 20 km E of San Felipe, Venezuela",
+  "time_ms": 1782338671806,
+  "magnitude": 7.2,
+  "alert": "red",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t7zc/us/1785359970567/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.2 - 20 km E of San Felipe, Venezuela. USGS PAGER issued a RED alert for this event, meaning high casualties and extensive damage are probable and the disaster is likely widespread. Maximum estimated shaking intensity is MMI 8.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zc"
+ },
+ {
+  "pair_id": "us7000sui3",
+  "event_title": "M 6.6 - 141 km ESE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1781851952241,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000sui3/us/1785416361759/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 141 km ESE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sui3"
+ },
+ {
+  "pair_id": "us7000stti",
+  "event_title": "M 6.6 - central Mid-Atlantic Ridge",
+  "time_ms": 1781722617971,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000stti/us/1787669771588/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - central Mid-Atlantic Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stti"
+ },
+ {
+  "pair_id": "us7000stbz",
+  "event_title": "M 6.3 - 262 km SSE of Dunhuang, China",
+  "time_ms": 1781600815517,
+  "magnitude": 6.3,
+  "alert": "orange",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000stbz/us/1785159885292/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 262 km SSE of Dunhuang, China. USGS PAGER issued a ORANGE alert for this event, meaning significant casualties and damage are likely and the disaster is potentially widespread. Maximum estimated shaking intensity is MMI 7.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000stbz"
+ },
+ {
+  "pair_id": "us7000st95",
+  "event_title": "M 6.7 - 40 km SE of Palu, Indonesia",
+  "time_ms": 1781580464276,
+  "magnitude": 6.7,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000st95/us/1787537244597/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.7 - 40 km SE of Palu, Indonesia. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 8.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st95"
+ },
+ {
+  "pair_id": "us7000st1c",
+  "event_title": "M 6.2 - 76 km ESE of Pondaguitan, Philippines",
+  "time_ms": 1781515116924,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000st1c/us/1784806227504/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 76 km ESE of Pondaguitan, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000st1c"
+ },
+ {
+  "pair_id": "us7000srxn",
+  "event_title": "M 6.0 - Auckland Islands, New Zealand region",
+  "time_ms": 1781052260778,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000srxn/us/1783549443877/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - Auckland Islands, New Zealand region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srxn"
+ },
+ {
+  "pair_id": "us7000srjx",
+  "event_title": "M 6.1 - 99 km WNW of Mantua, Cuba",
+  "time_ms": 1780941627517,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000srjx/us/1783694903744/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 99 km WNW of Mantua, Cuba. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srjx"
+ },
+ {
+  "pair_id": "us7000srcg",
+  "event_title": "M 6.5 - 18 km SW of Balangonan, Philippines",
+  "time_ms": 1780880112546,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000srcg/us/1781758861504/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 18 km SW of Balangonan, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcg"
+ },
+ {
+  "pair_id": "us7000src3",
+  "event_title": "M 6.0 - 5 km SSW of Pangyan, Philippines",
+  "time_ms": 1780876153534,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000src3/us/1783544412881/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 5 km SSW of Pangyan, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000src3"
+ },
+ {
+  "pair_id": "us7000srbe",
+  "event_title": "M 6.1 - 19 km SW of Balangonan, Philippines",
+  "time_ms": 1780876087276,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000srbe/us/1782936474919/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 19 km SW of Balangonan, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srbe"
+ },
+ {
+  "pair_id": "us7000srb1",
+  "event_title": "M 7.8 - 25 km SW of Kablalan, Philippines",
+  "time_ms": 1780875461970,
+  "magnitude": 7.8,
+  "alert": "orange",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000srb1/us/1788818689587/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.8 - 25 km SW of Kablalan, Philippines. USGS PAGER issued a ORANGE alert for this event, meaning significant casualties and damage are likely and the disaster is potentially widespread. Maximum estimated shaking intensity is MMI 8.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srb1"
+ },
+ {
+  "pair_id": "us7000sr7l",
+  "event_title": "M 6.0 - 111 km SE of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1780828916538,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000sr7l/us/1783860087923/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 111 km SE of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sr7l"
+ },
+ {
+  "pair_id": "us7000spxm",
+  "event_title": "M 6.2 - 23 km WSW of San Lucido, Italy",
+  "time_ms": 1780351956092,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000spxm/us/1780887319234/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 23 km WSW of San Lucido, Italy. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spxm"
+ },
+ {
+  "pair_id": "us7000spqc",
+  "event_title": "M 6.0 - 33 km NW of Valpara\u00edso, Chile",
+  "time_ms": 1780263257953,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000spqc/us/1782335040498/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 33 km NW of Valpara\u00edso, Chile. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spqc"
+ },
+ {
+  "pair_id": "us7000snvt",
+  "event_title": "M 6.0 - western Indian-Antarctic Ridge",
+  "time_ms": 1779894071833,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000snvt/us/1781556749903/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - western Indian-Antarctic Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snvt"
+ },
+ {
+  "pair_id": "us7000snvr",
+  "event_title": "M 6.0 - western Indian-Antarctic Ridge",
+  "time_ms": 1779893464926,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000snvr/us/1781556504182/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - western Indian-Antarctic Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000snvr"
+ },
+ {
+  "pair_id": "us6000t04s",
+  "event_title": "M 6.9 - 34 km ENE of Calama, Chile",
+  "time_ms": 1779745940140,
+  "magnitude": 6.9,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000t04s/us/1782249540228/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.9 - 34 km ENE of Calama, Chile. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t04s"
+ },
+ {
+  "pair_id": "us6000sz1d",
+  "event_title": "M 6.6 - southern East Pacific Rise",
+  "time_ms": 1779298981865,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sz1d/us/1781201855239/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - southern East Pacific Rise. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz1d"
+ },
+ {
+  "pair_id": "us6000sy84",
+  "event_title": "M 6.0 - 61 km ESE of Codrington, Antigua and Barbuda",
+  "time_ms": 1778943005533,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sy84/us/1781128848941/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 61 km ESE of Codrington, Antigua and Barbuda. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84"
+ },
+ {
+  "pair_id": "us6000sxwq",
+  "event_title": "M 6.7 - 41 km ESE of \u014cfunato, Japan",
+  "time_ms": 1778844121646,
+  "magnitude": 6.7,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sxwq/us/1782119768642/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.7 - 41 km ESE of \u014cfunato, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxwq"
+ },
+ {
+  "pair_id": "us6000sxqf",
+  "event_title": "M 6.2 - 268 km WSW of Tual, Indonesia",
+  "time_ms": 1778781193718,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sxqf/us/1779814922215/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 268 km WSW of Tual, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxqf"
+ },
+ {
+  "pair_id": "us7000si2z",
+  "event_title": "M 6.0 - 10 km WSW of Nena, Philippines",
+  "time_ms": 1777874987129,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000si2z/us/1781598024562/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 10 km WSW of Nena, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000si2z"
+ },
+ {
+  "pair_id": "us7000sh0a",
+  "event_title": "M 6.0 - 100 km E of Miyako, Japan",
+  "time_ms": 1776671809716,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000sh0a/us/1778853666151/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 100 km E of Miyako, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh0a"
+ },
+ {
+  "pair_id": "us6000sri7",
+  "event_title": "M 7.4 - 102 km ENE of Miyako, Japan",
+  "time_ms": 1776671578908,
+  "magnitude": 7.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sri7/us/1782147137384/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.4 - 102 km ENE of Miyako, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7"
+ },
+ {
+  "pair_id": "us6000sred",
+  "event_title": "M 6.1 - 88 km NNE of Hihifo, Tonga",
+  "time_ms": 1776620087284,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sred/us/1777822948056/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 88 km NNE of Hihifo, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sred"
+ },
+ {
+  "pair_id": "us6000sqjb",
+  "event_title": "M 6.0 - south of the Kermadec Islands",
+  "time_ms": 1776346203496,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sqjb/us/1777839630509/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - south of the Kermadec Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqjb"
+ },
+ {
+  "pair_id": "us6000smj4",
+  "event_title": "M 6.0 - 95 km SE of Sarangani, Philippines",
+  "time_ms": 1775298868266,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000smj4/us/1776414336898/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 95 km SE of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000smj4"
+ },
+ {
+  "pair_id": "us6000slwy",
+  "event_title": "M 6.3 - 109 km WNW of Ternate, Indonesia",
+  "time_ms": 1775100232561,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000slwy/us/1776572263293/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 109 km WNW of Ternate, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000slwy"
+ },
+ {
+  "pair_id": "us6000slss",
+  "event_title": "M 7.4 - 129 km ESE of Bitung, Indonesia",
+  "time_ms": 1775083693063,
+  "magnitude": 7.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000slss/us/1779828047476/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.4 - 129 km ESE of Bitung, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 7.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000slss"
+ },
+ {
+  "pair_id": "us7000s9cg",
+  "event_title": "M 6.0 - 19 km SE of Picota, Peru",
+  "time_ms": 1775042427264,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s9cg/us/1778233842471/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 19 km SE of Picota, Peru. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s9cg"
+ },
+ {
+  "pair_id": "us7000s8q0",
+  "event_title": "M 7.3 - 51 km ENE of Luganville, Vanuatu",
+  "time_ms": 1774860253780,
+  "magnitude": 7.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s8q0/us/1778232838648/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.3 - 51 km ENE of Luganville, Vanuatu. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8q0"
+ },
+ {
+  "pair_id": "us7000s7u4",
+  "event_title": "M 6.5 - 123 km E of Yamada, Japan",
+  "time_ms": 1774534731927,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s7u4/us/1776543911176/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 123 km E of Yamada, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s7u4"
+ },
+ {
+  "pair_id": "us7000s789",
+  "event_title": "M 7.5 - 158 km W of Neiafu, Tonga",
+  "time_ms": 1774327071627,
+  "magnitude": 7.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s789/us/1777519278700/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.5 - 158 km W of Neiafu, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s789"
+ },
+ {
+  "pair_id": "us6000sii1",
+  "event_title": "M 6.3 - 140 km ENE of Hihifo, Tonga",
+  "time_ms": 1774193436570,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sii1/us/1775999602554/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 140 km ENE of Hihifo, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sii1"
+ },
+ {
+  "pair_id": "us6000sii0",
+  "event_title": "M 6.2 - 148 km ENE of Hihifo, Tonga",
+  "time_ms": 1774193275084,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sii0/us/1777684549343/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 148 km ENE of Hihifo, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sii0"
+ },
+ {
+  "pair_id": "us6000sidb",
+  "event_title": "M 6.2 - 121 km NE of Hihifo, Tonga",
+  "time_ms": 1774160136222,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sidb/us/1777622843070/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 121 km NE of Hihifo, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sidb"
+ },
+ {
+  "pair_id": "us6000si5l",
+  "event_title": "M 6.6 - northern Mid-Atlantic Ridge",
+  "time_ms": 1774095406629,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000si5l/us/1775194258094/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - northern Mid-Atlantic Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000si5l"
+ },
+ {
+  "pair_id": "us6000shnl",
+  "event_title": "M 6.1 - 98 km WNW of Isangel, Vanuatu",
+  "time_ms": 1773973834150,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000shnl/us/1777411601783/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 98 km WNW of Isangel, Vanuatu. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shnl"
+ },
+ {
+  "pair_id": "us6000shlp",
+  "event_title": "M 6.5 - South Shetland Islands",
+  "time_ms": 1773966124661,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000shlp/us/1777316438193/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - South Shetland Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000shlp"
+ },
+ {
+  "pair_id": "us6000sg0y",
+  "event_title": "M 6.2 - 71 km W of Vallenar, Chile",
+  "time_ms": 1773409161201,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sg0y/us/1777032455297/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 71 km W of Vallenar, Chile. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sg0y"
+ },
+ {
+  "pair_id": "us7000s39n",
+  "event_title": "M 6.0 - 16 km SSE of Sant'Angelo, Italy",
+  "time_ms": 1773097434034,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s39n/us/1778101632549/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 16 km SSE of Sant'Angelo, Italy. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s39n"
+ },
+ {
+  "pair_id": "us7000s2yl",
+  "event_title": "M 6.0 - 7 km WSW of Hihifo, Tonga",
+  "time_ms": 1772962106478,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s2yl/us/1778226836529/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 7 km WSW of Hihifo, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2yl"
+ },
+ {
+  "pair_id": "us7000s2i2",
+  "event_title": "M 6.2 - 170 km SE of Kirakira, Solomon Islands",
+  "time_ms": 1772807268050,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s2i2/us/1774881160059/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 170 km SE of Kirakira, Solomon Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2i2"
+ },
+ {
+  "pair_id": "us7000s211",
+  "event_title": "M 6.4 - 223 km ESE of Attu Station, Alaska",
+  "time_ms": 1772646876723,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s211/us/1775768018848/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 223 km ESE of Attu Station, Alaska. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s211"
+ },
+ {
+  "pair_id": "us7000s1ln",
+  "event_title": "M 6.2 - 62 km SE of Sinabang, Indonesia",
+  "time_ms": 1772513805857,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s1ln/us/1774504380480/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 62 km SE of Sinabang, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1ln"
+ },
+ {
+  "pair_id": "us7000s1cq",
+  "event_title": "M 6.0 - Volcano Islands, Japan region",
+  "time_ms": 1772423723534,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s1cq/us/1774313745934/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - Volcano Islands, Japan region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s1cq"
+ },
+ {
+  "pair_id": "us7000s16b",
+  "event_title": "M 6.3 - Fiji region",
+  "time_ms": 1772343881923,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000s16b/us/1773573388786/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - Fiji region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 2.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s16b"
+ },
+ {
+  "pair_id": "us6000sayv",
+  "event_title": "M 6.0 - 96 km SW of Nikolski, Alaska",
+  "time_ms": 1771823508410,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sayv/us/1777270088759/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 96 km SW of Nikolski, Alaska. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sayv"
+ },
+ {
+  "pair_id": "us6000sasz",
+  "event_title": "M 7.1 - 57 km NNW of Kota Belud, Malaysia",
+  "time_ms": 1771779466738,
+  "magnitude": 7.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sasz/us/1777679322428/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.1 - 57 km NNW of Kota Belud, Malaysia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sasz"
+ },
+ {
+  "pair_id": "us6000sarf",
+  "event_title": "M 6.0 - south of the Fiji Islands",
+  "time_ms": 1771746205409,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000sarf/us/1775717049498/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - south of the Fiji Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 2.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sarf"
+ },
+ {
+  "pair_id": "us6000s9l2",
+  "event_title": "M 6.0 - 87 km ESE of Ozernovskiy, Russia",
+  "time_ms": 1771278172469,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000s9l2/us/1776819753094/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 87 km ESE of Ozernovskiy, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s9l2"
+ },
+ {
+  "pair_id": "us6000s94q",
+  "event_title": "M 6.4 - 48 km W of Port-Olry, Vanuatu",
+  "time_ms": 1771036062554,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000s94q/us/1772321545306/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 48 km W of Port-Olry, Vanuatu. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s94q"
+ },
+ {
+  "pair_id": "us6000s8gw",
+  "event_title": "M 6.1 - 28 km SW of Ovalle, Chile",
+  "time_ms": 1770903271172,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000s8gw/us/1778019016209/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 28 km SW of Ovalle, Chile. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8gw"
+ },
+ {
+  "pair_id": "us6000s7p7",
+  "event_title": "M 6.2 - Fiji region",
+  "time_ms": 1770756292845,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000s7p7/us/1774453340962/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - Fiji region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 2.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s7p7"
+ },
+ {
+  "pair_id": "us6000s6cx",
+  "event_title": "M 6.1 - Kermadec Islands, New Zealand",
+  "time_ms": 1770201568490,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000s6cx/us/1771592756451/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - Kermadec Islands, New Zealand. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s6cx"
+ },
+ {
+  "pair_id": "us6000s55s",
+  "event_title": "M 6.0 - South Sandwich Islands region",
+  "time_ms": 1769671839458,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000s55s/us/1775728542671/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - South Sandwich Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s55s"
+ },
+ {
+  "pair_id": "us7000rrbj",
+  "event_title": "M 6.2 - 127 km S of Vilyuchinsk, Russia",
+  "time_ms": 1769085754200,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rrbj/us/1770985874199/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 127 km S of Vilyuchinsk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrbj"
+ },
+ {
+  "pair_id": "us7000rr5g",
+  "event_title": "M 6.1 - Volcano Islands, Japan region",
+  "time_ms": 1769013463141,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rr5g/us/1770859173972/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - Volcano Islands, Japan region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rr5g"
+ },
+ {
+  "pair_id": "us7000rqjy",
+  "event_title": "M 6.0 - 277 km ESE of Tadine, New Caledonia",
+  "time_ms": 1768827739436,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rqjy/us/1770241368224/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 277 km ESE of Tadine, New Caledonia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rqjy"
+ },
+ {
+  "pair_id": "us7000rq0d",
+  "event_title": "M 6.0 - off the coast of Oregon",
+  "time_ms": 1768533953034,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rq0d/us/1772576232417/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - off the coast of Oregon. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rq0d"
+ },
+ {
+  "pair_id": "us7000rpcg",
+  "event_title": "M 6.2 - 135 km SE of Kuril\u2019sk, Russia",
+  "time_ms": 1768289647739,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rpcg/us/1774353067752/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 135 km SE of Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rpcg"
+ },
+ {
+  "pair_id": "us7000rnwd",
+  "event_title": "M 6.4 - 247 km SE of Sarangani, Philippines",
+  "time_ms": 1768057103726,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rnwd/us/1772301672803/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 247 km SE of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rnwd"
+ },
+ {
+  "pair_id": "us7000rn2z",
+  "event_title": "M 6.4 - 35 km E of Santiago, Philippines",
+  "time_ms": 1767754973890,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rn2z/us/1772041092861/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 35 km E of Santiago, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rn2z"
+ },
+ {
+  "pair_id": "us7000rm3k",
+  "event_title": "M 6.5 - 0 km W of San Marcos, Mexico",
+  "time_ms": 1767362295741,
+  "magnitude": 6.5,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rm3k/us/1773555417769/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 0 km W of San Marcos, Mexico. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 7.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rm3k"
+ },
+ {
+  "pair_id": "us7000rltg",
+  "event_title": "M 6.0 - southeast Indian Ridge",
+  "time_ms": 1767232381809,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rltg/us/1769212986245/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - southeast Indian Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rltg"
+ },
+ {
+  "pair_id": "us7000rlq3",
+  "event_title": "M 6.0 - 96 km E of Noda, Japan",
+  "time_ms": 1767191217992,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rlq3/us/1769524325242/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 96 km E of Noda, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rlq3"
+ },
+ {
+  "pair_id": "us7000rl57",
+  "event_title": "M 6.2 - 43 km W of Puerto Santa, Peru",
+  "time_ms": 1766890309922,
+  "magnitude": 6.2,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rl57/us/1773352053658/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 43 km W of Puerto Santa, Peru. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 5.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rl57"
+ },
+ {
+  "pair_id": "us7000rl2n",
+  "event_title": "M 6.6 - 29 km ESE of Yilan, Taiwan",
+  "time_ms": 1766847955388,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rl2n/us/1771427994424/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 29 km ESE of Yilan, Taiwan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rl2n"
+ },
+ {
+  "pair_id": "us7000rkjm",
+  "event_title": "M 6.0 - 2025 Taitung, Taiwan Earthquake",
+  "time_ms": 1766569626669,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000rkjm/us/1773379314166/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 2025 Taitung, Taiwan Earthquake. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rkjm"
+ },
+ {
+  "pair_id": "us6000rwgh",
+  "event_title": "M 6.5 - 45 km NNE of Goroka, Papua New Guinea",
+  "time_ms": 1766399487918,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rwgh/us/1768562379158/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 45 km NNE of Goroka, Papua New Guinea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rwgh"
+ },
+ {
+  "pair_id": "us6000ruc4",
+  "event_title": "M 6.7 - 117 km NE of Kuji, Japan",
+  "time_ms": 1765507452841,
+  "magnitude": 6.7,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000ruc4/us/1772665034454/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.7 - 117 km NE of Kuji, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ruc4"
+ },
+ {
+  "pair_id": "us6000rtie",
+  "event_title": "M 6.6 - 129 km S of Honch\u014d, Japan",
+  "time_ms": 1765230761325,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rtie/us/1770251549223/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 129 km S of Honch\u014d, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtie"
+ },
+ {
+  "pair_id": "us6000rtgd",
+  "event_title": "M 6.0 - 127 km S of Honch\u014d, Japan",
+  "time_ms": 1765220188302,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rtgd/us/1772121003455/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 127 km S of Honch\u014d, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtgd"
+ },
+ {
+  "pair_id": "us6000rtdt",
+  "event_title": "M 7.6 - 2025 Aomori Prefecture, Japan Earthquake",
+  "time_ms": 1765203309896,
+  "magnitude": 7.6,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rtdt/us/1772122474626/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.6 - 2025 Aomori Prefecture, Japan Earthquake. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 6.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtdt"
+ },
+ {
+  "pair_id": "us6000rsy1",
+  "event_title": "M 7.0 - 2025 Hubbard Glacier Earthquake",
+  "time_ms": 1765053709288,
+  "magnitude": 7,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rsy1/us/1772635928316/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.0 - 2025 Hubbard Glacier Earthquake. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 8.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rsy1"
+ },
+ {
+  "pair_id": "ak2025xjbvhj",
+  "event_title": "M 6.0 - 12 km WNW of Susitna, Alaska",
+  "time_ms": 1764263489059,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000re77/us/1766422618406/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 12 km WNW of Susitna, Alaska. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xjbvhj"
+ },
+ {
+  "pair_id": "us7000re2g",
+  "event_title": "M 6.4 - 54 km WNW of Sinabang, Indonesia",
+  "time_ms": 1764219384368,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000re2g/us/1770947573564/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 54 km WNW of Sinabang, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000re2g"
+ },
+ {
+  "pair_id": "us6000rmk2",
+  "event_title": "M 6.0 - 129 km E of Yamada, Japan",
+  "time_ms": 1762759397302,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rmk2/us/1766135200768/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 129 km E of Yamada, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmk2"
+ },
+ {
+  "pair_id": "us6000rmep",
+  "event_title": "M 6.4 - 117 km E of Yamada, Japan",
+  "time_ms": 1762678476914,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rmep/us/1764837373265/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 117 km E of Yamada, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmep"
+ },
+ {
+  "pair_id": "us6000rmea",
+  "event_title": "M 6.8 - 122 km E of Yamada, Japan",
+  "time_ms": 1762675419367,
+  "magnitude": 6.8,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rmea/us/1766131414416/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.8 - 122 km E of Yamada, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rmea"
+ },
+ {
+  "pair_id": "us6000rlik",
+  "event_title": "M 6.0 - 149 km SE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1762298939236,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rlik/us/1764123924839/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 149 km SE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlik"
+ },
+ {
+  "pair_id": "us6000rlcd",
+  "event_title": "M 6.0 - 191 km WSW of Merizo Village, Guam",
+  "time_ms": 1762241842906,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rlcd/us/1765634495081/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 191 km WSW of Merizo Village, Guam. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rlcd"
+ },
+ {
+  "pair_id": "us6000rl5i",
+  "event_title": "M 6.1 - 142 km SE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1762159483281,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rl5i/us/1768393327178/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 142 km SE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rl5i"
+ },
+ {
+  "pair_id": "us6000rl31",
+  "event_title": "M 6.2 - 30 km SE of Maz\u0101r-e Shar\u012bf, Afghanistan",
+  "time_ms": 1762115342008,
+  "magnitude": 6.2,
+  "alert": "orange",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rl31/us/1767974314588/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 30 km SE of Maz\u0101r-e Shar\u012bf, Afghanistan. USGS PAGER issued a ORANGE alert for this event, meaning significant casualties and damage are likely and the disaster is potentially widespread. Maximum estimated shaking intensity is MMI 7.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rl31"
+ },
+ {
+  "pair_id": "us6000rjx3",
+  "event_title": "M 6.4 - Banda Sea",
+  "time_ms": 1761662418481,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rjx3/us/1763581215716/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - Banda Sea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjx3"
+ },
+ {
+  "pair_id": "us6000rjsu",
+  "event_title": "M 6.0 - 7 km SE of S\u0131nd\u0131rg\u0131, Turkey",
+  "time_ms": 1761594508767,
+  "magnitude": 6,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rjsu/us/1764619720398/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 7 km SE of S\u0131nd\u0131rg\u0131, Turkey. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 8.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjsu"
+ },
+ {
+  "pair_id": "us6000rjq8",
+  "event_title": "M 6.5 - 164 km E of Beaus\u00e9jour, Guadeloupe",
+  "time_ms": 1761568720364,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rjq8/us/1764928854568/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 164 km E of Beaus\u00e9jour, Guadeloupe. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjq8"
+ },
+ {
+  "pair_id": "us6000rjkv",
+  "event_title": "M 6.2 - 57 km NW of Pante Makasar, Timor Leste",
+  "time_ms": 1761498265617,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rjkv/us/1763317822610/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 57 km NW of Pante Makasar, Timor Leste. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjkv"
+ },
+ {
+  "pair_id": "us6000rjhm",
+  "event_title": "M 6.0 - 194 km SSE of Lata, Solomon Islands",
+  "time_ms": 1761434882544,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rjhm/us/1763178555994/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 194 km SSE of Lata, Solomon Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjhm"
+ },
+ {
+  "pair_id": "us6000rhns",
+  "event_title": "M 6.0 - 3 km N of Union, Philippines",
+  "time_ms": 1760655792673,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rhns/us/1767327351598/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 3 km N of Union, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhns"
+ },
+ {
+  "pair_id": "us6000rhg5",
+  "event_title": "M 6.4 - 192 km WNW of Abepura, Indonesia",
+  "time_ms": 1760593732788,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rhg5/us/1767901273557/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 192 km WNW of Abepura, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 7.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhg5"
+ },
+ {
+  "pair_id": "us6000rhf2",
+  "event_title": "M 6.3 - Drake Passage",
+  "time_ms": 1760578952311,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rhf2/us/1767409536120/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - Drake Passage. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhf2"
+ },
+ {
+  "pair_id": "us6000rgkr",
+  "event_title": "M 6.0 - 3 km ESE of Bacolod, Philippines",
+  "time_ms": 1760193179312,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rgkr/us/1767281509580/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 3 km ESE of Bacolod, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgkr"
+ },
+ {
+  "pair_id": "us6000rgf4",
+  "event_title": "M 7.6 - Drake Passage",
+  "time_ms": 1760128160075,
+  "magnitude": 7.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rgf4/us/1766382614378/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.6 - Drake Passage. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgf4"
+ },
+ {
+  "pair_id": "us6000rg2r",
+  "event_title": "M 6.7 - 12 km SE of Santiago, Philippines",
+  "time_ms": 1760094725407,
+  "magnitude": 6.7,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rg2r/us/1765865887583/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.7 - 12 km SE of Santiago, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg2r"
+ },
+ {
+  "pair_id": "us6000rfye",
+  "event_title": "M 6.3 - 139 km SE of Lorengau, Papua New Guinea",
+  "time_ms": 1760062090652,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rfye/us/1762411445477/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 139 km SE of Lorengau, Papua New Guinea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfye"
+ },
+ {
+  "pair_id": "us6000rfwz",
+  "event_title": "M 7.4 - 12 km E of Santiago, Philippines",
+  "time_ms": 1760060639585,
+  "magnitude": 7.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rfwz/us/1766013358890/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.4 - 12 km E of Santiago, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 7.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfwz"
+ },
+ {
+  "pair_id": "us6000rft9",
+  "event_title": "M 6.1 - 121 km E of Ozernovskiy, Russia",
+  "time_ms": 1760016524543,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rft9/us/1766378811311/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 121 km E of Ozernovskiy, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rft9"
+ },
+ {
+  "pair_id": "us6000rfb2",
+  "event_title": "M 6.6 - 17 km W of Lae, Papua New Guinea",
+  "time_ms": 1759835117136,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rfb2/us/1765900199119/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 17 km W of Lae, Papua New Guinea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfb2"
+ },
+ {
+  "pair_id": "us6000rei1",
+  "event_title": "M 6.1 - 177 km SE of Vilyuchinsk, Russia",
+  "time_ms": 1759507664844,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rei1/us/1761587749202/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 177 km SE of Vilyuchinsk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rei1"
+ },
+ {
+  "pair_id": "us6000rdta",
+  "event_title": "M 6.0 - 31 km ESE of Kalianget, Indonesia",
+  "time_ms": 1759250983533,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rdta/us/1764687064907/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 31 km ESE of Kalianget, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdta"
+ },
+ {
+  "pair_id": "us6000rdrz",
+  "event_title": "M 6.9 - 8 km ESE of Calape, Philippines",
+  "time_ms": 1759240783328,
+  "magnitude": 6.9,
+  "alert": "orange",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rdrz/us/1764686521079/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.9 - 8 km ESE of Calape, Philippines. USGS PAGER issued a ORANGE alert for this event, meaning significant casualties and damage are likely and the disaster is potentially widespread. Maximum estimated shaking intensity is MMI 8.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdrz"
+ },
+ {
+  "pair_id": "us6000rcqw",
+  "event_title": "M 6.3 - 25 km ENE of Mene Grande, Venezuela",
+  "time_ms": 1758772299565,
+  "magnitude": 6.3,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rcqw/us/1758783365349/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 25 km ENE of Mene Grande, Venezuela. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 7.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcqw"
+ },
+ {
+  "pair_id": "us6000rcnw",
+  "event_title": "M 6.2 - 5 km ENE of Mene Grande, Venezuela",
+  "time_ms": 1758752515716,
+  "magnitude": 6.2,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rcnw/us/1758760628288/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 5 km ENE of Mene Grande, Venezuela. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 7.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcnw"
+ },
+ {
+  "pair_id": "us6000rge8",
+  "event_title": "M 6.0 - 98 km ESE of Ozernovskiy, Russia",
+  "time_ms": 1758293740913,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000rge8/us/1760991746525/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 98 km ESE of Ozernovskiy, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rge8"
+ },
+ {
+  "pair_id": "us7000qx2g",
+  "event_title": "M 7.8 - 140 km E of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1758221894939,
+  "magnitude": 7.8,
+  "alert": "orange",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qx2g/us/1765039290345/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.8 - 140 km E of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a ORANGE alert for this event, meaning significant casualties and damage are likely and the disaster is potentially widespread. Maximum estimated shaking intensity is MMI 8.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2g"
+ },
+ {
+  "pair_id": "us7000qx1z",
+  "event_title": "M 6.0 - 26 km S of Nabire, Indonesia",
+  "time_ms": 1758219589220,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qx1z/us/1764349955342/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 26 km S of Nabire, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx1z"
+ },
+ {
+  "pair_id": "us7000qwir",
+  "event_title": "M 6.0 - 208 km SE of Kokopo, Papua New Guinea",
+  "time_ms": 1758041986550,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qwir/us/1765233197007/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 208 km SE of Kokopo, Papua New Guinea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwir"
+ },
+ {
+  "pair_id": "us7000qwch",
+  "event_title": "M 6.0 - 144 km ESE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1757954075213,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qwch/us/1759955641045/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 144 km ESE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwch"
+ },
+ {
+  "pair_id": "us7000qvw5",
+  "event_title": "M 7.4 - 105 km E of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1757731076761,
+  "magnitude": 7.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qvw5/us/1764725241207/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.4 - 105 km E of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 8.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvw5"
+ },
+ {
+  "pair_id": "us7000quvp",
+  "event_title": "M 6.4 - Vanuatu region",
+  "time_ms": 1757368068117,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000quvp/us/1760911726409/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - Vanuatu region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000quvp"
+ },
+ {
+  "pair_id": "us7000qsvj",
+  "event_title": "M 6.0 - 35 km WSW of Asad\u0101b\u0101d, Afghanistan",
+  "time_ms": 1756667854124,
+  "magnitude": 6,
+  "alert": "red",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qsvj/us/1763485104214/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 35 km WSW of Asad\u0101b\u0101d, Afghanistan. USGS PAGER issued a RED alert for this event, meaning high casualties and extensive damage are probable and the disaster is likely widespread. Maximum estimated shaking intensity is MMI 9.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qsvj"
+ },
+ {
+  "pair_id": "us7000qr8h",
+  "event_title": "M 6.0 - 92 km E of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1756266590441,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qr8h/us/1758945252711/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 92 km E of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qr8h"
+ },
+ {
+  "pair_id": "us6000r3l7",
+  "event_title": "M 6.1 - east of the Kuril Islands",
+  "time_ms": 1756104514819,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r3l7/us/1760010164057/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - east of the Kuril Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r3l7"
+ },
+ {
+  "pair_id": "us6000r3at",
+  "event_title": "M 6.0 - 88 km SW of Acajutla, El Salvador",
+  "time_ms": 1755940462210,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r3at/us/1759669519177/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 88 km SW of Acajutla, El Salvador. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r3at"
+ },
+ {
+  "pair_id": "us6000r2xq",
+  "event_title": "M 7.5 - 2025 Southern Drake Passage Earthquake",
+  "time_ms": 1755828978246,
+  "magnitude": 7.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r2xq/us/1758152171942/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.5 - 2025 Southern Drake Passage Earthquake. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r2xq"
+ },
+ {
+  "pair_id": "us6000r0sa",
+  "event_title": "M 6.3 - 115 km SSE of Lata, Solomon Islands",
+  "time_ms": 1755188554235,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r0sa/us/1758906782082/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 115 km SSE of Lata, Solomon Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0sa"
+ },
+ {
+  "pair_id": "us6000r01m",
+  "event_title": "M 6.3 - 195 km WNW of Abepura, Indonesia",
+  "time_ms": 1754987063409,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r01m/us/1758634629416/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 195 km WNW of Abepura, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 7.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r01m"
+ },
+ {
+  "pair_id": "us6000qznb",
+  "event_title": "M 6.1 - 10 km WSW of Bigadi\u00e7, Turkey",
+  "time_ms": 1754844827260,
+  "magnitude": 6.1,
+  "alert": "orange",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qznb/us/1757083841271/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 10 km WSW of Bigadi\u00e7, Turkey. USGS PAGER issued a ORANGE alert for this event, meaning significant casualties and damage are likely and the disaster is potentially widespread. Maximum estimated shaking intensity is MMI 9.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qznb"
+ },
+ {
+  "pair_id": "us6000qzh9",
+  "event_title": "M 6.0 - 265 km ESE of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1754748247171,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qzh9/us/1757085421944/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 265 km ESE of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzh9"
+ },
+ {
+  "pair_id": "us6000qxzw",
+  "event_title": "M 6.2 - 202 km S of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1754281254562,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qxzw/us/1757389873036/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 202 km S of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxzw"
+ },
+ {
+  "pair_id": "us6000qxt4",
+  "event_title": "M 6.8 - 123 km E of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1754199475148,
+  "magnitude": 6.8,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qxt4/us/1756294170341/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.8 - 123 km E of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxt4"
+ },
+ {
+  "pair_id": "us6000qxsv",
+  "event_title": "M 6.3 - Pacific-Antarctic Ridge",
+  "time_ms": 1754197030505,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qxsv/us/1757469173601/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - Pacific-Antarctic Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxsv"
+ },
+ {
+  "pair_id": "us6000qxn6",
+  "event_title": "M 6.0 - 165 km SSE of Vilyuchinsk, Russia",
+  "time_ms": 1754144043328,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qxn6/us/1757771367079/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 165 km SSE of Vilyuchinsk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxn6"
+ },
+ {
+  "pair_id": "us6000qxfn",
+  "event_title": "M 6.1 - 215 km ESE of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1754072445177,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qxfn/us/1757623567862/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 215 km ESE of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxfn"
+ },
+ {
+  "pair_id": "us6000qwuh",
+  "event_title": "M 6.2 - 222 km SE of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1753939634789,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qwuh/us/1757509142389/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 222 km SE of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwuh"
+ },
+ {
+  "pair_id": "us6000qwk1",
+  "event_title": "M 6.0 - 138 km SE of Severo-Kuril\u2019sk, Russia",
+  "time_ms": 1753891666668,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qwk1/us/1756351041914/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 138 km SE of Severo-Kuril\u2019sk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwk1"
+ },
+ {
+  "pair_id": "us6000qwfe",
+  "event_title": "M 6.1 - 183 km SE of Vilyuchinsk, Russia",
+  "time_ms": 1753869373780,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qwfe/us/1755328602099/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 183 km SE of Vilyuchinsk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwfe"
+ },
+ {
+  "pair_id": "us6000qw6s",
+  "event_title": "M 6.2 - 126 km SE of Vilyuchinsk, Russia",
+  "time_ms": 1753834566520,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qw6s/us/1756352435860/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 126 km SE of Vilyuchinsk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw6s"
+ },
+ {
+  "pair_id": "us6000qw6q",
+  "event_title": "M 6.9 - 125 km SE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1753834198961,
+  "magnitude": 6.9,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qw6q/us/1756351854140/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.9 - 125 km SE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 6.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw6q"
+ },
+ {
+  "pair_id": "us6000qwhj",
+  "event_title": "M 6.0 - 165 km SSE of Vilyuchinsk, Russia",
+  "time_ms": 1753832254403,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qwhj/us/1755743356406/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 165 km SSE of Vilyuchinsk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwhj"
+ },
+ {
+  "pair_id": "us6000r0qc",
+  "event_title": "M 6.0 - 124 km ENE of Ozernovskiy, Russia",
+  "time_ms": 1753832161341,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r0qc/us/1756428798554/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 124 km ENE of Ozernovskiy, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0qc"
+ },
+ {
+  "pair_id": "us6000r0xw",
+  "event_title": "M 6.1 - 78 km SE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1753831844566,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r0xw/us/1755742372972/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - 78 km SE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0xw"
+ },
+ {
+  "pair_id": "us6000r0y5",
+  "event_title": "M 6.3 - 94 km SE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1753831803032,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000r0y5/us/1756427677300/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 94 km SE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0y5"
+ },
+ {
+  "pair_id": "us6000qw60",
+  "event_title": "M 8.8 - 2025 Kamchatka Peninsula, Russia Earthquake",
+  "time_ms": 1753831492483,
+  "magnitude": 8.8,
+  "alert": "red",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qw60/us/1759864843221/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 8.8 - 2025 Kamchatka Peninsula, Russia Earthquake. USGS PAGER issued a RED alert for this event, meaning high casualties and extensive damage are probable and the disaster is likely widespread. Maximum estimated shaking intensity is MMI 8.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60"
+ },
+ {
+  "pair_id": "us6000qw1a",
+  "event_title": "M 6.6 - south of the Fiji Islands",
+  "time_ms": 1753811620918,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qw1a/us/1755188773347/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - south of the Fiji Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 2.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw1a"
+ },
+ {
+  "pair_id": "us6000qvsf",
+  "event_title": "M 7.0 - Macquarie Island region",
+  "time_ms": 1753740635109,
+  "magnitude": 7,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qvsf/us/1755731964426/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.0 - Macquarie Island region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvsf"
+ },
+ {
+  "pair_id": "us6000qvpp",
+  "event_title": "M 6.4 - 264 km WNW of Sabang, Indonesia",
+  "time_ms": 1753728110299,
+  "magnitude": 6.4,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qvpp/us/1755263294118/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 264 km WNW of Sabang, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvpp"
+ },
+ {
+  "pair_id": "us6000qvbw",
+  "event_title": "M 6.2 - Macquarie Island region",
+  "time_ms": 1753546504546,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qvbw/us/1755637809948/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - Macquarie Island region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvbw"
+ },
+ {
+  "pair_id": "us6000qv1b",
+  "event_title": "M 6.2 - west of Macquarie Island",
+  "time_ms": 1753442522292,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qv1b/us/1759152866460/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - west of Macquarie Island. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qv1b"
+ },
+ {
+  "pair_id": "us6000quy1",
+  "event_title": "M 6.6 - 187 km SSE of Mata-Utu, Wallis and Futuna",
+  "time_ms": 1753400276601,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000quy1/us/1755408898853/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 187 km SSE of Mata-Utu, Wallis and Futuna. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000quy1"
+ },
+ {
+  "pair_id": "us6000quxn",
+  "event_title": "M 6.0 - 163 km E of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1753396647147,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000quxn/us/1757122204598/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 163 km E of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000quxn"
+ },
+ {
+  "pair_id": "us6000qugg",
+  "event_title": "M 6.3 - 109 km W of Gorontalo, Indonesia",
+  "time_ms": 1753303843792,
+  "magnitude": 6.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qugg/us/1754929181251/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 109 km W of Gorontalo, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.5. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qugg"
+ },
+ {
+  "pair_id": "us6000qu2r",
+  "event_title": "M 6.0 - 154 km ESE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1753149568404,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qu2r/us/1754923194900/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 154 km ESE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qu2r"
+ },
+ {
+  "pair_id": "us7000qe51",
+  "event_title": "M 6.2 - 91 km SSE of Sand Point, Alaska",
+  "time_ms": 1753050480041,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qe51/us/1755127575075/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 91 km SSE of Sand Point, Alaska. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qe51"
+ },
+ {
+  "pair_id": "us7000qdz2",
+  "event_title": "M 6.5 - 143 km E of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1752996182065,
+  "magnitude": 6.5,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qdz2/us/1758694722573/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.5 - 143 km E of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdz2"
+ },
+ {
+  "pair_id": "us7000qdyw",
+  "event_title": "M 6.6 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1752995262573,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qdyw/us/1754220147884/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyw"
+ },
+ {
+  "pair_id": "us7000qdyl",
+  "event_title": "M 7.4 - 2025 Eastern Kamchatka, Russia Earthquake",
+  "time_ms": 1752994144327,
+  "magnitude": 7.4,
+  "alert": "red",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qdyl/us/1755862324848/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.4 - 2025 Eastern Kamchatka, Russia Earthquake. USGS PAGER issued a RED alert for this event, meaning high casualties and extensive damage are probable and the disaster is likely widespread. Maximum estimated shaking intensity is MMI 7.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyl"
+ },
+ {
+  "pair_id": "us7000qdye",
+  "event_title": "M 6.6 - 134 km E of Petropavlovsk-Kamchatsky, Russia",
+  "time_ms": 1752992897860,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qdye/us/1754486943094/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - 134 km E of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdye"
+ },
+ {
+  "pair_id": "us7000qd1y",
+  "event_title": "M 7.3 - 2025 Sand Point, Alaska Earthquake",
+  "time_ms": 1752698261667,
+  "magnitude": 7.3,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qd1y/us/1756043321474/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 7.3 - 2025 Sand Point, Alaska Earthquake. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd1y"
+ },
+ {
+  "pair_id": "us7000qclp",
+  "event_title": "M 6.2 - 206 km S of Burica, Panama",
+  "time_ms": 1752513409051,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qclp/us/1755177058690/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 206 km S of Burica, Panama. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qclp"
+ },
+ {
+  "pair_id": "us7000qcik",
+  "event_title": "M 6.7 - 180 km WSW of Tual, Indonesia",
+  "time_ms": 1752472198119,
+  "magnitude": 6.7,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qcik/us/1757131797474/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.7 - 180 km WSW of Tual, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.7. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qcik"
+ },
+ {
+  "pair_id": "us7000qb4s",
+  "event_title": "M 6.2 - 213 km WSW of Riverton, New Zealand",
+  "time_ms": 1751892824013,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000qb4s/us/1753800499213/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - 213 km WSW of Riverton, New Zealand. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.6. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qb4s"
+ },
+ {
+  "pair_id": "us7000q9b5",
+  "event_title": "M 6.6 - Scotia Sea",
+  "time_ms": 1751099540957,
+  "magnitude": 6.6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000q9b5/us/1752648487588/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.6 - Scotia Sea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9b5"
+ },
+ {
+  "pair_id": "us7000q97d",
+  "event_title": "M 6.0 - 65 km E of Sarangani, Philippines",
+  "time_ms": 1751065630371,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000q97d/us/1754198187966/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 65 km E of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.1. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q97d"
+ },
+ {
+  "pair_id": "us7000q8tw",
+  "event_title": "M 6.2 - southern Mid-Atlantic Ridge",
+  "time_ms": 1750889773700,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000q8tw/us/1752638855570/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - southern Mid-Atlantic Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q8tw"
+ },
+ {
+  "pair_id": "us7000q8bd",
+  "event_title": "M 6.2 - east of the Philippine Islands",
+  "time_ms": 1750730286248,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us7000q8bd/us/1756070228907/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - east of the Philippine Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q8bd"
+ },
+ {
+  "pair_id": "us6000qlnz",
+  "event_title": "M 6.0 - 82 km SE of Nemuro, Japan",
+  "time_ms": 1750540998562,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qlnz/us/1751925217796/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - 82 km SE of Nemuro, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 4.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlnz"
+ },
+ {
+  "pair_id": "us6000qk4v",
+  "event_title": "M 6.0 - Kuril Islands",
+  "time_ms": 1749839714935,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qk4v/us/1755290454871/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - Kuril Islands. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qk4v"
+ },
+ {
+  "pair_id": "us6000qixr",
+  "event_title": "M 6.3 - 15 km NE of Paratebueno, Colombia",
+  "time_ms": 1749388085797,
+  "magnitude": 6.3,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qixr/us/1754584874798/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.3 - 15 km NE of Paratebueno, Colombia. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 8.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qixr"
+ },
+ {
+  "pair_id": "us6000qisj",
+  "event_title": "M 6.2 - western Indian-Antarctic Ridge",
+  "time_ms": 1749338445671,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qisj/us/1750992511138/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - western Indian-Antarctic Ridge. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 0.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qisj"
+ },
+ {
+  "pair_id": "us6000qigd",
+  "event_title": "M 6.4 - 45 km SW of Diego de Almagro, Chile",
+  "time_ms": 1749230106807,
+  "magnitude": 6.4,
+  "alert": "yellow",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qigd/us/1752346141788/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.4 - 45 km SW of Diego de Almagro, Chile. USGS PAGER issued a YELLOW alert for this event, meaning some casualties or localized damage are possible. Maximum estimated shaking intensity is MMI 7.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qigd"
+ },
+ {
+  "pair_id": "us6000qh5j",
+  "event_title": "M 6.2 - Kermadec Islands region",
+  "time_ms": 1748730382460,
+  "magnitude": 6.2,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qh5j/us/1750728765735/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.2 - Kermadec Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qh5j"
+ },
+ {
+  "pair_id": "us6000qh59",
+  "event_title": "M 6.0 - Kermadec Islands region",
+  "time_ms": 1748726471250,
+  "magnitude": 6,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qh59/us/1751592838311/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.0 - Kermadec Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qh59"
+ },
+ {
+  "pair_id": "us6000qh35",
+  "event_title": "M 6.1 - Kermadec Islands region",
+  "time_ms": 1748701729890,
+  "magnitude": 6.1,
+  "alert": "green",
+  "geodata_ref": "https://earthquake.usgs.gov/product/shakemap/us6000qh35/us/1750599858859/download/intensity.jpg",
+  "language": "This ShakeMap shows estimated shaking intensity for M 6.1 - Kermadec Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.3. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qh35"
+ }
+]

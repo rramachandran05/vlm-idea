@@ -1,0 +1,1742 @@
+[
+ {
+  "pair_id": "1c7448ef-b9c0-47d4-b49a-01502cb2ecd8_KEY_MESSAGES",
+  "wfo": "ABQ",
+  "office": "KABQ",
+  "issuance_time": "2026-09-29T19:39:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 137 PM MDT Tue Sep 29 2026 - Flash flooding is at a heightened risk statewide through Wednesday. A surge of monsoonal moisture will continue to bring widespread and long duration showers and thunderstorms. Have multiple ways to receive warnings. - River flooding is favored today through Friday. Low-lying farmland, fields, low water crossings, and property near rivers may experience minor flooding. - Thunderstorms across southeast New Mexico may bring increased wind gusts and the potential for a tornado today and tonight. Gusty winds will increase the potential for downed trees in saturated soils and hazardous crosswinds for high-profile vehicles.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/1c7448ef-b9c0-47d4-b49a-01502cb2ecd8"
+ },
+ {
+  "pair_id": "0e64823d-417d-4f58-90f0-2f721f35742b_KEY_MESSAGES",
+  "wfo": "ABR",
+  "office": "KABR",
+  "issuance_time": "2026-09-29T19:43:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Patchy to areas of fog will develop overnight, with visibility down to around 2 miles or less mainly east of the James River. - High temperatures Thursday and Friday will be 5 to 8 degrees below normal for this time of year. - There is a 20-40% chance of light rain Saturday, mainly east of the MO River.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/0e64823d-417d-4f58-90f0-2f721f35742b"
+ },
+ {
+  "pair_id": "8e66322c-9d82-4f57-8425-9f24e1bbef57_KEY_MESSAGES",
+  "wfo": "AFG",
+  "office": "PAFG",
+  "issuance_time": "2026-09-29T14:16:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Central and Eastern Interior... - Scattered rain showers in the valleys with snow showers generally above 1000-2000ft through Wed AM. Flurries possible in Fairbanks Tues night/Wed. Snow amounts 1 to 3 inches above 1000ft with a coating in Fairbanks. - Snow likely in Isabel Pass through Wed AM. with 3 to 6 inches expected. Another round of snow Wed evening into Thurs will likely bring an additional 4 to 7 inches. - After a brief lull on Wednesday, more widespread light snow in the Interior Wed night into Thurs with accumulating snow possible in Fairbanks. Totals in Fairbanks of under an inch. - Temperatures drop significantly this week with highs for many in the 30s and lows in the teens/20s. West Coast and Western Interior... - Remaining breezy for much of the Coast with max gusts up to 45 mph in the Bering Strait Region, weaker to the east. Winds remain gusty this week, up to 30 mph through Wednesday before diminishing Thursday. - Light snow showers in the Bering Strait Region through Thurs totaling less than 2 inches, mainly near Shishmaref. Rain/snow showers in the Interior with little to no accumulation. Drier weather for areas south of Kotzebue Thursday onwards. - Temperatures continue to drop with highs mainly in the 30s this week, lows in the teens and 20s, coldest in the Interior. North Slope and Brooks Range... - The main storyline for the next week will be chilly, cloudy and periods of snow. - Snow accumulations will range from 1 to 3 inches for most spots through Wednesday, heavier west of Anaktuvuk Pass with up to 6 inches. 1 inch or less near Wiseman. - Snow shifts to the eastern north slope and Brooks Range by Thursday as a low moves east. - Temperatures cool into the mid/upper 20s for high in most spots on Tues. Teens and 20s in the Brooks Range with a 1F to 3F temperature drop each day through Thurs. Warmest spots will be from Kivalina to Point Hope, highs in the low/mid 30s.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/8e66322c-9d82-4f57-8425-9f24e1bbef57"
+ },
+ {
+  "pair_id": "c02d597f-2b54-4204-868d-8deeeb7b2d8f_KEY_MESSAGES",
+  "wfo": "AKQ",
+  "office": "KAKQ",
+  "issuance_time": "2026-09-29T19:28:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) Patchy fog possible overnight, followed by a warming trend that will bring above normal temperatures late in the week, along with dry conditions. 2) An unsettled weather pattern with cooler and wetter conditions appears likely for this weekend into early next week. 3) Low-end tidal flooding this evening across the Bayside of the lower Maryland eastern shore.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/c02d597f-2b54-4204-868d-8deeeb7b2d8f"
+ },
+ {
+  "pair_id": "6d08f254-8ec1-4661-957c-f226a5d00238_KEY_MESSAGES",
+  "wfo": "ALY",
+  "office": "KALY",
+  "issuance_time": "2026-09-29T19:12:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) After one last cloudy day today with a few isolated showers tapering off tonight, we turn drier and warmer than normal tomorrow and Thursday. 2) There is high confidence in scattered showers across the region Friday afternoon and evening, with additional low chance of rain showers Saturday evening into Sunday. Flooding is not anticipated.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/6d08f254-8ec1-4661-957c-f226a5d00238"
+ },
+ {
+  "pair_id": "17ccb326-368b-4535-a683-92b6fe51fd46_KEY_MESSAGES",
+  "wfo": "AMA",
+  "office": "KAMA",
+  "issuance_time": "2026-09-29T17:52:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 1054 AM CDT Tue Sep 29 2026 - Periods of heavy to very heavy rain is expected this afternoon through tomorrow morning. There is a moderate risk for flash flooding across the western and central combined Panhandles where a Flood Watch has been issued. - There is a low chance for severe weather this afternoon through Wednesday morning across portions of the panhandle. This includes damaging wind gusts and brief/weak tornadoes. - Drier and cooler Thursday into Friday with highs only in the upper 60s to low 70s. North winds may become gusty behind a cold front Thursday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/17ccb326-368b-4535-a683-92b6fe51fd46"
+ },
+ {
+  "pair_id": "17ccb326-368b-4535-a683-92b6fe51fd46_HYDROLOGY",
+  "wfo": "AMA",
+  "office": "KAMA",
+  "issuance_time": "2026-09-29T17:52:00+00:00",
+  "section": "HYDROLOGY",
+  "language": "Issued at 1140 PM CDT Mon Sep 28 2026 The latest information from the National Hurricane Center suggest Polo is still a hurricane as it moves across the Gulf of California, and the main remnants should be moving over the Panhandle area tonight into tomorrow morning. This will promote high moisture levels, with an extended period with near daily max PWATs (1.4\" - 1.6\"+) as indicated in the latest ensemble output. The increased moisture will combined with instability and lift from the upper level system to produce widespread rainfall now through tonight, before ending from southwest to northeast through tomorrow morning. Most likely rainfall (50th percentile) for the event ranges from around 0.5\" in the far east to 3.0\" in the west. High resolution models from both the HREF and REFS ensembles along with medium and long range ensembles suggest there will be at least one band of much heavier rainfall due to training storms (10 percent chance of exceeding 6\", but ensemble max values over 10\"), with the most favored position being from near Hereford to Dumas. The position could easily shift slightly southeast (more favoring Amarillo) or northwest (more favoring Dalhart). Areas that end up under the band of very heavy to torrential rain will likely see significant runoff and flash flooding, especially over urban and low lying areas. The best timing for this threat will be between about 22z and 06z this afternoon into tonight. Ward",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/17ccb326-368b-4535-a683-92b6fe51fd46"
+ },
+ {
+  "pair_id": "b7556e99-e667-4e6e-b6cc-62e7e7c3f066_KEY_MESSAGES",
+  "wfo": "APX",
+  "office": "KAPX",
+  "issuance_time": "2026-09-29T18:29:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Rain chances return late tonight - Thursday with the highest rainfall amounts expected south of M-32. - Cooler temperatures return along with dry weather as we look to the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b7556e99-e667-4e6e-b6cc-62e7e7c3f066"
+ },
+ {
+  "pair_id": "5e17e139-cc36-4bc1-9291-9af5fb6136f8_KEY_MESSAGES",
+  "wfo": "ARX",
+  "office": "KARX",
+  "issuance_time": "2026-09-29T18:22:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Widespread rainfall potential increases this afternoon and lasts into Thursday. The heaviest rainfall is shifting further south but still could impact northeast Iowa into far southwest Wisconsin. The potential for 2+ inches of rain is still around 40-60% for these areas. - High temperatures will remain seasonal in the 60s to 70s.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/5e17e139-cc36-4bc1-9291-9af5fb6136f8"
+ },
+ {
+  "pair_id": "cb6eaf70-9e1c-422c-b9df-7e4c1a6a00a9_KEY_MESSAGES",
+  "wfo": "BGM",
+  "office": "KBGM",
+  "issuance_time": "2026-09-29T18:09:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) High pressure for the middle of the week with dry conditions Wednesday. 2) A warm front brings a low chance for showers Thursday morning, followed by a cold front and widepsread showers on Friday. Temperatures turn colder behind the front with frost possible across the north this weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/cb6eaf70-9e1c-422c-b9df-7e4c1a6a00a9"
+ },
+ {
+  "pair_id": "66c178f7-ea97-4045-874a-f0d5dcc3de8a_KEY_MESSAGES",
+  "wfo": "BIS",
+  "office": "KBIS",
+  "issuance_time": "2026-09-29T19:38:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- A bit above average temperatures Wednesday, then a dip to a bit below average temperatures through the remainder of the work week. - The first opportunity for widespread frost, mainly over northern areas, may come Thursday night. A few areas may show up Wednesday night. - Occasional low precipitation chances through the work week, but overall a mainly dry pattern is expected.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/66c178f7-ea97-4045-874a-f0d5dcc3de8a"
+ },
+ {
+  "pair_id": "116d804e-6678-4729-be28-fd070412c2e1_KEY_MESSAGES",
+  "wfo": "BMX",
+  "office": "KBMX",
+  "issuance_time": "2026-09-29T17:20:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 1218 PM CDT TUE SEP 29 2026 - Dry conditions and comfortable mornings will persist through mid-week. - Look for increasing chances of showers and storms starting Friday afternoon and continuing through the weekend, with 3-4 inches of rainfall expected.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/116d804e-6678-4729-be28-fd070412c2e1"
+ },
+ {
+  "pair_id": "b54b7571-b659-405d-85b2-94ad558141da_KEY_MESSAGES",
+  "wfo": "BOI",
+  "office": "KBOI",
+  "issuance_time": "2026-09-29T20:29:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Breezy afternoon winds across the western Snake Plain Wednesday. - Dry with above normal temperatures warming through this weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b54b7571-b659-405d-85b2-94ad558141da"
+ },
+ {
+  "pair_id": "488ac339-848e-4990-8186-a9871d92b4fa_KEY_MESSAGES",
+  "wfo": "BOU",
+  "office": "KBOU",
+  "issuance_time": "2026-09-29T20:38:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Widespread rainfall, heavy at times, remains likely across the far southern portions of our forecast area late tonight through early Thursday. A sharp gradient in QPF still likely across the Denver metro. - Flood Watch in effect for southern Lincoln and far southeastern Elbert counties through Thursday morning. - Rain chances decrease late Thursday, leading to warmer and drier conditions for the weekend and early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/488ac339-848e-4990-8186-a9871d92b4fa"
+ },
+ {
+  "pair_id": "9ab054b3-3559-456e-8f28-72a60c0ae57e_KEY_MESSAGES",
+  "wfo": "BOX",
+  "office": "KBOX",
+  "issuance_time": "2026-09-29T17:56:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Drier and warmer weather through Friday. - Passing frontal boundary brings light rain showers Friday night into early Saturday, then drying out Saturday with onshore breezes for the Cape and Islands. Cloud cover and possible showers return Sunday, but it is uncertain how far north rain would extend. - Dry weather, but blustery and a much cooler, Fall-like airmass returns for early to mid next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/9ab054b3-3559-456e-8f28-72a60c0ae57e"
+ },
+ {
+  "pair_id": "45253544-21dd-4796-aa34-bde0316a86af_KEY_MESSAGES",
+  "wfo": "BRO",
+  "office": "KBRO",
+  "issuance_time": "2026-09-29T17:26:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 1216 PM CDT Tue Sep 29 2026 - Widespread Major (level 3 of 4) to Extreme (level 4 of 4) Heat Risk expected across the region through Thursday. - Confidence is increasing on a significant weather pattern change towards cooler and wetter conditions later this week; this includes a multi-day heavy rain and flash flood potential Thursday into the weekend. - The Weather Prediction Center (WPC) has all of Deep South Texas under a Slight (level 2 of 4) to Moderate (level 3 of 4) Risk for Excessive Rainfall for Thursday, and a Marginal (level 1 of 4) to Slight Risk Friday and Saturday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/45253544-21dd-4796-aa34-bde0316a86af"
+ },
+ {
+  "pair_id": "45253544-21dd-4796-aa34-bde0316a86af_HYDROLOGY",
+  "wfo": "BRO",
+  "office": "KBRO",
+  "issuance_time": "2026-09-29T17:26:00+00:00",
+  "section": "HYDROLOGY",
+  "language": "Issued at 1216 PM CDT Tue Sep 29 2026 There is an increased threat of heavy rainfall across portions of Texas along the Rio Grande late this week into this weekend which will likely lead to a rise in water levels along the Rio Grande, Main Floodway, North Floodway, and Arroyo Colorado into next week. The Falcon Reservoir remains very low and has plenty of room to hold any increased flow along the Rio Grande upstream of Falcon. For any interests stationed or positioned within levees downstream of Falcon, including along the floodways and Arroyo Colorado, through Starr, Hidalgo, and Cameron counties, please continue to monitor river forecasts and water levels into next week or plan to re-position or station any assets outside of any levees.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/45253544-21dd-4796-aa34-bde0316a86af"
+ },
+ {
+  "pair_id": "f06d1903-1b2e-4d80-9228-02649be4747a_KEY_MESSAGES",
+  "wfo": "BTV",
+  "office": "KBTV",
+  "issuance_time": "2026-09-29T19:02:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "As of 302 PM EDT Tuesday... 1. Warmer and sunnier mid week, with sharply rebounding temperatures following a cool and cloudy start to the week. 2. Shower chances return Thursday afternoon and continue into Friday ahead of a cold front. 3. A progressive pattern aloft will result in a series of cold fronts sweeping across our region this weekend into early next week with temperatures trending below normal.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/f06d1903-1b2e-4d80-9228-02649be4747a"
+ },
+ {
+  "pair_id": "30efc8be-a61f-4046-a431-4e14990c99ef_KEY_MESSAGES",
+  "wfo": "BUF",
+  "office": "KBUF",
+  "issuance_time": "2026-09-29T18:40:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) Warmer weather is expected through mid-week, followed by a cold front that will bring an increasing chance of showers Thursday through Friday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/30efc8be-a61f-4046-a431-4e14990c99ef"
+ },
+ {
+  "pair_id": "5305bb16-376b-4737-a820-62605739a8a6_KEY_MESSAGES",
+  "wfo": "CAE",
+  "office": "KCAE",
+  "issuance_time": "2026-09-29T17:39:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- 1. Dry conditions with above normal temperatures are expected through Friday. - 2. Rain chances may enter late in the week through this weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/5305bb16-376b-4737-a820-62605739a8a6"
+ },
+ {
+  "pair_id": "fbc63d55-a18f-4dd8-9572-9f59042b839f_KEY_MESSAGES",
+  "wfo": "CAR",
+  "office": "KCAR",
+  "issuance_time": "2026-09-29T18:07:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) The next round of rain showers is expected for the end of next week, though drought relief is unlikely.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/fbc63d55-a18f-4dd8-9572-9f59042b839f"
+ },
+ {
+  "pair_id": "653f1083-8cc8-4b8c-912b-e929fb322e4f_KEY_MESSAGES",
+  "wfo": "CHS",
+  "office": "KCHS",
+  "issuance_time": "2026-09-29T18:23:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- 1) The coastal flood risk will linger through the end of this week. - 2) Warm and dry conditions will extend through most of the week. - 3) Unsettled weather will return late week into the weekend with fall-like conditions early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/653f1083-8cc8-4b8c-912b-e929fb322e4f"
+ },
+ {
+  "pair_id": "b8991b02-cb0d-4888-9f7c-8d455d9201b5_KEY_MESSAGES",
+  "wfo": "CLE",
+  "office": "KCLE",
+  "issuance_time": "2026-09-29T18:14:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) Dry and pleasant weather continues through Wednesday. 2) Some showers possible Wednesday night, followed by greater potential for widespread rain late Thursday into Friday. 3) Cooler weather this weekend into early next week. This period will be mainly dry with a couple of minor rain chances.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b8991b02-cb0d-4888-9f7c-8d455d9201b5"
+ },
+ {
+  "pair_id": "1bc5758b-05c9-45d7-8780-80149e01b64c_KEY_MESSAGES",
+  "wfo": "CRP",
+  "office": "KCRP",
+  "issuance_time": "2026-09-29T18:42:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 133 PM CDT Tue Sep 29 2026 - Temperatures will remain above normal through Wednesday and a Heat Advisory may be needed. - Heavy rainfall and flash flooding threat is increasing for the latter part of this week and a Flash Flood Watch may be needed for Thursday night through Friday night when the heaviest rainfall is expected. There is a Moderate Risk for excessive rainfall for the western half of S TX and a Slight Risk for the eastern half on Thursday. There is a Slight Risk for the western areas on Friday. - There is a Marginal Risk of severe thunderstorms on Thursday for the Rio Grande Plains and western Brush Country.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/1bc5758b-05c9-45d7-8780-80149e01b64c"
+ },
+ {
+  "pair_id": "8fb849b8-a916-4de5-b995-aaa55c1322dd_KEY_MESSAGES",
+  "wfo": "CTP",
+  "office": "KCTP",
+  "issuance_time": "2026-09-29T18:16:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) Improving conditions late today with noticeable warmup and several days of dry conditions to end September and start October 2) Cooling trend this weekend into early next week with an increasing chance of rain Saturday and Sunday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/8fb849b8-a916-4de5-b995-aaa55c1322dd"
+ },
+ {
+  "pair_id": "bcb0ea8b-4e29-43c0-9a69-638487dfd388_KEY_MESSAGES",
+  "wfo": "CYS",
+  "office": "KCYS",
+  "issuance_time": "2026-09-29T20:18:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Areas of fog will develop after midnight tonight and continue through Wednesday morning south of a line from Laramie, to Torrington to Alliance with some dense fog possible near the Interstate 80 Summit and the southern Laramie Range Foothills. - A more organized rain producer will graze the southern Nebraska panhandle on Wednesday, but confidence remains low in the exact track of the storm system. - Cooler temperatures continue through Thursday, but warmer and drier weather will prevail Friday through early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/bcb0ea8b-4e29-43c0-9a69-638487dfd388"
+ },
+ {
+  "pair_id": "fff315e5-3dfc-46a2-9dad-8ed5f95521c1_KEY_MESSAGES",
+  "wfo": "DDC",
+  "office": "KDDC",
+  "issuance_time": "2026-09-29T19:20:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Tropical/near tropical environment already in place across southwest Kansas with anomalously high moisture content on the midday Upper Air sounding at Dodge City (well above the 99th percentile of all upper air observations at DDC). - Flood Watch continues for areas northwest of a Meade-Dodge City-La Crosse line through Thursday. - Excessive rainfall rates well in excess of one inch per hour likely across much of southwest and west central Kansas tonight, with scattered locations seeing two inches or more of rain between 7 PM this evening and 10 AM Thursday morning. - The final rainfall episode from this whole storm system will come Thursday, most likely an additional 1/2 to 1 inch of rain along an east-west axis just north of the low pressure track.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/fff315e5-3dfc-46a2-9dad-8ed5f95521c1"
+ },
+ {
+  "pair_id": "97f3331e-a1c6-4835-95f0-d828d984a985_KEY_MESSAGES",
+  "wfo": "DLH",
+  "office": "KDLH",
+  "issuance_time": "2026-09-29T19:29:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Areas of rain showers push east and diminish through this evening. - Next best chance for some light rain Saturday with scattered showers. - Temperatures peak Wednesday with highs in the mid to high 70s and then cooler conditions return. Multiple night with frost/freeze potential return Thursday night and through early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/97f3331e-a1c6-4835-95f0-d828d984a985"
+ },
+ {
+  "pair_id": "a96b503f-5cea-4335-a507-92eb2dc28d06_KEY_MESSAGES",
+  "wfo": "DMX",
+  "office": "KDMX",
+  "issuance_time": "2026-09-29T20:10:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Ongoing showers and thunderstorms will prime the area through the remainder of the afternoon into the late evening. - Widespread, prolonged period of rainfall expected over Iowa from tonight through Wednesday and Thursday. Rainfall amounts of 2 to 4 inches likely, with higher amounts possible in areas that see less breaks from the rain. Flooding and flash flooding will be possible. - Rainfall chances ending north and northwest on Thursday, ending in the south Friday morning. Cooler and drier conditions into the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/a96b503f-5cea-4335-a507-92eb2dc28d06"
+ },
+ {
+  "pair_id": "a96b503f-5cea-4335-a507-92eb2dc28d06_HYDROLOGY",
+  "wfo": "DMX",
+  "office": "KDMX",
+  "issuance_time": "2026-09-29T20:10:00+00:00",
+  "section": "HYDROLOGY",
+  "language": "Issued at 306 PM CDT Tue Sep 29 2026 Potentially significant hydrologic event will affect our CWA over the next several days, with flash flooding, areal flooding and river flooding possible. Shifts in locations and amounts of heaviest rainfall may significantly affect stream responses especially creeks and smaller streams. Greatest threat of heaviest rainfall is presently across the southeast two-thirds of CWA per latest meteorological model trends, however possible later wobbles to the north may bring our northwest counties into play again, thus we have continued the flood watch in those areas. Elsewhere, the river basins of most concern presently include the middle/lower Raccoon basin, Des Moines River basin below Saylorville Reservoir including tributaries like the North, Middle and South Rivers, and the South Skunk River basin especially downstream of the Ames area. Of those three, the Raccoon is of most concern due to recent moderate to heavy rain across portions of that basin, leading to increased soil moisture, which will allow more runoff to occur more quickly. Latest Hydrologic Ensemble Forecast System (HEFS) and QPF ensemble hydrographs, which include longer QPF time durations than our deterministic river forecasts, suggest the most likely scenario in many locations will significant within-bank rises to around bankfull, with some isolated minor river flooding. One outlier is the lower Raccoon basin where some moderate flooding is possible. If rainfall amounts overachieve then more widespread minor to moderate river flooding would be possible. Although unlikely, higher end rainfall amounts would lead to more widespread moderate to major river flooding. Refer to our HEFS or QPF ensemble hydrograph forecasts for more details.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/a96b503f-5cea-4335-a507-92eb2dc28d06"
+ },
+ {
+  "pair_id": "8a917f61-2a94-42b4-9e57-8114f4623f61_KEY_MESSAGES",
+  "wfo": "DTX",
+  "office": "KDTX",
+  "issuance_time": "2026-09-29T19:20:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- There is a chance of light rain tomorrow. - Periods of rain is forecast Thursday into Friday. Locally heavy rain is possible. - Cooler and drier air is forecast Saturday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/8a917f61-2a94-42b4-9e57-8114f4623f61"
+ },
+ {
+  "pair_id": "8a917f61-2a94-42b4-9e57-8114f4623f61_HYDROLOGY",
+  "wfo": "DTX",
+  "office": "KDTX",
+  "issuance_time": "2026-09-29T19:20:00+00:00",
+  "section": "HYDROLOGY",
+  "language": "The transport of tropical moisture into southern Michigan and an approaching cold front will lead to widespread rain Wednesday into Friday. The heaviest rain is forecast to occur between Thursday afternoon and Friday morning. There is high probability for total rainfall between 0.5 and 1.5 inches. A band of more persistent rainfall is likely to become established across the area. The precise location of this carries some degree of uncertainty at this time. Within the model probability space, there is a chance for rainfall to exceed 2 inches in areas which experience the more persistent rainfall, suggesting at least a chance of minor flooding.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/8a917f61-2a94-42b4-9e57-8114f4623f61"
+ },
+ {
+  "pair_id": "85dfc237-7f21-4114-8b71-014745bbc323_KEY_MESSAGES",
+  "wfo": "DVN",
+  "office": "KDVN",
+  "issuance_time": "2026-09-29T19:03:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- A prolonged period of wet weather will be seen through late week in the form of three rounds of heavy rain. In between each round, spotty showers and potentially drizzle will be seen. - Given the long duration of the rain, rises on area rivers will occur. The probability of a flood watch being needed at some point over the next 72 hours is around 30 percent. - A drier and cooler weather pattern will set up this weekend and into early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/85dfc237-7f21-4114-8b71-014745bbc323"
+ },
+ {
+  "pair_id": "98fdd2de-3181-4821-95c4-6c71f7053bae_KEY_MESSAGES",
+  "wfo": "EAX",
+  "office": "KEAX",
+  "issuance_time": "2026-09-29T20:42:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Several rounds of showers and storms will be likely across the area until Thursday night. Potential for heavy rainfall and flooding. - Friday and the weekend to be more pleasant as high pressure brings more October-like air to the area.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/98fdd2de-3181-4821-95c4-6c71f7053bae"
+ },
+ {
+  "pair_id": "16ff87d5-5587-4376-93bf-8026b68fd440_KEY_MESSAGES",
+  "wfo": "EKA",
+  "office": "KEKA",
+  "issuance_time": "2026-09-29T07:22:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "* High pressure builds through the rest of the week, bringing an extended dry period with interior valley high temperatures warming into the 80s and 90s. * An arriving long-period west-northwest swell brings an elevated risk for sneaker waves along the shoreline.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/16ff87d5-5587-4376-93bf-8026b68fd440"
+ },
+ {
+  "pair_id": "ec20fe5a-ce23-40a7-84e7-5f9d51ebbc26_KEY_MESSAGES",
+  "wfo": "EPZ",
+  "office": "KEPZ",
+  "issuance_time": "2026-09-29T17:06:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 925 AM MDT Tue Sep 29 2026 - Moisture from tropical remnants of Polo will bring more widespread showers and thunderstorms to the Borderland today. Storms will be capable of heavy rain, gusty winds, and flash flooding, especially over locations that have already received heavy rain in recent weeks. - New rain amounts of 1 to 2 inches across much of southern New Mexico, with localized areas receiving 3 inches. A Flood Watch is in effect into Wednesday morning area-wide. - Wind Advisory in effect Tuesday evening focusing over far west Texas and Otero county. - Drier weather expected Thursday through the weekend as the moisture is pushed eastward. Temperatures remaining cool into next weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/ec20fe5a-ce23-40a7-84e7-5f9d51ebbc26"
+ },
+ {
+  "pair_id": "b6a013b8-d038-4394-a455-16d321fd50f7_KEY_MESSAGES",
+  "wfo": "EWX",
+  "office": "KEWX",
+  "issuance_time": "2026-09-29T19:26:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 148 PM CDT Tue Sep 29 2026 - A Flood Watch is in effect from Wednesday evening through Friday evening for much of South Central Texas. Heavy rainfall may lead to life-threatening flash flooding somewhere in the Watch area. - Some storms Wednesday night through Friday morning may become strong to severe with strong wind and hail the main hazards. Flooding continues to be the main concern. - Low to medium rain changes linger through the weekend then decrease heading into next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b6a013b8-d038-4394-a455-16d321fd50f7"
+ },
+ {
+  "pair_id": "c2aac249-25fa-4168-943e-5d8fd647e7e4_KEY_MESSAGES",
+  "wfo": "FFC",
+  "office": "KFFC",
+  "issuance_time": "2026-09-29T19:04:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Dry conditions continue through most of the week, before rain chances return late week and over the weekend. - Some strong thunderstorms are possible on Sunday with storm total rainfall amounts of several inches possible over the weekend. - Warming trend back to above normal temperatures this afternoon and through the late week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/c2aac249-25fa-4168-943e-5d8fd647e7e4"
+ },
+ {
+  "pair_id": "7efaf996-95a2-4d80-a937-d585563cd66b_KEY_MESSAGES",
+  "wfo": "FGF",
+  "office": "KFGF",
+  "issuance_time": "2026-09-29T20:15:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Cooldown for Thursday through the weekend. Near normal temperatures with highs in the mid 50s to low 60s F and lows in the mid 30s to mid 40s F. - Low to medium chance (20-50%) for precipitation Saturday. Accumulations are expected to remain under 0.25 inches.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/7efaf996-95a2-4d80-a937-d585563cd66b"
+ },
+ {
+  "pair_id": "9baea8b0-9770-44f5-b3ce-18fd1c644e96_KEY_MESSAGES",
+  "wfo": "FSD",
+  "office": "KFSD",
+  "issuance_time": "2026-09-29T19:38:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Light showers will continue this afternoon mainly south of U.S. Highway 18 with up to an additional quarter of an inch of rain. There is a 20 to 30 percent chance for additional showers and isolated non-severe thunderstorms into this evening across far southeast South Dakota, far northeast Nebraska, and northwest Iowa. - Gradually clearing skies overnight may lead to the rapid development of dense fog. Be prepared to allow for extra time during your Wednesday morning commute if fog develops. - A moisture rich storm system will move across the Central Plains on Wednesday. A tight rainfall gradient will be in place, with the highest rainfall amounts south of the forecast area. Areas along the Highway 20 corridor may still see one half to one whole inch of additional rainfall. A Flood Watch is still in effect for parts of northwest Iowa if the higher rainfall amounts shift north. - Expect drier and cooler conditions Thursday and Friday with the next chance for light rain north of Interstate 90 on Saturday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/9baea8b0-9770-44f5-b3ce-18fd1c644e96"
+ },
+ {
+  "pair_id": "46a98a93-8d5f-41ce-beb8-50c57a52622e_KEY_MESSAGES",
+  "wfo": "FWD",
+  "office": "KFWD",
+  "issuance_time": "2026-09-29T19:00:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- A Flood Watch is in effect for much of North and Central Texas through Friday morning. - A couple strong to severe thunderstorms are possible along and west of the US-281 corridor Wednesday afternoon and evening. - Much cooler weather is expected this weekend with continued clouds and scattered showers/storms lingering through Sunday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/46a98a93-8d5f-41ce-beb8-50c57a52622e"
+ },
+ {
+  "pair_id": "22f175eb-3b20-434c-ac16-be8f22b9c5c0_KEY_MESSAGES",
+  "wfo": "GGW",
+  "office": "KGGW",
+  "issuance_time": "2026-09-29T19:00:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Warm, dry, and gusty conditions this afternoon is expected to quieter conditions with decreasing winds later today. - The first major frost of the season is possible is some locations Thursday morning. - There are small chances for isolated showers Wednesday night through Friday night.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/22f175eb-3b20-434c-ac16-be8f22b9c5c0"
+ },
+ {
+  "pair_id": "3973afb8-5c3e-42d2-a490-127621c0602e_KEY_MESSAGES",
+  "wfo": "GID",
+  "office": "KGID",
+  "issuance_time": "2026-09-29T17:48:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Wet weather pattern begins today and continues through Thursday. Widespread total rainfall amounts of 1.5-3\" are expected over the next three days. - Prospects for appreciable dry breaks in the rain are limited, effectively leading to \"washout\" type days Wednesday-Thursday. - Ensemble 90th percentile QPF forecast (reasonable worst case scenario) maxes out between 4-5\", which, if comes to fruition, could lead to areas of flooding given already wet soils from last week's rain event. A Flash Flood Watch remains in effect for the entire forecast area. - Much quieter weather arrives in time for the weekend. Slightly below normal temperatures are favored - highs 60s/70s, and lows in the 40s/50s.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/3973afb8-5c3e-42d2-a490-127621c0602e"
+ },
+ {
+  "pair_id": "266fae32-d1b7-4ef2-906c-441ac4532b6a_KEY_MESSAGES",
+  "wfo": "GJT",
+  "office": "KGJT",
+  "issuance_time": "2026-09-29T20:16:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Scattered to widespread precipitation showers and storms continue. - Flooding concerns are increased for rain-soaked terrain, especially within and adjacent to the southern San Juans. - A Flood Watch is in effect for southeast Utah and southwest Colorado through 6AM Wednesday. The Flood Watch has been extended for the San Juan Mountains and part of the San Juan River Basin through 6AM Thursday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/266fae32-d1b7-4ef2-906c-441ac4532b6a"
+ },
+ {
+  "pair_id": "266fae32-d1b7-4ef2-906c-441ac4532b6a_HYDROLOGY",
+  "wfo": "GJT",
+  "office": "KGJT",
+  "issuance_time": "2026-09-29T20:16:00+00:00",
+  "section": "HYDROLOGY",
+  "language": "Issued at 208 PM MDT Tue Sep 29 2026 Tropical moisture continues to fuel a shield of precipitation drifting north across New Mexico. While areas north of the Four Corners have seen a downward tick in shower coverage, HiRes guidance maintains isolated to scattered showers redeveloping across the Southwest San Juans this afternoon. As a result, expect periods of heavy rainfall due to additional showers with embedded thunderstorms possible. Localized heavy rainfall over already saturated soils will pose a threat to our steep and flashy terrain as well as recent burn scars. Storm activity is primarily favored across the southern tier of the forecast area. The convective potential wanes after sunset; however, as the closed low lifts towards the Four Corners tonight, another round of showers and thunderstorms redevelops. Embedded thunderstorms and additional rain expected through Wednesday evening maintain our concerns for flash flooding and rises on local rivers until precipitation finally exits the Western Slope Wednesday night. RFC guidance maintains a second peak at several sites, peaking around midnight due to Wednesday's precipitation. Fortunately, water levels are not anticipated to exceed previous high water marks. That being said, localized flooding and flash flooding continue to pose a threat to our southwestern Colorado communities until remnant moisture from Hurricane Polo and the closed low completely exit our region.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/266fae32-d1b7-4ef2-906c-441ac4532b6a"
+ },
+ {
+  "pair_id": "b0960350-2180-4c4e-a856-1501a429f35c_KEY_MESSAGES",
+  "wfo": "GLD",
+  "office": "KGLD",
+  "issuance_time": "2026-09-29T17:17:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Scattered showers this morning will gradually increase in coverage and intensity through the day, becoming widespread tonight. - A Flood Watch is in effect for the entire area starting tonight and continuing through the day on Thursday. While rainfall totals are forecast to generally be around 1-3\" during that time, there is the possibility for some parts of the area to see 3-5\" of rain. - There is a marginal risk for severe thunderstorms Wednesday afternoon and early evening. Wind and hail will be the main hazards, but a brief tornado will also be possible.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b0960350-2180-4c4e-a856-1501a429f35c"
+ },
+ {
+  "pair_id": "75a4bef3-556b-4af8-b3a3-a1eb1a23f0e2_KEY_MESSAGES",
+  "wfo": "GRB",
+  "office": "KGRB",
+  "issuance_time": "2026-09-29T17:25:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Widespread soaking rainfall is expected over most of the area from this evening through Thursday morning. Rainfall amounts between 1 to 1.5\" are forecast across portions of central and east-central Wisconsin. - Patchy frost will be possible at times across northern Wisconsin later this week as a cooler and drier airmass settles in. - Increasing southerly winds Wednesday will create hazardous swim and boating conditions on Lake Michigan.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/75a4bef3-556b-4af8-b3a3-a1eb1a23f0e2"
+ },
+ {
+  "pair_id": "62f3bfc5-dd5b-47b3-a92b-06713d82277b_KEY_MESSAGES",
+  "wfo": "GSP",
+  "office": "KGSP",
+  "issuance_time": "2026-09-29T18:10:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1. Dry weather through Thursday with temperatures trending gradually warmer through late week. 2. Rain is likely this weekend with a slow-moving frontal system. The rain could be heavy at times, particularly Saturday night. Temperatures trend slightly cooler Saturday, and much cooler Sunday, with dry weather probably returning by Monday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/62f3bfc5-dd5b-47b3-a92b-06713d82277b"
+ },
+ {
+  "pair_id": "ac49be94-d3e3-45ac-8003-a6e48d6cdcd8_KEY_MESSAGES",
+  "wfo": "GYX",
+  "office": "KGYX",
+  "issuance_time": "2026-09-29T18:18:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1. High pressure brings dry conditions for Wednesday and Thursday along with a warming trend. 2. A cold front will move through the area on Friday, with cooler and more seasonable weather expected this weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/ac49be94-d3e3-45ac-8003-a6e48d6cdcd8"
+ },
+ {
+  "pair_id": "116e7459-a385-4ec8-951f-ed01c877430f_KEY_MESSAGES",
+  "wfo": "HGX",
+  "office": "KHGX",
+  "issuance_time": "2026-09-29T19:09:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "-Hot and humid conditions will continue through Wednesday. -Periods of showers and thunderstorms are expected each day, peaking from Wednesday through Saturday. Locally heavy rain will be possible. -Daytime temperatures are expected to drop to more seasonal levels in response to rain and increased cloud cover.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/116e7459-a385-4ec8-951f-ed01c877430f"
+ },
+ {
+  "pair_id": "17cc1da3-cc55-4541-b166-070a2d70cca7_KEY_MESSAGES",
+  "wfo": "HNX",
+  "office": "KHNX",
+  "issuance_time": "2026-09-29T16:59:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1. Low pressure trough begins to lift today, leading to a slight increase in temperatures. 2. A ridge will build Wednesday, leading to temperatures well above seasonal normals through at least this weekend. 3. Ridge brings Moderate Heat Risk across our forecast area from Thursday into next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/17cc1da3-cc55-4541-b166-070a2d70cca7"
+ },
+ {
+  "pair_id": "a55b236f-f87e-47b6-b366-8b6ea010d219_KEY_MESSAGES",
+  "wfo": "HUN",
+  "office": "KHUN",
+  "issuance_time": "2026-09-29T19:37:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 834 AM CDT Mon Sep 29 2026 - Medium to high (40-80%) chances of showers and thunderstorms will return to the forecast late this week into the weekend, with locally heavy rainfall the main concern. - Temperatures will be on the rise through Friday, with increasing humidity yielding a Moderate Heat Risk (Level 2/4) in some areas Thursday and Friday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/a55b236f-f87e-47b6-b366-8b6ea010d219"
+ },
+ {
+  "pair_id": "02b0f0c7-678d-4cc3-8818-6edee0c2e894_KEY_MESSAGES",
+  "wfo": "ICT",
+  "office": "KICT",
+  "issuance_time": "2026-09-29T19:35:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Seasonable temperatures over the next week (upper 70s to lower 80s) - Widespread rainfall through Thursday; highest rainfall amounts expected across portions of central KS and southeast KS - Flood Watch for Lincoln/Russell counties - A few severe storms cannot be ruled out Wednesday afternoon across portions of central and south-central KS",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/02b0f0c7-678d-4cc3-8818-6edee0c2e894"
+ },
+ {
+  "pair_id": "fc6934f5-48b3-40ca-af47-4c7da843cf02_KEY_MESSAGES",
+  "wfo": "ILM",
+  "office": "KILM",
+  "issuance_time": "2026-09-29T18:33:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- 1) Another round of minor coastal flooding expected at this evening's high tide for the lower Cape Fear River, including downtown Wilmington. - 2) Warming trend continues through Saturday, allowing temperatures to soar above seasonal norms. Next earnest rain chances return by the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/fc6934f5-48b3-40ca-af47-4c7da843cf02"
+ },
+ {
+  "pair_id": "0e4a33a2-faa2-4657-8bcf-ff44fc628366_KEY_MESSAGES",
+  "wfo": "ILN",
+  "office": "KILN",
+  "issuance_time": "2026-09-29T16:40:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) A gradual warming trend is expected this week, with rain chances returning Friday into early Saturday. 2) Cooler and drier conditions will return Sunday into early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/0e4a33a2-faa2-4657-8bcf-ff44fc628366"
+ },
+ {
+  "pair_id": "2e1ad2a5-7d22-4930-b298-f96d5ddf6591_KEY_MESSAGES",
+  "wfo": "ILX",
+  "office": "KILX",
+  "issuance_time": "2026-09-29T18:31:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Unseasonably warm temperatures in the 80s stick around through midweek, especially near and south of Interstate 72. - Rain chances increase late tonight into Wednesday over west-central Illinois. Widespread heavy rain is then expected Thursday through Friday with a 50-90% chance of exceeding 1 inch north of Interstate 70. - Drier, autumn-like conditions move in late Friday into Saturday, dropping weekend highs into the upper 60s to low 70s.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/2e1ad2a5-7d22-4930-b298-f96d5ddf6591"
+ },
+ {
+  "pair_id": "86bbd45f-2de2-4dcd-9214-85e9eb465760_KEY_MESSAGES",
+  "wfo": "IND",
+  "office": "KIND",
+  "issuance_time": "2026-09-29T19:12:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Warm and mostly dry through Thursday with temperatures well above normal. - Moderate to heavy rain expected Thursday night into Friday. - Chance of additional showers for southern areas Friday night into early Sunday. - Dry and cooler weather expected next week with lows mainly in the 40s with upper 30s possibly in outlying areas Tuesday morning.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/86bbd45f-2de2-4dcd-9214-85e9eb465760"
+ },
+ {
+  "pair_id": "b7cabbd5-ae8b-495f-a197-de15316c3ae9_KEY_MESSAGES",
+  "wfo": "IWX",
+  "office": "KIWX",
+  "issuance_time": "2026-09-29T17:39:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- While it is possible spotty showers creep into areas north of US-6 on Wednesday, a majority of the area remains dry. - Rain is expected late Thursday into early Friday. Around an inch is anticipated for most locations. No severe weather or significant flooding is expected. - A warming trend takes mid to upper 70 degree high temps today into the 80s for areas south of US-30 by Thursday. - Trends are towards a dry and cooler weekend which looks to continue into next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b7cabbd5-ae8b-495f-a197-de15316c3ae9"
+ },
+ {
+  "pair_id": "475b314a-cf63-482b-925a-de06318c95f1_KEY_MESSAGES",
+  "wfo": "JAN",
+  "office": "KJAN",
+  "issuance_time": "2026-09-29T17:50:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- A dry, warm airmass remains over the region through midweek. - Rain chances return by late week with widespread rains likely into the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/475b314a-cf63-482b-925a-de06318c95f1"
+ },
+ {
+  "pair_id": "ad4f37ce-136e-4d43-b98b-9fb3ad2c6b4b_KEY_MESSAGES",
+  "wfo": "JAX",
+  "office": "KJAX",
+  "issuance_time": "2026-09-29T18:43:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "For the latest NE FL and SE GA Daily Key Messages please visit: https:/www.weather.gov/media/jax/briefings/nws-jax-briefing.pdf - Minor Tidal Flooding for NE FL Atlantic beachfront and the St. Johns River basin through this evening - Moderate Risk of Rip Currents at local beaches - Isolated Thunderstorm Activity Returns Mid Week. Greater chances of thunderstorms starting Thursday through the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/ad4f37ce-136e-4d43-b98b-9fb3ad2c6b4b"
+ },
+ {
+  "pair_id": "93ef9ff1-abce-473d-b9c5-7cd8a73a0d65_KEY_MESSAGES",
+  "wfo": "JKL",
+  "office": "KJKL",
+  "issuance_time": "2026-09-29T20:25:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Temperatures warm through Thursday, while humidity gradually increases through Friday and lingers this weekend. - A slow moving boundary will likely bring showers and stray thunderstorms from Friday afternoon into the weekend until a secondary boundary passes to end the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/93ef9ff1-abce-473d-b9c5-7cd8a73a0d65"
+ },
+ {
+  "pair_id": "18381813-7bae-4b3e-87ca-03e270cc710b_KEY_MESSAGES",
+  "wfo": "KEY",
+  "office": "KKEY",
+  "issuance_time": "2026-09-29T19:37:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Moderate to major saltwater flooding of low elevation streets and lots is likely to continue over the next few day or so due to King Tide. Don't drive through flooded roadways. Boaters can expect less clearance under fixed bridges. - A Coastal Flood Warning is in effect for the Upper Keys, particularly along the sounds, bay side of Key Largo. A Coastal Flood Advisory is in effect for the Middle and Lower Keys. - A wet pattern is expected for the next several days across the Keys. This will maintain above normal rain and thunder chances through at least Thursday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/18381813-7bae-4b3e-87ca-03e270cc710b"
+ },
+ {
+  "pair_id": "b5908bb5-1f62-4e64-88a9-bf772ec28399_KEY_MESSAGES",
+  "wfo": "LBF",
+  "office": "KLBF",
+  "issuance_time": "2026-09-29T20:43:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Scattered thunderstorms along a cold front may lead to locally heavy rainfall this evening across central Nebraska. - Widespread showers and thunderstorms will lead to a threat for heavy rainfall Wednesday morning through Thursday morning. The greatest threat for heavy rain is southeast of a Grant to Bartlett line. - Cooler and drier conditions return for Friday and into the weekend, with highs in the 60s to 70s and lows in the 40s.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b5908bb5-1f62-4e64-88a9-bf772ec28399"
+ },
+ {
+  "pair_id": "84a131bc-bb67-49fa-bbae-07e1db422347_KEY_MESSAGES",
+  "wfo": "LCH",
+  "office": "KLCH",
+  "issuance_time": "2026-09-29T17:35:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Low level southerly flow will become reestablished early this week causing moisture to increase. This will lead to more humid conditions along with temperatures that are already above seasonal norms. - Next chance for rain can be expected late Wednesday or early Thursday as the upper ridge breaks down and upper disturbance moves into the region. - Rain chances will be further enhanced into the weekend as a frontal boundary moves across the North Gulf States.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/84a131bc-bb67-49fa-bbae-07e1db422347"
+ },
+ {
+  "pair_id": "0653987b-441c-4dac-a6c0-e9da5fe9a123_KEY_MESSAGES",
+  "wfo": "LIX",
+  "office": "KLIX",
+  "issuance_time": "2026-09-29T18:03:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 1250 PM CDT Tue Sep 29 2026 - Scattered to locally numerous showers and a few storms will return to the area Thursday afternoon. One or two storms could become strong, producing gusty winds, frequent lightning and brief periods of heavy rainfall. - Confidence is increasing that widespread rain and embedded thunderstorms will affect the area Friday through at least Sunday. While specific rainfall totals are still uncertain, heavy rain and at least localized flash flooding will be a threat. Residents should continue to monitor the forecast for updates regarding this threat.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/0653987b-441c-4dac-a6c0-e9da5fe9a123"
+ },
+ {
+  "pair_id": "92e1048f-54be-4556-8a80-1d610ff35127_KEY_MESSAGES",
+  "wfo": "LKN",
+  "office": "KLKN",
+  "issuance_time": "2026-09-29T18:42:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "* Dry weather conditions throughout central and northern Nevada this week. * Warming temperature trend through the week reaching to a couple of degrees above normal. * Unseasonably warm Friday through the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/92e1048f-54be-4556-8a80-1d610ff35127"
+ },
+ {
+  "pair_id": "5306d65d-c180-4ed7-911a-5423e3e0bacb_KEY_MESSAGES",
+  "wfo": "LMK",
+  "office": "KLMK",
+  "issuance_time": "2026-09-29T18:54:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "* Pleasant and dry weather continues through Wednesday with daytime highs in the upper 70s to the lower 80s. * A stronger southwest flow is expected on Thursday which will allow temperatures to warm into the mid-upper 80s with a few spots touching 90 once again. * Slow moving cold front will bring widespread rain showers to the region Thursday night through Friday night. Showers may continue across southern KY on Saturday and Sunday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/5306d65d-c180-4ed7-911a-5423e3e0bacb"
+ },
+ {
+  "pair_id": "b869fe9a-3f1a-46f2-8c71-0e4f77b5eb48_KEY_MESSAGES",
+  "wfo": "LOT",
+  "office": "KLOT",
+  "issuance_time": "2026-09-29T19:41:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Periods of rain, heavy at times, expected late tonight through early Friday morning. Significant rises on area rivers and streams may result.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b869fe9a-3f1a-46f2-8c71-0e4f77b5eb48"
+ },
+ {
+  "pair_id": "1f67591f-5dcb-4f14-b450-3cf81c6e9296_KEY_MESSAGES",
+  "wfo": "LSX",
+  "office": "KLSX",
+  "issuance_time": "2026-09-29T19:56:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Widespread rain is expected along a slow-moving cold front Wednesday night through Friday. A swath of 2-3 inches of rain is most likely across northern Missouri and west-central Illinois, with decreasing values further south and east. - There are increased chances for river flooding by next week along the Missouri River, Mississippi River, and northeast Missouri tributaries due to heavy rain in and upstream of these basins. - Temperatures stay abnormally warm through Thursday before a return of cooler, seasonable air later this week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/1f67591f-5dcb-4f14-b450-3cf81c6e9296"
+ },
+ {
+  "pair_id": "88b4a0bd-dfad-49de-a043-1d5b38901ef0_KEY_MESSAGES",
+  "wfo": "LUB",
+  "office": "KLUB",
+  "issuance_time": "2026-09-29T17:46:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 1242 PM CDT Tue Sep 29 2026 - Heavy showers and thunderstorms remain possible Tuesday evening through early Wednesday morning, heavy rainfall, strong winds, and the potential for a tornado or two possible with stronger storm cores. - A Flood Watch is in effect for the SW TX Panhandle and northwestern portions of the South Plains through 7 AM CDT Wednesday. - Additional heavy rain showers and thunderstorms will be possible Wednesday evening through Thursday morning, with heavy rainfall and strong winds possible. - A Flood Watch is in effect for Stonewall County 7 PM CDT Wednesday through 7 AM CDT Thursday. - Generally drier and cooler weather is expected Thursday and beyond.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/88b4a0bd-dfad-49de-a043-1d5b38901ef0"
+ },
+ {
+  "pair_id": "4443eca5-15b9-4ffd-936b-f49793734dc9_KEY_MESSAGES",
+  "wfo": "LWX",
+  "office": "KLWX",
+  "issuance_time": "2026-09-29T18:48:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- 1) Tranquil weather is expected through Thursday with climbing temperatures. - 2) A stalling cold front and wave of low pressure may affect the area this weekend. - 3) High pressure likely returns early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/4443eca5-15b9-4ffd-936b-f49793734dc9"
+ },
+ {
+  "pair_id": "f27bb092-ff33-4979-853a-6ded3c6f8280_KEY_MESSAGES",
+  "wfo": "LZK",
+  "office": "KLZK",
+  "issuance_time": "2026-09-29T20:01:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 115 AM CDT Tue Sep 29 2026 - Well above normal temperatures for much of the state through Thursday, then cooler temperatures through the weekend. - Increasing chances of rain from west to east from late week into the weekend - Highest rainfall amounts through the period are expected across western AR with amounts diminishing with eastward extent",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/f27bb092-ff33-4979-853a-6ded3c6f8280"
+ },
+ {
+  "pair_id": "3c55e922-d26f-48ec-bf4c-12d4ddbcdacc_KEY_MESSAGES",
+  "wfo": "MAF",
+  "office": "KMAF",
+  "issuance_time": "2026-09-29T20:05:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 305 PM CDT Tue Sep 29 2026 - Flash flooding due to heavy rainfall and runoff from already saturated soils remain a concern across the SE NM plains, Guadalupe and Davis Mountains, the Upper Trans Pecos, and western Permian Basin late this afternoon through tonight. - Strong shear accompanying remnants of Hurricane Polo yields threat for localized damaging winds and a couple of brief spin- up tornadoes late this afternoon through tonight. - A very brief period of high westerly winds will be possible in the Guadalupe and Delaware Mountains Wednesday afternoon and evening. Strong northeasterly gap winds will also be possible through Guadalupe Pass Thursday night and Friday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/3c55e922-d26f-48ec-bf4c-12d4ddbcdacc"
+ },
+ {
+  "pair_id": "efdd5cb7-72e4-4b60-9e13-188a0ef2ef35_KEY_MESSAGES",
+  "wfo": "MEG",
+  "office": "KMEG",
+  "issuance_time": "2026-09-29T17:40:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 1239 PM CDT Tue Sep 29 2026 - Afternoon relative humidity levels will remain low through this afternoon, leading to continued elevated wildfire danger. Use caution if burning outdoors and obey all local burn bans. - High temperatures Wednesday and Thursday will range from the upper 80s near the Tennessee River to the mid 90s over delta, southwest of Memphis. These temperatures will be 10 to 15 degrees above normal, but a few degrees short of record highs. - Scattered showers and thunderstorms move into the Midsouth on Friday and persist through early Sunday. Total rainfall is expected to range from 1.5 to 3 inches. Dry and seasonal weather is forecast late Sunday into early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/efdd5cb7-72e4-4b60-9e13-188a0ef2ef35"
+ },
+ {
+  "pair_id": "fc25fb8b-ad34-4f68-9346-53c5253f1e18_KEY_MESSAGES",
+  "wfo": "MFL",
+  "office": "KMFL",
+  "issuance_time": "2026-09-29T17:38:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 126 PM EDT Tue Sep 29 2026 - Minor and moderate coastal flooding continues across southeast FL during high tide cycles today. Conditions gradually improve starting tonight. - Chances of showers and thunderstorms increase across South Florida today, with a medium chance (50-60%) mainly south of Alligator Alley.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/fc25fb8b-ad34-4f68-9346-53c5253f1e18"
+ },
+ {
+  "pair_id": "4a8b24fc-f8c6-4bc0-b32a-fd0221e2b2fb_KEY_MESSAGES",
+  "wfo": "MFR",
+  "office": "KMFR",
+  "issuance_time": "2026-09-29T20:31:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "* Low impact weather expected through the forecast period. * Temperatures trend warmer through the week, peaking around 10-15 degrees above normal over the weekend. * Slight chance of thunderstorms east of the Cascades on Sunday. * No signal for widespread precipitation for the next 7-10 days.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/4a8b24fc-f8c6-4bc0-b32a-fd0221e2b2fb"
+ },
+ {
+  "pair_id": "c3008510-9c7d-4138-a2b1-97995cdd89a9_KEY_MESSAGES",
+  "wfo": "MHX",
+  "office": "KMHX",
+  "issuance_time": "2026-09-29T17:40:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) Nuisance flooding remains in some vulnerable areas but the high tide cycles moving forward should exhibit lower water levels as the astronomical tides relax. 2) High pressure remains in place through Friday with light winds and above normal temperatures. 3) Moisture returns with a cold front and low pressure system bringing next chance of rain this weekend into early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/c3008510-9c7d-4138-a2b1-97995cdd89a9"
+ },
+ {
+  "pair_id": "f3c3df5e-1eeb-4028-b5ae-361e0f46dbe0_KEY_MESSAGES",
+  "wfo": "MKX",
+  "office": "KMKX",
+  "issuance_time": "2026-09-29T19:28:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Rounds of moderate rain will spread into southern Wisconsin tonight into Wednesday morning, with rounds of moderate to heavy rain at times Wednesday night into Thursday. A few rumbles of thunder may occur as well. The heaviest rainfall should occur toward the Illinois border. Rises in rivers and ponding of water in low lying areas are expected. - Temperatures will cool to near or slightly below seasonal normal values with the rain, and remain cool this weekend into early next week. - High swim risk conditions are expected for the Lake Michigan beaches in Sheboygan County from middle morning to middle evening Wednesday. Stay out of the water during this period and away from dangerous areas like piers and breakwalls.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/f3c3df5e-1eeb-4028-b5ae-361e0f46dbe0"
+ },
+ {
+  "pair_id": "5f35ca2a-e7e0-4996-ac3f-9668dcbf47c6_KEY_MESSAGES",
+  "wfo": "MLB",
+  "office": "KMLB",
+  "issuance_time": "2026-09-29T18:29:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 230 PM EDT Tue Sep 29 2026 - Shower and storm chances increase through mid to late week, with scattered to numerous afternoon showers and storms forecast each day. - A moderate risk of rip currents exists at all east central Florida Atlantic beaches today. Never enter the water alone and always swim near a lifeguard! - Highs remain seasonably warm through midweek, with a slight warming trend late week and into the weekend. Heat indices may reach the low 100s Friday through Sunday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/5f35ca2a-e7e0-4996-ac3f-9668dcbf47c6"
+ },
+ {
+  "pair_id": "5f35ca2a-e7e0-4996-ac3f-9668dcbf47c6_HYDROLOGY",
+  "wfo": "MLB",
+  "office": "KMLB",
+  "issuance_time": "2026-09-29T18:29:00+00:00",
+  "section": "HYDROLOGY",
+  "language": "Issued at 230 PM EDT Tue Sep 29 2026 The St Johns River at Astor remains within Minor Flood Stage due to tidal effects. River levels are forecast to gradually subside through Minor Flood Stage this week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/5f35ca2a-e7e0-4996-ac3f-9668dcbf47c6"
+ },
+ {
+  "pair_id": "5772b490-d9d3-4a0e-9823-b2176fbc43de_KEY_MESSAGES",
+  "wfo": "MOB",
+  "office": "KMOB",
+  "issuance_time": "2026-09-29T17:27:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 1226 PM CDT Tue Sep 29 2026 - A Low risk of rip currents today increases to a Moderate risk Wednesday evening and High risk by Thursday for all our local beaches. - Rain chances substantially increase Thursday into the coming weekend. Numerous showers and storms are expected during this period, with storms capable of producing heavy rainfall that could lead to localized flash flooding.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/5772b490-d9d3-4a0e-9823-b2176fbc43de"
+ },
+ {
+  "pair_id": "8d2cfe3f-bcd9-4b2d-9f35-5c44abc12ac5_KEY_MESSAGES",
+  "wfo": "MPX",
+  "office": "KMPX",
+  "issuance_time": "2026-09-29T18:12:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Rain continues to progress east across the region today. The rain will settle to the south tonight with fog developing area wide overnight. - Another period of dry weather will return Wednesday, with the only chance of rain in the foreseeable future coming Saturday. - Temperatures will remain near normal through early October. Any frost chances appear limited to Friday night in the coldest locations of northern MN/WI.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/8d2cfe3f-bcd9-4b2d-9f35-5c44abc12ac5"
+ },
+ {
+  "pair_id": "88aef040-5a8d-4d94-89c5-87eafc3c3070_KEY_MESSAGES",
+  "wfo": "MQT",
+  "office": "KMQT",
+  "issuance_time": "2026-09-29T17:34:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Warm and pleasant fall weather with temperatures in the 70s continues the rest of this afternoon into Wednesday. - Rain chances return to the area tonight, with the best chances over the south central and eastern U.P. Rain chances have shifted further south away from most of the area for the rest of the mid-week. - Marginal (~35 knot) west-northwest gales are now unlikely (~15% chance) along the southern Lake Superior shoreline from the Keweenaw to Whitefish Point on Thursday. Could see breezy conditions over the adjacent land areas.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/88aef040-5a8d-4d94-89c5-87eafc3c3070"
+ },
+ {
+  "pair_id": "6ce84897-0e0a-4512-8cd6-3d8e9e3f633a_KEY_MESSAGES",
+  "wfo": "MRX",
+  "office": "KMRX",
+  "issuance_time": "2026-09-29T18:35:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 235 PM EDT Tue Sep 29 2026 - Dry conditions are expected through Thursday, along with a continued warming trend. - Widespread rainfall is likely this weekend with locally heavy totals possible.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/6ce84897-0e0a-4512-8cd6-3d8e9e3f633a"
+ },
+ {
+  "pair_id": "543ebe38-0258-4c7b-8c02-0362ecce397d_KEY_MESSAGES",
+  "wfo": "MTR",
+  "office": "KMTR",
+  "issuance_time": "2026-09-29T19:29:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 1229 PM PDT Tue Sep 29 2026 - Elevated fire weather conditions across the higher terrain through Wednesday - Areas of moderate HeatRisk across the interior Wednesday through Tuesday - Minor coastal flooding near high tide for bayshore locations along the San Francisco, San Pablo, and Monterey Bays today through Thursday",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/543ebe38-0258-4c7b-8c02-0362ecce397d"
+ },
+ {
+  "pair_id": "2adba47a-4cd7-4768-8709-9ee0a87ace86_KEY_MESSAGES",
+  "wfo": "OAX",
+  "office": "KOAX",
+  "issuance_time": "2026-09-29T19:28:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Widespread rainfall of 2 to 4 inches expected through Thursday, with locally higher amounts. A Flood Watch has been issued for Tuesday evening through Thursday. - If we get any clearing on Wednesday, a few strong to severe thunderstorms will be possible during the afternoon and evening, mainly in southeast Nebraska. - Rain will end Thursday night, with cooler, dry conditions expected through the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/2adba47a-4cd7-4768-8709-9ee0a87ace86"
+ },
+ {
+  "pair_id": "e895f9d5-1297-4458-bf0a-2d13bc5d9473_KEY_MESSAGES",
+  "wfo": "OHX",
+  "office": "KOHX",
+  "issuance_time": "2026-09-29T17:28:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 1225 PM CDT Tue Sep 29 2026 - Well above normal temperatures through Friday with highs reaching the 80s to lower 90s. - Low to medium shower chances develop Friday. Medium to high rain chances Saturday into early Sunday. - High chance for more than 1 inch of rain this weekend with the heaviest rain expected Saturday afternoon into early Sunday morning.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/e895f9d5-1297-4458-bf0a-2d13bc5d9473"
+ },
+ {
+  "pair_id": "3be32363-f5b1-4c41-b2c5-fdc6af3b1a05_KEY_MESSAGES",
+  "wfo": "OKX",
+  "office": "KOKX",
+  "issuance_time": "2026-09-29T19:58:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) High pressure settles across the area mid week with a warming trend into the end of the week. 2) Low pressure may bring some rain late in the weekend. Impacts appear unlikely at this time.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/3be32363-f5b1-4c41-b2c5-fdc6af3b1a05"
+ },
+ {
+  "pair_id": "d6d4cd0c-3352-498b-be24-0c887a3e2026_KEY_MESSAGES",
+  "wfo": "OTX",
+  "office": "KOTX",
+  "issuance_time": "2026-09-29T20:11:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Breezy west to southwest winds may result in patchy blowing dust near recently plowed fields Tuesday afternoon into the early evening. - Mild and dry pattern this week, except for rain near the Cascade crest and chance of rain North Idaho Panhandle on Tuesday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/d6d4cd0c-3352-498b-be24-0c887a3e2026"
+ },
+ {
+  "pair_id": "ecad2873-26cd-4426-a47b-dc64da16a95f_KEY_MESSAGES",
+  "wfo": "OUN",
+  "office": "KOUN",
+  "issuance_time": "2026-09-29T19:50:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 249 PM CDT Tue Sep 29 2026 - Periods of heavy rain are expected from Wednesday afternoon through Thursday afternoon, with flooding possible in parts of western north Texas and southern Oklahoma. - Chance of severe storms Wednesday afternoon and Wednesday night. - Significant cooldown expected from Thursday through the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/ecad2873-26cd-4426-a47b-dc64da16a95f"
+ },
+ {
+  "pair_id": "6cfcd7e0-e226-4b6e-84f5-2fdb9b7a2d86_KEY_MESSAGES",
+  "wfo": "PAH",
+  "office": "KPAH",
+  "issuance_time": "2026-09-29T20:14:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Above normal temperatures with highs nearing 90 degrees are expected on Wednesday and Thursday, followed by more seasonable temperatures on Friday to end the week. - Rain showers build in from the west Thursday night and peak at a 80-90% chance on Friday when a few rumbles of thunder will be possible. There is a 50-70% chance of lingering showers on Saturday before drier conditions return through early next week. - Below normal temperatures with highs in the lower 70s make a return over the weekend into early next week with a 20-40% chance of lows dipping into the 40s next Monday morning.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/6cfcd7e0-e226-4b6e-84f5-2fdb9b7a2d86"
+ },
+ {
+  "pair_id": "e4bda03d-1506-4003-bfa4-b370db87729a_KEY_MESSAGES",
+  "wfo": "PBZ",
+  "office": "KPBZ",
+  "issuance_time": "2026-09-29T17:00:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) Mainly dry through Thursday, before shower chances return with a Friday cold front 2) Cooler with periodic shower chances for the upcoming weekend",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/e4bda03d-1506-4003-bfa4-b370db87729a"
+ },
+ {
+  "pair_id": "6b72151c-9546-446b-a071-1d6d6b12244a_KEY_MESSAGES",
+  "wfo": "PDT",
+  "office": "KPDT",
+  "issuance_time": "2026-09-29T17:45:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Light to moderate mountain showers across the WA Cascades and Northern Blues today - Breezy winds through the Columbia Basin and Eastern Columbia River Gorge this afternoon - Near to above normal temperatures, mostly dry conditions, and light winds develop into early next week",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/6b72151c-9546-446b-a071-1d6d6b12244a"
+ },
+ {
+  "pair_id": "682ee5c3-d1f3-46c9-921e-4d0d4735a0a6_KEY_MESSAGES",
+  "wfo": "PHI",
+  "office": "KPHI",
+  "issuance_time": "2026-09-29T17:51:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1. Low pressure over the Gulf of Maine departs as high pressure builds over the area. 2. Minor tidal flooding continues in the back bays of New Jersey and Delaware through tonight. 3. Unsettled weather possible Friday through Sunday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/682ee5c3-d1f3-46c9-921e-4d0d4735a0a6"
+ },
+ {
+  "pair_id": "0bf29fda-c508-411e-8963-d3b695958b21_KEY_MESSAGES",
+  "wfo": "PIH",
+  "office": "KPIH",
+  "issuance_time": "2026-09-29T19:01:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Prolonged Quiet Weather Period: High pressure and dry air will keep eastern Idaho completely dry with minimal cloud cover through the workweek, upcoming weekend, and into early October. Zonal flow aloft will hold daytime highs near late- September averages in the upper 60s to lower 70s across lower elevations through Wednesday. - Unseasonable Late-Week Warmth: An amplifying Great Basin ridge will boost lower-elevation temperatures into the upper 70s and lower 80s starting Thursday and continuing through the weekend. - No Fall-Like Weather in Sight: High confidence exists for above-normal temperatures and suppressed precipitation extending through the first full week of October.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/0bf29fda-c508-411e-8963-d3b695958b21"
+ },
+ {
+  "pair_id": "6b2c79b6-8e99-4cf8-9b86-5c13d1effe61_KEY_MESSAGES",
+  "wfo": "PSR",
+  "office": "KPSR",
+  "issuance_time": "2026-09-29T20:04:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- A Flood Watch remain in effect for parts of the region through this evening, but most of the heaviest rain will be exiting the region through this evening. - Lingering isolated showers and thunderstorms may pop across south-central Arizona this afternoon. - Below normal temperatures will be common through the end of the workweek across the eastern portion of the forecast area, while near normal readings will return to the western deserts starting Wednesday. - Dry conditions will prevail from Thursday though early next week as high pressure takes hold across the region.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/6b2c79b6-8e99-4cf8-9b86-5c13d1effe61"
+ },
+ {
+  "pair_id": "6cd69101-1c9d-4949-b5da-29eee7783e3d_KEY_MESSAGES",
+  "wfo": "PUB",
+  "office": "KPUB",
+  "issuance_time": "2026-09-29T20:44:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- High impact system remains on track to bring periods of heavy rain, the potential for flash flooding, strong northerly winds, and high mountain snow across southern Colorado. - Warmer and Drier weather for Friday into early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/6cd69101-1c9d-4949-b5da-29eee7783e3d"
+ },
+ {
+  "pair_id": "c8a63bea-6f43-482b-b9ef-e20644a23cc6_KEY_MESSAGES",
+  "wfo": "RAH",
+  "office": "KRAH",
+  "issuance_time": "2026-09-29T18:48:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "As of 245 PM Tuesday... 1) Dry and increasingly warm weather expected through Friday, followed by high rain chances over the weekend, including the potential for localized heavy rainfall.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/c8a63bea-6f43-482b-b9ef-e20644a23cc6"
+ },
+ {
+  "pair_id": "49072f84-ca6f-4e41-bbbf-bb3599cbe376_KEY_MESSAGES",
+  "wfo": "REV",
+  "office": "KREV",
+  "issuance_time": "2026-09-29T20:28:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "* Breezy north winds expected this afternoon in Mono and Mineral counties with gusty NE winds along the Sierra crest overnight. * Dry weather persists into the weekend with temperatures warming above seasonal averages from midweek onward. * Low rain chances return on Sunday, otherwise an extended period of dry weather is favored through the second week of October.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/49072f84-ca6f-4e41-bbbf-bb3599cbe376"
+ },
+ {
+  "pair_id": "558caeb6-2281-4039-a884-553cdafe28f6_KEY_MESSAGES",
+  "wfo": "RIW",
+  "office": "KRIW",
+  "issuance_time": "2026-09-29T17:08:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- A mainly dry day with temperatures at or slightly above normal today. - A weak cold front will bring somewhat cooler temperatures Thursday, with a few showers possible in northern Wyoming. - Mainly dry conditions are expected through the next seven days with odds favoring dry conditions and above normal temperatures.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/558caeb6-2281-4039-a884-553cdafe28f6"
+ },
+ {
+  "pair_id": "221cbc53-c0d0-4319-b0dd-11413b28cfaa_KEY_MESSAGES",
+  "wfo": "RLX",
+  "office": "KRLX",
+  "issuance_time": "2026-09-29T17:54:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1.) A warming trend into Friday with mainly dry conditions. 2.) Widespread rain and thunderstorm chances return Friday afternoon courtesy of a cold frontal boundary which could possibly linger through the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/221cbc53-c0d0-4319-b0dd-11413b28cfaa"
+ },
+ {
+  "pair_id": "b0ac244b-1066-4eb4-927d-ab7a6cb18aac_KEY_MESSAGES",
+  "wfo": "RNK",
+  "office": "KRNK",
+  "issuance_time": "2026-09-29T17:37:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "1) A warming trend begins tomorrow and peaks Friday, with a cold air wedge building in for the weekend. 1) The current period of dry and clear weather ends Friday into early next week with increasing chances for rain.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/b0ac244b-1066-4eb4-927d-ab7a6cb18aac"
+ },
+ {
+  "pair_id": "dd3e76d7-8107-4453-82aa-2b046eb85f1f_KEY_MESSAGES",
+  "wfo": "SGF",
+  "office": "KSGF",
+  "issuance_time": "2026-09-29T19:42:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Above normal temperatures will occur across the area today and Wednesday, and across the eastern portions of the area on Thursday. Highs will warm into the mid to upper 80s with highs in the upper 80s to lower 90s on Wednesday. Some record highs may be approached on Wednesday. - Rounds of showers and thunderstorms (70 to 95% chances) are expected Wednesday night into Friday. There will be the potential for some locally heavy rainfall with this system.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/dd3e76d7-8107-4453-82aa-2b046eb85f1f"
+ },
+ {
+  "pair_id": "93258591-75b7-431a-8056-870211b1e835_KEY_MESSAGES",
+  "wfo": "SHV",
+  "office": "KSHV",
+  "issuance_time": "2026-09-29T17:41:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 1240 PM CDT Tue Sep 29 2026 - Fire weather will remain the primary forecast concern through Wednesday given dry fuels and increasing winds. - Moderate to locally heavy rainfall then becomes a concern late in the week and through the weekend with isolated flash flooding possible before soils can absorb the moisture. - A Marginal Severe Weather Risk will accompany the increasing rain chances on Thursday, where thunderstorms may pose the threat for damaging wind gusts.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/93258591-75b7-431a-8056-870211b1e835"
+ },
+ {
+  "pair_id": "178352c8-6d76-4776-85b5-380676a963eb_KEY_MESSAGES",
+  "wfo": "SJT",
+  "office": "KSJT",
+  "issuance_time": "2026-09-29T19:47:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- A Flood Watch remains in effect from late tonight through Thursday night. - High chances (70%-100%) for rain from Wednesday through Friday, along with cooler temperatures by the second half of this week. Heavy rainfall is the main concern with this event and could result in significant flooding. - Above normal temperatures will continue through Wednesday. Below normal temperatures late week into the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/178352c8-6d76-4776-85b5-380676a963eb"
+ },
+ {
+  "pair_id": "a776dd47-8a79-4c89-86ab-bdbc80796dbd_KEY_MESSAGES",
+  "wfo": "SJU",
+  "office": "TJSJ",
+  "issuance_time": "2026-09-29T17:02:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 1236 PM AST Tue Sep 29 2026 - Limited heat risk expected for the next few days, as easterly trade winds strengthen, allowing only localized areas across Puerto Rico and the US Virgin Islands to experience brief periods near heat advisory criteria. - Trade wind showers will continue to move across the USVI and eastern sections of PR during the night/early morning hours, followed by afternoon thunderstorms over western PR each day. - Higher moisture content is expected from Thursday through Saturday. - A moderate risk of rip currents is expected to continue along the west, north, and east facing beaches of the islands through the end of the week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/a776dd47-8a79-4c89-86ab-bdbc80796dbd"
+ },
+ {
+  "pair_id": "c42c6da2-63ef-448e-9ccf-9fad9a957634_KEY_MESSAGES",
+  "wfo": "SLC",
+  "office": "KSLC",
+  "issuance_time": "2026-09-29T19:07:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Thunderstorms capable of heavy rainfall are expected to develop across southern UT this afternoon with conditions gradually improving into Wednesday morning. - Quiescent weather looks to develop Wednesday as zonal flow develops, persisting into early next week. - While chances remain low at this time (~20% or less), there is potential for moisture to return to southern UT early next week as another trough moves across the area.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/c42c6da2-63ef-448e-9ccf-9fad9a957634"
+ },
+ {
+  "pair_id": "975704d1-dfcf-4149-ae3e-1c83ab04f42d_KEY_MESSAGES",
+  "wfo": "STO",
+  "office": "KSTO",
+  "issuance_time": "2026-09-29T19:28:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Elevated fire weather conditions today-Thursday AM due to periods of breezy north to east winds and low humidities. - High temperatures, 5-15 degrees above normal, will lead to Moderate HeatRisk in the Delta, Valley, and foothills Thursday-Monday - Hottest temperatures expected Saturday & Sunday, but Valley/Delta highs will be in the mid to upper 90s Thursday- Monday",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/975704d1-dfcf-4149-ae3e-1c83ab04f42d"
+ },
+ {
+  "pair_id": "685c33fb-d9e7-460c-962b-cb00dda9612f_KEY_MESSAGES",
+  "wfo": "TAE",
+  "office": "KTAE",
+  "issuance_time": "2026-09-29T19:52:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 254 PM EDT Tue Sep 29 2026 - Elevated fire concerns today due to low humidity across portions of southern Georgia and Alabama. - An unseasonably hot and humid air mass is forecast to return by Thursday and continue into the weekend with heat indices reaching the mid 90s to lower 100s. - Rain chances are forecast to increase substantially this weekend with several rounds of showers and storms possible across the region. A Marginal Risk (level 1 of 4) for excessive rainfall is in effect for parts of Southeast Alabama and the Florida Panhandle for Friday and Saturday.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/685c33fb-d9e7-460c-962b-cb00dda9612f"
+ },
+ {
+  "pair_id": "685c33fb-d9e7-460c-962b-cb00dda9612f_HYDROLOGY",
+  "wfo": "TAE",
+  "office": "KTAE",
+  "issuance_time": "2026-09-29T19:52:00+00:00",
+  "section": "HYDROLOGY",
+  "language": "Issued at 254 PM EDT Tue Sep 29 2026 With several days of rain expected, we can expected widespread totals of 1-3 inches by Monday. Area rivers can handle these amounts.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/685c33fb-d9e7-460c-962b-cb00dda9612f"
+ },
+ {
+  "pair_id": "7990db61-d22b-4f29-87ff-f9f29ddc1758_KEY_MESSAGES",
+  "wfo": "TBW",
+  "office": "KTBW",
+  "issuance_time": "2026-09-29T18:33:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Issued at 230 PM EDT Tue Sep 29 2026 - Moderate rain chances return to southwest Florida today, with limited chances north of the I-4 corridor. - Higher rain and storm chances return second half of the week and into the weekend.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/7990db61-d22b-4f29-87ff-f9f29ddc1758"
+ },
+ {
+  "pair_id": "280872d6-48b0-47ce-86c9-35adc43a3d1d_KEY_MESSAGES",
+  "wfo": "TFX",
+  "office": "KTFX",
+  "issuance_time": "2026-09-29T19:54:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Breezy today and tonight across the plains, then winds subside. - Cooler through the end of the work week, then warming again up early next week. - Generally dry through the next week with only low chances for light precipitation.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/280872d6-48b0-47ce-86c9-35adc43a3d1d"
+ },
+ {
+  "pair_id": "1ccbf990-b7b3-4ef4-b369-09dda9c48c06_KEY_MESSAGES",
+  "wfo": "TOP",
+  "office": "KTOP",
+  "issuance_time": "2026-09-29T20:03:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Multiple rounds of rain are likely this afternoon through Thursday evening. Heavy rain at times could lead to flooding, and a Flood Watch remains in effect primarily for areas north of I-70 through Thursday afternoon. - As confidence in heavy rainfall increases, total rainfall amounts have increased to a widespread 2-4\" with locally higher amounts around 6\". - A few strong or severe storms are possible Wednesday late afternoon into early evening towards central KS, mainly for damaging wind.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/1ccbf990-b7b3-4ef4-b369-09dda9c48c06"
+ },
+ {
+  "pair_id": "da5ebc27-8e25-456d-b30f-32ba9d6335f9_KEY_MESSAGES",
+  "wfo": "TSA",
+  "office": "KTSA",
+  "issuance_time": "2026-09-29T18:05:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "Updated at 105 PM CDT Tue Sep 29 2026 - Low rain chances across northeast Oklahoma Tuesday, with isolated thunder potential. - Above normal temperatures continue through mid week. - Unsettled weather for mid to late week, with several periods of high rain chances and heavy rain potential. Limited severe weather potential will exist as well.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/da5ebc27-8e25-456d-b30f-32ba9d6335f9"
+ },
+ {
+  "pair_id": "762782d0-d5b3-47a1-aef8-e24ae96c45b3_KEY_MESSAGES",
+  "wfo": "UNR",
+  "office": "KUNR",
+  "issuance_time": "2026-09-29T20:02:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "- Near or slightly above normal through the forecast period. - Mostly dry conditions expected the remainder of the week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/762782d0-d5b3-47a1-aef8-e24ae96c45b3"
+ },
+ {
+  "pair_id": "88566ea5-8685-4c32-a0b4-2638c9d42382_KEY_MESSAGES",
+  "wfo": "VEF",
+  "office": "KVEF",
+  "issuance_time": "2026-09-29T17:50:00+00:00",
+  "section": "KEY MESSAGES",
+  "language": "* Scattered showers and thunderstorms across the eastern half of our forecast area this afternoon and evening. * Mild weather and warming temperatures are expected during the second half of the week and into early next week.",
+  "geodata_ref": [
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/2.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/1.png",
+   "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/1/2.png"
+  ],
+  "source_url": "https://api.weather.gov/products/88566ea5-8685-4c32-a0b4-2638c9d42382"
+ }
+]

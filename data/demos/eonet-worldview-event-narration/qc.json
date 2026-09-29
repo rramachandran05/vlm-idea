@@ -1,0 +1,130 @@
+{
+ "demo": "eonet-worldview-event-narration",
+ "total_pairs": 300,
+ "sample_size": 20,
+ "seed": 42,
+ "image_resolve_pass": 20,
+ "image_resolve_rate": 1.0,
+ "results": [
+  {
+   "pair_id": "EONET_24786_2026-09-24T00:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-24 covers the location of Hurricane Nolo, a severe storms event tracked by NASA EONET with reported magnitude 40.0 kts. The event"
+  },
+  {
+   "pair_id": "EONET_24878_2026-09-26T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-26 covers the location of Wildfire in Australia 1032443, a wildfires event tracked by NASA EONET with reported magnitude 5706.0 h"
+  },
+  {
+   "pair_id": "EONET_24844_2026-09-21T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-21 covers the location of Wildfire in Australia 1032406, a wildfires event tracked by NASA EONET with reported magnitude 5325.0 h"
+  },
+  {
+   "pair_id": "EONET_24927_2026-09-22T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-22 covers the location of Wildfire in Zambia 1032467, a wildfires event tracked by NASA EONET with reported magnitude 6304.0 hect"
+  },
+  {
+   "pair_id": "EONET_24809_2026-09-23T10:12:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-23 covers the location of Wildfire Merit Creek, Greene, Mississippi, a wildfires event tracked by NASA EONET with reported magnit"
+  },
+  {
+   "pair_id": "EONET_24786_2026-09-27T12:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-27 covers the location of Hurricane Nolo, a severe storms event tracked by NASA EONET with reported magnitude 85.0 kts. The event"
+  },
+  {
+   "pair_id": "EONET_24922_2026-09-24T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-24 covers the location of Wildfire in Angola 1032465, a wildfires event tracked by NASA EONET with reported magnitude 5429.0 hect"
+  },
+  {
+   "pair_id": "EONET_24680_2026-09-18T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-18 covers the location of Wildfire in Zimbabwe 1032271, a wildfires event tracked by NASA EONET with reported magnitude 7392.0 he"
+  },
+  {
+   "pair_id": "EONET_24862_2026-09-24T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-24 covers the location of Wildfire in Australia 1032428, a wildfires event tracked by NASA EONET with reported magnitude 6713.0 h"
+  },
+  {
+   "pair_id": "EONET_24722_2026-09-27T15:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-27 covers the location of Tropical Storm Fay, a severe storms event tracked by NASA EONET with reported magnitude 30.0 kts. The e"
+  },
+  {
+   "pair_id": "EONET_24857_2026-09-25T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-25 covers the location of Wildfire in Australia 1032425, a wildfires event tracked by NASA EONET with reported magnitude 12940.0 "
+  },
+  {
+   "pair_id": "EONET_24856_2026-09-25T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-25 covers the location of Wildfire in Australia 1032424, a wildfires event tracked by NASA EONET with reported magnitude 5635.0 h"
+  },
+  {
+   "pair_id": "EONET_24888_2026-09-24T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-24 covers the location of Wildfire in Brazil 1032445, a wildfires event tracked by NASA EONET with reported magnitude 9596.0 hect"
+  },
+  {
+   "pair_id": "EONET_24787_2026-09-29T00:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-29 covers the location of Super Typhoon Surigae, a severe storms event tracked by NASA EONET with reported magnitude 55.0 kts. Th"
+  },
+  {
+   "pair_id": "EONET_24840_2026-09-22T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-22 covers the location of Wildfire in Australia 1032410, a wildfires event tracked by NASA EONET with reported magnitude 5984.0 h"
+  },
+  {
+   "pair_id": "EONET_24769_2026-09-19T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-19 covers the location of Wildfire in Brazil 1032339, a wildfires event tracked by NASA EONET with reported magnitude 11967.0 hec"
+  },
+  {
+   "pair_id": "EONET_24879_2026-09-26T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-26 covers the location of Wildfire in Australia 1032451, a wildfires event tracked by NASA EONET with reported magnitude 7477.0 h"
+  },
+  {
+   "pair_id": "EONET_24735_2026-09-18T19:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-18 covers the location of Wildfire in Brazil 1032323, a wildfires event tracked by NASA EONET with reported magnitude 6076.0 hect"
+  },
+  {
+   "pair_id": "EONET_24787_2026-09-26T12:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-26 covers the location of Super Typhoon Surigae, a severe storms event tracked by NASA EONET with reported magnitude 70.0 kts. Th"
+  },
+  {
+   "pair_id": "EONET_24722_2026-09-27T03:00:00Z",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This satellite view of 2026-09-27 covers the location of Tropical Storm Fay, a severe storms event tracked by NASA EONET with reported magnitude 30.0 kts. The e"
+  }
+ ]
+}

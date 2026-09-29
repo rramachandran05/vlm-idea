@@ -1,0 +1,130 @@
+{
+ "demo": "cmr-summary-product-grounding",
+ "total_pairs": 120,
+ "sample_size": 20,
+ "seed": 42,
+ "image_resolve_pass": 20,
+ "image_resolve_rate": 1.0,
+ "results": [
+  {
+   "pair_id": "G4153702184-NSIDC_CPRD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VJ210A1F (VIIRS/JPSS2 CGF Snow Cover Daily L3 Global 375m SIN Grid V002), archived by NASA NSIDC DAAC. This data set contains "
+  },
+  {
+   "pair_id": "G3255053751-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VJ114A1 (VIIRS/JPSS1 Thermal Anomalies and Fire Daily L3 Global 1km SIN Grid V002), archived by LP DAAC. The daily NOAA-20 Vis"
+  },
+  {
+   "pair_id": "G2911301251-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VNP14IMG (VIIRS/NPP Active Fires 6-Min L2 Swath 375m V002), archived by LP DAAC. The delivery of all Suomi National Polar-orbi"
+  },
+  {
+   "pair_id": "G3243336372-OB_CLOUD",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "This browse image is a granule of HAWKEYE_L2_OC (SeaHawk-1 HawkEye Level-2 Regional Ocean Color (OC) Data, version 2022.0), archived by NASA/GSFC/SED/ESD/GCDC/O"
+  },
+  {
+   "pair_id": "G2567819574-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VJ113A1 (VIIRS/JPSS1 Vegetation Indices 16-Day L3 Global 500m SIN Grid V002), archived by LP DAAC. The NOAA-20 Visible Infrare"
+  },
+  {
+   "pair_id": "G2595624193-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of MOD13C2 (MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061), archived by LP DAAC. The Terra Moderate Resolutio"
+  },
+  {
+   "pair_id": "G2736746568-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VNP13A1 (VIIRS/NPP Vegetation Indices 16-Day L3 Global 500m SIN Grid V002), archived by LP DAAC. The delivery of all Suomi Nat"
+  },
+  {
+   "pair_id": "G3391812019-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VNP47MOD (VIIRS/NPP FILDA-2 Fire Modified Combustion Efficiency Product 6-min L2 Swath 750 V002), archived by LP DAAC. The del"
+  },
+  {
+   "pair_id": "G3947142246-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VJ214 (VIIRS/JPSS2 Thermal Anomalies/Fire 6-Min L2 Swath 750m V002), archived by LP DAAC. The Visible Infrared Imaging Radiome"
+  },
+  {
+   "pair_id": "G3187102347-NSIDC_CPRD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VJ110 (VIIRS/JPSS1 Snow Cover 6-Min L2 Swath 375m V002), archived by NASA NSIDC DAAC. This data set reports the location of sn"
+  },
+  {
+   "pair_id": "G3235693496-ORNL_CLOUD",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This browse image is a granule of LULC_Nigeria_Ethiopia_SAfrica_2367 (Annual Land Use and Urban Land Cover: Ethiopia, Nigeria, and South Africa, 2016-2020), arc"
+  },
+  {
+   "pair_id": "G3028790890-NSIDC_CPRD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of MOD10A1F (MODIS/Terra CGF Snow Cover Daily L3 Global 500m SIN Grid V061), archived by NASA NSIDC DAAC. This global Level-3 dat"
+  },
+  {
+   "pair_id": "G3254915334-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of VJ114 (VIIRS/JPSS1 Thermal Anomalies/Fire 6-Min L2 Swath 750m V002), archived by LP DAAC. The Visible Infrared Imaging Radiome"
+  },
+  {
+   "pair_id": "G3105102547-NSIDC_CPRD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of MYD10A1F (MODIS/Aqua CGF Snow Cover Daily L3 Global 500m SIN Grid V061), archived by NASA NSIDC DAAC. This global Level-3 data"
+  },
+  {
+   "pair_id": "G3974690064-OB_CLOUD",
+   "image_ok": true,
+   "detail": "image/png",
+   "language_preview": "This browse image is a granule of PACE_OCI_L3M_LANDVI_NRT (PACE OCI Level-3 Global Mapped Land Vegetation Indices - Near Real-time (NRT) Data, version 3.1), arc"
+  },
+  {
+   "pair_id": "G2597614821-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of MOD14A1 (MODIS/Terra Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid V061), archived by LP DAAC. The Terra Moderate Resolu"
+  },
+  {
+   "pair_id": "G2307323273-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of MYD13Q1 (MODIS/Aqua Vegetation Indices 16-Day L3 Global 250m SIN Grid V061), archived by LP DAAC. The Aqua Moderate Resolution"
+  },
+  {
+   "pair_id": "G4164030525-LPCLOUD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of HLSS30_VI (HLS Sentinel-2 Multi-spectral Instrument Vegetation Indices Daily Global 30 m V2.0), archived by LP DAAC. The Harmo"
+  },
+  {
+   "pair_id": "G3266857924-NSIDC_CPRD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of SNEX17_SnowSAR (SnowEx17 SnowSAR Multi-look Synthetic Aperture Radar Backscatter Amplitude Images V001), archived by NASA NSID"
+  },
+  {
+   "pair_id": "G3108393957-NSIDC_CPRD",
+   "image_ok": true,
+   "detail": "binary/octet-stream",
+   "language_preview": "This browse image is a granule of MYD10C1 (MODIS/Aqua Snow Cover Daily L3 Global 0.05Deg CMG V061), archived by NASA NSIDC DAAC. This global Level-3 (L3) data s"
+  }
+ ]
+}

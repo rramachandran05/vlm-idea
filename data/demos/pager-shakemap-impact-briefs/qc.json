@@ -1,0 +1,130 @@
+{
+ "demo": "pager-shakemap-impact-briefs",
+ "total_pairs": 200,
+ "sample_size": 20,
+ "seed": 42,
+ "image_resolve_pass": 20,
+ "image_resolve_rate": 1.0,
+ "results": [
+  {
+   "pair_id": "us6000qw6s",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.2 - 126 km SE of Vilyuchinsk, Russia. USGS PAGER issued a GREEN alert for this event, meaning no signifi"
+  },
+  {
+   "pair_id": "us6000t9ej",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.0 - 54 km ENE of Noda, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant cas"
+  },
+  {
+   "pair_id": "us6000tn41",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.0 - 211 km NNE of Lospalos, Timor Leste. USGS PAGER issued a GREEN alert for this event, meaning no sign"
+  },
+  {
+   "pair_id": "us7000q97d",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.0 - 65 km E of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no signif"
+  },
+  {
+   "pair_id": "us6000sidb",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.2 - 121 km NE of Hihifo, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant c"
+  },
+  {
+   "pair_id": "us6000slwy",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.3 - 109 km WNW of Ternate, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no signifi"
+  },
+  {
+   "pair_id": "us7000sh0a",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.0 - 100 km E of Miyako, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant ca"
+  },
+  {
+   "pair_id": "us7000sui3",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.6 - 141 km ESE of Petropavlovsk-Kamchatsky, Russia. USGS PAGER issued a GREEN alert for this event, mean"
+  },
+  {
+   "pair_id": "us7000q9b5",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.6 - Scotia Sea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or dam"
+  },
+  {
+   "pair_id": "us6000t9sj",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.1 - 147 km NNE of Hirara, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant "
+  },
+  {
+   "pair_id": "us6000qvbw",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.2 - Macquarie Island region. USGS PAGER issued a GREEN alert for this event, meaning no significant casu"
+  },
+  {
+   "pair_id": "us6000rge8",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.0 - 98 km ESE of Ozernovskiy, Russia. USGS PAGER issued a GREEN alert for this event, meaning no signifi"
+  },
+  {
+   "pair_id": "us7000t0d0",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.2 - 33 km WSW of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no sign"
+  },
+  {
+   "pair_id": "us6000r0sa",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.3 - 115 km SSE of Lata, Solomon Islands. USGS PAGER issued a GREEN alert for this event, meaning no sign"
+  },
+  {
+   "pair_id": "us6000rtdt",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 7.6 - 2025 Aomori Prefecture, Japan Earthquake. USGS PAGER issued a YELLOW alert for this event, meaning s"
+  },
+  {
+   "pair_id": "us6000tmrw",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.2 - Scotia Sea. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or dam"
+  },
+  {
+   "pair_id": "us6000tmz6",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.0 - 32 km SSW of Honch\u014d, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant c"
+  },
+  {
+   "pair_id": "us7000t01n",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.3 - southeast of the Loyalty Islands. USGS PAGER issued a GREEN alert for this event, meaning no signifi"
+  },
+  {
+   "pair_id": "us6000sxqf",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.2 - 268 km WSW of Tual, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significan"
+  },
+  {
+   "pair_id": "us6000sred",
+   "image_ok": true,
+   "detail": "image/jpeg",
+   "language_preview": "This ShakeMap shows estimated shaking intensity for M 6.1 - 88 km NNE of Hihifo, Tonga. USGS PAGER issued a GREEN alert for this event, meaning no significant c"
+  }
+ ]
+}
