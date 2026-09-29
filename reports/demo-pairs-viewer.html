@@ -1,0 +1,269 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>Demo Pairs Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono&display=swap">
+<style>
+:root { --bg:#f8faf8; --ink:#1c2823; --muted:#5a6b62; --accent:#0e7a5f; --line:#d3ded6; --card:#ffffff; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0f1613; --ink:#e3ebe5; --muted:#93a49a; --accent:#42b18d; --line:#2a362f; --card:#17211c; } }
+body { background:var(--bg); color:var(--ink); font-family:"Public Sans",sans-serif; margin:0; padding:2rem 1.2rem 4rem; }
+.wrap { max-width:1100px; margin:0 auto; }
+h1 { font-family:"Newsreader",Georgia,serif; font-weight:600; font-size:2rem; margin:.2rem 0; }
+.dek { color:var(--muted); max-width:70ch; }
+h2 { font-family:"Newsreader",Georgia,serif; font-weight:600; font-size:1.25rem; margin:2.4rem 0 .8rem; }
+.count { font-family:"IBM Plex Mono",monospace; font-size:.7rem; color:var(--accent); letter-spacing:.06em; margin-left:.5rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:1rem; }
+.card { margin:0; background:var(--card); border:1px solid var(--line); display:flex; flex-direction:column; }
+.card img { width:100%; aspect-ratio:1.3; object-fit:cover; background:#222; display:block; }
+figcaption { padding:.7rem .8rem; font-size:.8rem; line-height:1.5; }
+.meta { font-family:"IBM Plex Mono",monospace; font-size:.66rem; color:var(--muted); margin-bottom:.35rem; }
+figcaption p { margin:0; display:-webkit-box; -webkit-line-clamp:7; -webkit-box-orient:vertical; overflow:hidden; }
+a { color:var(--accent); }
+</style></head><body><div class="wrap">
+<h1>Demonstration Pairs Viewer</h1>
+<p class="dek">A seeded random sample of 8 constructed geodata–language pairs from each of the four demonstration datasets. Images load live from the authoritative sources (GIBS, USGS, NASA DAACs); the text under each image is the generated or harvested supervision language. Full data: <code>data/demos/&lt;demo&gt;/pairs.json</code>.</p>
+
+<section>
+  <h2>EONET × Worldview — event narration <span class="count">300 pairs — showing 8 (seed 7)</span></h2>
+  <div class="grid">
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-26/250m/5/8/7.jpg" alt="geodata for EONET_24721_2026-09-26T00:00:00Z">
+    <figcaption>
+      <div class="meta">Hurricane Polo · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24721">source</a></div>
+      <p>This satellite view of 2026-09-26 covers the location of Hurricane Polo, a severe storms event tracked by NASA EONET with reported magnitude 150.0 kts. The event was ongoing at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-29/250m/5/7/1.jpg" alt="geodata for EONET_24786_2026-09-29T00:00:00Z">
+    <figcaption>
+      <div class="meta">Hurricane Nolo · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24786">source</a></div>
+      <p>This satellite view of 2026-09-29 covers the location of Hurricane Nolo, a severe storms event tracked by NASA EONET with reported magnitude 125.0 kts. The event was ongoing at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-24/250m/5/6/15.jpg" alt="geodata for EONET_24722_2026-09-24T03:00:00Z">
+    <figcaption>
+      <div class="meta">Tropical Storm Fay · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24722">source</a></div>
+      <p>This satellite view of 2026-09-24 covers the location of Tropical Storm Fay, a severe storms event tracked by NASA EONET with reported magnitude 35.0 kts. The event was ongoing at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-25/250m/5/11/14.jpg" alt="geodata for EONET_24885_2026-09-25T19:00:00Z">
+    <figcaption>
+      <div class="meta">Wildfire in Brazil 1032444 · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24885">source</a></div>
+      <p>This satellite view of 2026-09-25 covers the location of Wildfire in Brazil 1032444, a wildfires event tracked by NASA EONET with reported magnitude 5337.0 hectare. The event was since closed at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-26/250m/5/8/17.jpg" alt="geodata for EONET_24811_2026-09-26T09:00:00Z">
+    <figcaption>
+      <div class="meta">Tropical Storm Gonzalo · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24811">source</a></div>
+      <p>This satellite view of 2026-09-26 covers the location of Tropical Storm Gonzalo, a severe storms event tracked by NASA EONET with reported magnitude 40.0 kts. The event was ongoing at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-19/250m/5/5/6.jpg" alt="geodata for EONET_24810_2026-09-19T13:26:00Z">
+    <figcaption>
+      <div class="meta">Prescribed Fire CRAWFORD CORRAL RX, Tulare, California · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24810">source</a></div>
+      <p>This satellite view of 2026-09-19 covers the location of Prescribed Fire CRAWFORD CORRAL RX, Tulare, California, a wildfires event tracked by NASA EONET with reported magnitude 690.0 acres. The event was ongoing at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-24/250m/5/11/21.jpg" alt="geodata for EONET_24889_2026-09-24T19:00:00Z">
+    <figcaption>
+      <div class="meta">Wildfire in Angola 1032436 · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24889">source</a></div>
+      <p>This satellite view of 2026-09-24 covers the location of Wildfire in Angola 1032436, a wildfires event tracked by NASA EONET with reported magnitude 5935.0 hectare. The event was since closed at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2026-09-20/250m/5/10/35.jpg" alt="geodata for EONET_24869_2026-09-20T19:00:00Z">
+    <figcaption>
+      <div class="meta">Wildfire in Papua New Guinea 1032423 · <a href="https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24869">source</a></div>
+      <p>This satellite view of 2026-09-20 covers the location of Wildfire in Papua New Guinea 1032423, a wildfires event tracked by NASA EONET with reported magnitude 5886.0 hectare. The event was since closed at the time of this observation.</p>
+    </figcaption>
+  </figure>
+  </div>
+</section>
+<section>
+  <h2>USGS PAGER × ShakeMap — impact briefs <span class="count">200 pairs — showing 8 (seed 7)</span></h2>
+  <div class="grid">
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us6000r3at/us/1759669519177/download/intensity.jpg" alt="geodata for us6000r3at">
+    <figcaption>
+      <div class="meta">M 6.0 - 88 km SW of Acajutla, El Salvador · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000r3at">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.0 - 88 km SW of Acajutla, El Salvador. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.0. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us6000tk74/us/1788527354454/download/intensity.jpg" alt="geodata for us6000tk74">
+    <figcaption>
+      <div class="meta">M 6.0 - South Sandwich Islands region · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk74">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.0 - South Sandwich Islands region. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us6000rg2r/us/1765865887583/download/intensity.jpg" alt="geodata for us6000rg2r">
+    <figcaption>
+      <div class="meta">M 6.7 - 12 km SE of Santiago, Philippines · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg2r">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.7 - 12 km SE of Santiago, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.4. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us6000sxwq/us/1782119768642/download/intensity.jpg" alt="geodata for us6000sxwq">
+    <figcaption>
+      <div class="meta">M 6.7 - 41 km ESE of Ōfunato, Japan · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxwq">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.7 - 41 km ESE of Ōfunato, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us6000tm81/us/1790259182662/download/intensity.jpg" alt="geodata for us6000tm81">
+    <figcaption>
+      <div class="meta">M 6.7 - 35 km ENE of Tambo, Peru · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.7 - 35 km ENE of Tambo, Peru. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 5.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us7000t0d0/us/1787075887026/download/intensity.jpg" alt="geodata for us7000t0d0">
+    <figcaption>
+      <div class="meta">M 6.2 - 33 km WSW of Sarangani, Philippines · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0d0">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.2 - 33 km WSW of Sarangani, Philippines. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.2. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us7000re2g/us/1770947573564/download/intensity.jpg" alt="geodata for us7000re2g">
+    <figcaption>
+      <div class="meta">M 6.4 - 54 km WNW of Sinabang, Indonesia · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us7000re2g">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.4 - 54 km WNW of Sinabang, Indonesia. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 6.8. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://earthquake.usgs.gov/product/shakemap/us6000rtgd/us/1772121003455/download/intensity.jpg" alt="geodata for us6000rtgd">
+    <figcaption>
+      <div class="meta">M 6.0 - 127 km S of Honchō, Japan · <a href="https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtgd">source</a></div>
+      <p>This ShakeMap shows estimated shaking intensity for M 6.0 - 127 km S of Honchō, Japan. USGS PAGER issued a GREEN alert for this event, meaning no significant casualties or damage are expected. Maximum estimated shaking intensity is MMI 3.9. Populated areas within the higher-intensity contours face the greatest risk from vulnerable structures.</p>
+    </figcaption>
+  </figure>
+  </div>
+</section>
+<section>
+  <h2>NASA CMR — product-knowledge captions <span class="count">120 pairs — showing 8 (seed 7)</span></h2>
+  <div class="grid">
+  <figure class="card">
+    <img loading="lazy" src="https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/MYD14A2.061/MYD14A2.A2002185.h09v08.061.2020072120836/BROWSE.MYD14A2.A2002185.h09v08.061.2020072120837.1.jpg" alt="geodata for G2633469847-LPCLOUD">
+    <figcaption>
+      <div class="meta">MYD14A2 · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C2565794060-LPCLOUD">source</a></div>
+      <p>This browse image is a granule of MYD14A2 (MODIS/Aqua Thermal Anomalies/Fire 8-Day L3 Global 1km SIN Grid V061), archived by LP DAAC. The Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Thermal Anomalies and Fire 8-Day (MYD14A2) Version 6.1 data are generated at 1 kilometer (km) spatial resolution as a Level 3 product. The MYD14A2 gridded composite contains maximum value of individual fire pixel classes detected during the eight days of acquisition.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/MOD44B.061/MOD44B.A2000065.h11v12.061.2022273160936/BROWSE.MOD44B.A2000065.h11v12.061.2022273121503.1.jpg" alt="geodata for G2655450378-LPCLOUD">
+    <figcaption>
+      <div class="meta">MOD44B · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C2565805839-LPCLOUD">source</a></div>
+      <p>This browse image is a granule of MOD44B (MODIS/Terra Vegetation Continuous Fields Yearly L3 Global 250m SIN Grid V061), archived by LP DAAC. The MOD44B Version 6.1 Vegetation Continuous Fields (VCF) yearly product is a global representation of surface vegetation cover as gradations of three ground cover components: percent tree cover, percent non-tree cover, and percent non-vegetated (bare). VCF products provide a continuous, quantitative portrayal of land surface cover at 250 meter (m) pixel resolution, with a sub-pixel depiction of percent cover in reference to the three ground cover components.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/VJ114.002/VJ114.A2018005.0000.002.2022252033022/BROWSE.VJ114.A2018005.0000.002.2022252033022.1.jpg" alt="geodata for G3254915334-LPCLOUD">
+    <figcaption>
+      <div class="meta">VJ114 · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C2545310869-LPCLOUD">source</a></div>
+      <p>This browse image is a granule of VJ114 (VIIRS/JPSS1 Thermal Anomalies/Fire 6-Min L2 Swath 750m V002), archived by LP DAAC. The Visible Infrared Imaging Radiometer Suite (VIIRS) Thermal Anomalies (VJ114) Version 2 product is produced in 6-minute temporal satellite increments (swaths) at 750 meter resolution from the VIIRS sensor located on the NOAA-20 satellite. This product is designed after the Terra and Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Thermal Anomalies and Fire data products to promote the continuity of the Earth Observation System (EOS) mission.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-public/VIIRS/VNP10A1/2/2012/01/19/BROWSE.VNP10A1.A2012019.h27v10.002.2023122181428.1.jpg" alt="geodata for G3329097899-NSIDC_CPRD">
+    <figcaption>
+      <div class="meta">VNP10A1 · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C3173441659-NSIDC_CPRD">source</a></div>
+      <p>This browse image is a granule of VNP10A1 (VIIRS/NPP Snow Cover Daily L3 Global 375m SIN Grid V002), archived by NASA NSIDC DAAC. This data set contains daily snow cover derived from radiance data acquired by the Visible Infrared Imaging Radiometer Suite (VIIRS) on board the Suomi National Polar-orbiting Partnership (NPP) satellite. The data is a gridded composite, generated from 6 minute swaths, and projected to a 375 m Sinusoidal grid.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://oceandata.sci.gsfc.nasa.gov/browse_images/PACE_OCI.20260120.L3m.DAY.LANDVI.V3_1.0p1deg.NRT.nc.png?file_path=PACE_OCI/L3BRS/2026/0120" alt="geodata for G3974690064-OB_CLOUD">
+    <figcaption>
+      <div class="meta">PACE_OCI_L3M_LANDVI_NRT · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C3620140344-OB_CLOUD">source</a></div>
+      <p>This browse image is a granule of PACE_OCI_L3M_LANDVI_NRT (PACE OCI Level-3 Global Mapped Land Vegetation Indices - Near Real-time (NRT) Data, version 3.1), archived by NASA/GSFC/SED/ESD/GCDC/OB.DAAC. The Ocean Biology DAAC produces near real-time (NRT) products using the best-available combination of ancillary data from meteorological and ozone data. As such, the inputs and the calibration used are less than optimal.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/MYD14A1.061/MYD14A1.A2002185.h09v08.061.2020072120836/BROWSE.MYD14A1.A2002185.h09v08.061.2020072120837.1.jpg" alt="geodata for G2633469437-LPCLOUD">
+    <figcaption>
+      <div class="meta">MYD14A1 · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C2565794059-LPCLOUD">source</a></div>
+      <p>This browse image is a granule of MYD14A1 (MODIS/Aqua Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid V061), archived by LP DAAC. The Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) Thermal Anomalies and Fire Daily (MYD14A1) Version 6.1 data are generated every eight days at 1 kilometer (km) spatial resolution as a Level 3 product. MYD14A1 contains eight consecutive days of fire data conveniently packaged into a single file.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://oceandata.sci.gsfc.nasa.gov/browse_images/PACE_OCI.20240305.L3m.DAY.BGC.V3_2.0p1deg.nc.png?file_path=PACE_OCI/L3BRS/2024/0305" alt="geodata for G4195883004-OB_CLOUD">
+    <figcaption>
+      <div class="meta">PACE_OCI_L3M_BGC · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C4184125847-OB_CLOUD">source</a></div>
+      <p>This browse image is a granule of PACE_OCI_L3M_BGC (PACE OCI Level-3 Global Mapped Ocean Biogeochemical Properties Data, version 3.2), archived by NASA/GSFC/SED/ESD/GCDC/OB.DAAC. The Ocean Color Biogeochemical (OC_BGC) suite provides satellite-derived biogeochemical properties of the upper ocean, produced from calibrated, atmospherically corrected ocean-color inputs from PACE_OCI. These products characterize carbon pools and ecosystem status.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-public/VIIRS/VJ110A1F/2/2018/01/05/BROWSE.VJ110A1F.A2018005.h32v08.002.2022252140038.h5images.Raster_Image_0.jpg" alt="geodata for G3187732785-NSIDC_CPRD">
+    <figcaption>
+      <div class="meta">VJ110A1F · <a href="https://cmr.earthdata.nasa.gov/search/concepts/C3173454072-NSIDC_CPRD">source</a></div>
+      <p>This browse image is a granule of VJ110A1F (VIIRS/JPSS1 CGF Snow Cover Daily L3 Global 375m SIN Grid V002), archived by NASA NSIDC DAAC. This data set contains daily &#x27;cloud-free&#x27; snow cover produced from the VIIRS/JPSS-1 Snow Cover Daily L3 Global 375m SIN Grid, Version 2 snow cover product. A cloud-gap-filled algorithm is utilized to replace ‘cloud-covered’ pixels with ‘cloud-free pixels’ for the purpose of estimating the snow cover that may exist under current cloud cover.</p>
+    </figcaption>
+  </figure>
+  </div>
+</section>
+<section>
+  <h2>NWS AFD — forecaster hydrology sections <span class="count">116 pairs — showing 8 (seed 7)</span></h2>
+  <div class="grid">
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for 45253544-21dd-4796-aa34-bde0316a86af_KEY_MESSAGES">
+    <figcaption>
+      <div class="meta">KBRO · <a href="https://api.weather.gov/products/45253544-21dd-4796-aa34-bde0316a86af">source</a></div>
+      <p>Updated at 1216 PM CDT Tue Sep 29 2026 - Widespread Major (level 3 of 4) to Extreme (level 4 of 4) Heat Risk expected across the region through Thursday. - Confidence is increasing on a significant weather pattern change towards cooler and wetter conditions later this week; this includes a multi-day heavy rain and flash flood potential Thursday into the weekend. - The Weather Prediction Center (WPC) has all of Deep South Texas under a Slight (level 2 of 4) to Moderate (level 3 of 4) Risk for Excessive Rainfall for Thursday, and a Marginal (level 1 of 4) to Slight Risk Friday and Saturday.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for a96b503f-5cea-4335-a507-92eb2dc28d06_KEY_MESSAGES">
+    <figcaption>
+      <div class="meta">KDMX · <a href="https://api.weather.gov/products/a96b503f-5cea-4335-a507-92eb2dc28d06">source</a></div>
+      <p>- Ongoing showers and thunderstorms will prime the area through the remainder of the afternoon into the late evening. - Widespread, prolonged period of rainfall expected over Iowa from tonight through Wednesday and Thursday. Rainfall amounts of 2 to 4 inches likely, with higher amounts possible in areas that see less breaks from the rain. Flooding and flash flooding will be possible. - Rainfall chances ending north and northwest on Thursday, ending in the south Friday morning. Cooler and drier conditions into the weekend.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for 5772b490-d9d3-4a0e-9823-b2176fbc43de_KEY_MESSAGES">
+    <figcaption>
+      <div class="meta">KMOB · <a href="https://api.weather.gov/products/5772b490-d9d3-4a0e-9823-b2176fbc43de">source</a></div>
+      <p>Updated at 1226 PM CDT Tue Sep 29 2026 - A Low risk of rip currents today increases to a Moderate risk Wednesday evening and High risk by Thursday for all our local beaches. - Rain chances substantially increase Thursday into the coming weekend. Numerous showers and storms are expected during this period, with storms capable of producing heavy rainfall that could lead to localized flash flooding.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for fc25fb8b-ad34-4f68-9346-53c5253f1e18_KEY_MESSAGES">
+    <figcaption>
+      <div class="meta">KMFL · <a href="https://api.weather.gov/products/fc25fb8b-ad34-4f68-9346-53c5253f1e18">source</a></div>
+      <p>Updated at 126 PM EDT Tue Sep 29 2026 - Minor and moderate coastal flooding continues across southeast FL during high tide cycles today. Conditions gradually improve starting tonight. - Chances of showers and thunderstorms increase across South Florida today, with a medium chance (50-60%) mainly south of Alligator Alley.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for b7556e99-e667-4e6e-b6cc-62e7e7c3f066_KEY_MESSAGES">
+    <figcaption>
+      <div class="meta">KAPX · <a href="https://api.weather.gov/products/b7556e99-e667-4e6e-b6cc-62e7e7c3f066">source</a></div>
+      <p>- Rain chances return late tonight - Thursday with the highest rainfall amounts expected south of M-32. - Cooler temperatures return along with dry weather as we look to the weekend.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for efdd5cb7-72e4-4b60-9e13-188a0ef2ef35_KEY_MESSAGES">
+    <figcaption>
+      <div class="meta">KMEG · <a href="https://api.weather.gov/products/efdd5cb7-72e4-4b60-9e13-188a0ef2ef35">source</a></div>
+      <p>Issued at 1239 PM CDT Tue Sep 29 2026 - Afternoon relative humidity levels will remain low through this afternoon, leading to continued elevated wildfire danger. Use caution if burning outdoors and obey all local burn bans. - High temperatures Wednesday and Thursday will range from the upper 80s near the Tennessee River to the mid 90s over delta, southwest of Memphis. These temperatures will be 10 to 15 degrees above normal, but a few degrees short of record highs. - Scattered showers and thunderstorms move into the Midsouth on Friday and persist through early Sunday. Total rainfall is expected to range from 1.5 to 3 inches. Dry and seasonal weather is forecast late Sunday into early next week.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for 17cc1da3-cc55-4541-b166-070a2d70cca7_KEY_MESSAGES">
+    <figcaption>
+      <div class="meta">KHNX · <a href="https://api.weather.gov/products/17cc1da3-cc55-4541-b166-070a2d70cca7">source</a></div>
+      <p>1. Low pressure trough begins to lift today, leading to a slight increase in temperatures. 2. A ridge will build Wednesday, leading to temperatures well above seasonal normals through at least this weekend. 3. Ridge brings Moderate Heat Risk across our forecast area from Thursday into next week.</p>
+    </figcaption>
+  </figure>
+  <figure class="card">
+    <img loading="lazy" src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/IMERG_Precipitation_Rate/default/2026-09-28/2km/2/0/1.png" alt="geodata for 17ccb326-368b-4535-a683-92b6fe51fd46_HYDROLOGY">
+    <figcaption>
+      <div class="meta">KAMA · <a href="https://api.weather.gov/products/17ccb326-368b-4535-a683-92b6fe51fd46">source</a></div>
+      <p>Issued at 1140 PM CDT Mon Sep 28 2026 The latest information from the National Hurricane Center suggest Polo is still a hurricane as it moves across the Gulf of California, and the main remnants should be moving over the Panhandle area tonight into tomorrow morning. This will promote high moisture levels, with an extended period with near daily max PWATs (1.4&quot; - 1.6&quot;+) as indicated in the latest ensemble output. The increased moisture will combined with instability and lift from the upper level system to produce widespread rainfall now through tonight, before ending from southwest to northeast through tomorrow morning. Most likely rainfall (50th percentile) for the event ranges from around 0.5&quot; in the far east to 3.0&quot; in the west. High resolution models from both the HREF and REFS ensembles along with medium and long range ensembles suggest there will be at least one band of much heavier rainfall due to training storms (10 percent chance of exceeding 6&quot;, but ensemble max values over 10&quot;), with the most favored position being from near Hereford to Dumas. The position could easily shift slightly southeast (more favoring Amarillo) or northwest (more favoring Dalhart). Areas that end up under the band of very heavy to torrential rain will likely see significant runoff and flash flooding, especially over urban and low lying areas. The best timing for this threat will be between about 22z and 06z this afternoon into tonight. Ward</p>
+    </figcaption>
+  </figure>
+  </div>
+</section>
+</div></body></html>
