@@ -1,0 +1,154 @@
+<title>Science Evidence Cards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f8faf8; --surface:#eef3ee; --ink:#1c2823; --muted:#5a6b62;
+  --accent:#0e7a5f; --link:#2b5f8a; --sand:#8a6a24; --line:#d3ded6;
+  --band:#e6efe9; --mono-bg:#e9efe9;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1613; --surface:#17211c; --ink:#e3ebe5; --muted:#93a49a;
+    --accent:#42b18d; --link:#7fb1d8; --sand:#d3ab55; --line:#2a362f;
+    --band:#15201a; --mono-bg:#1a2620;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1613; --surface:#17211c; --ink:#e3ebe5; --muted:#93a49a;
+  --accent:#42b18d; --link:#7fb1d8; --sand:#d3ab55; --line:#2a362f;
+  --band:#15201a; --mono-bg:#1a2620;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink);
+  font-family:"Public Sans",-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.62; margin:0}
+.page{max-width:76ch; margin:0 auto; padding:3.5rem 1.4rem 5rem}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.72rem;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin:0 0 .8rem}
+h1{font-family:"Newsreader",Georgia,serif; font-weight:600;
+  font-size:clamp(1.9rem,5vw,2.6rem); line-height:1.15; margin:0 0 .6rem; text-wrap:balance}
+.dek{color:var(--muted); font-size:1.06rem; max-width:64ch; margin:0 0 2.2rem}
+h2{font-family:"Newsreader",Georgia,serif; font-weight:600; font-size:1.42rem;
+  margin:2.8rem 0 .7rem; line-height:1.25; text-wrap:balance}
+h2 .no{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.78rem;
+  color:var(--accent); vertical-align:.35em; margin-right:.55rem; letter-spacing:.08em}
+p{margin:.65rem 0; max-width:68ch}
+a{color:var(--link); text-decoration-thickness:1px; text-underline-offset:2px}
+code{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.86em;
+  background:var(--mono-bg); padding:.08em .34em; border-radius:3px}
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(115px,1fr));
+  gap:1px; background:var(--line); border:1px solid var(--line); margin:2.2rem 0}
+.stat{background:var(--band); padding:.85rem .9rem}
+.stat b{display:block; font-family:"Newsreader",Georgia,serif; font-weight:600;
+  font-size:1.5rem; font-variant-numeric:tabular-nums; color:var(--accent)}
+.stat span{font-size:.76rem; color:var(--muted)}
+ul{padding-left:1.2rem; max-width:68ch}
+li{margin:.35rem 0}
+li::marker{color:var(--accent)}
+.tablewrap{overflow-x:auto; margin:1rem 0; border:1px solid var(--line)}
+table{border-collapse:collapse; width:100%; font-size:.88rem; min-width:520px}
+th{text-align:left; font-size:.72rem; text-transform:uppercase; letter-spacing:.09em;
+  color:var(--muted); font-weight:600; padding:.55rem .7rem;
+  border-bottom:1px solid var(--line); background:var(--surface)}
+td{padding:.5rem .7rem; border-bottom:1px solid var(--line);
+  font-variant-numeric:tabular-nums; vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right}
+.hero-row td{background:var(--band); font-weight:600}
+.callout{background:var(--band); border-left:3px solid var(--sand);
+  padding:.9rem 1.1rem; margin:1.3rem 0; max-width:68ch}
+.callout p{margin:.3rem 0}
+.example{background:var(--surface); border:1px solid var(--line);
+  padding:.9rem 1.1rem; margin:1.1rem 0; font-size:.88rem}
+.example .tag{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.68rem;
+  color:var(--sand); letter-spacing:.06em}
+.example p{margin:.35rem 0}
+.pipe{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.8rem;
+  color:var(--muted); background:var(--surface); border:1px solid var(--line);
+  padding:.7rem .9rem; margin:1rem 0; overflow-x:auto; white-space:nowrap}
+.pipe b{color:var(--accent); font-weight:500}
+.caveat{color:var(--muted); font-size:.9rem}
+.foot{margin-top:3.4rem; padding-top:1.2rem; border-top:1px solid var(--line);
+  color:var(--muted); font-size:.82rem}
+@media (prefers-reduced-motion: no-preference){
+  .page{animation:rise .45s ease-out}
+  @keyframes rise{from{opacity:0; transform:translateY(6px)}to{opacity:1}}
+}
+</style>
+
+<div class="page">
+<p class="eyebrow">v2 summary report · vlm-idea · 2026-09-30</p>
+<h1>Structured Science Evidence Cards</h1>
+<p class="dek">The project's unit of analysis moved from finding text that co-exists with geodata to <b>constructing an evidence state from which scientific language is generated</b>. This report covers the reframe's execution: the extended survey, the Science Card specification, a working HLS-class + Prithvi-EO demonstrator with 240 grounded language products, and an ablation that answers — honestly — where the foundation model earns its place.</p>
+
+<div class="stats">
+  <div class="stat"><b>76</b><span>works characterized, 3 new axes</span></div>
+  <div class="stat"><b>26</b><span>schema-validated Science Cards</span></div>
+  <div class="stat"><b>240</b><span>traced statements &amp; questions</span></div>
+  <div class="stat"><b>0</b><span>grounding mismatches in QC</span></div>
+  <div class="stat"><b>0.63 / 0.54</b><span>AUC — ΔNBR vs FM Δ-repr</span></div>
+  <div class="stat"><b>96</b><span>tests green</span></div>
+</div>
+
+<h2><span class="no">01</span>The reframe, in one paragraph</h2>
+<p>v1 established empirically that geodata–language pairings stall at benchmarks (30/59 works, zero deployed) unless they import expert interpretation or workflow grounding. The updated requirements turn that observation into the central hypothesis: instead of pairing pixels with whatever text exists, assemble <b>observations → deterministic derivations → AI inferences → foundation-model representations → contextual records</b> into a Structured Science Card — with the evidence classes kept distinct and every value carrying source, method, provenance, and uncertainty — and generate a <em>family</em> of language products from it. The pipeline replaces the pair:</p>
+<div class="pipe">observations → <b>deterministic science</b> + <b>Prithvi-EO representations</b> + <b>event context</b> → <b>Science Card</b> → traced statements · questions · counterfactuals → evaluation</div>
+
+<h2><span class="no">02</span>What the extended survey shows</h2>
+<p>The corpus grew to 76 works — 17 new from beyond the geodata–text frame (radiology report generation, scientific agents, sensor/time-series reasoning) — and every record was re-characterized on three new axes: <em>what evidence reaches the language model</em>, <em>what role the science FM plays</em>, and <em>what reasoning operation is actually trained</em>. Three headlines:</p>
+<ul>
+<li><b>The field trains description, not reasoning.</b> <code>describe</code> appears in 46/76 systems; <code>discriminate</code> and <code>test-hypotheses</code> in 2 each; <code>retrieve-analogs</code> in 1. The operations the requirements care about are the empty cells.</li>
+<li><b>Learned representations barely reach the language layer.</b> Only 3/76 systems feed FM-embedding evidence to the LM; 51/76 use no science FM at all.</li>
+<li><b>Medicine already runs the composition Earth science lacks.</b> MAIRA-2 (context-conditioned grounded reports), MMRad-22K (structured multimodal evidence units, shown to beat text-only or box-only evidence), and RetiBridge (quantified biomarkers → sub-inferences → diagnosis) are working templates for the EO version.</li>
+</ul>
+
+<h2><span class="no">03</span>The Science Card</h2>
+<p>A model-independent JSON Schema (machine-validated in the test suite) where every evidence entry is a five-tuple — <code>value + source + method + provenance + uncertainty</code> — and carries a class from <code>observed | computed | inferred | learned-representation | contextual</code> so generation can never collapse a model opinion into a measurement. Uncertainty may be <code>null</code> only with a stated reason (schema-enforced). Cards declare the reasoning operations their evidence state supports, record their own insufficiencies (the hook for abstention supervision), and link analogs by reference with the similarity method stated. Six card types cover single scenes through before/after pairs, sequences, anomalies, and representation trajectories.</p>
+
+<h2><span class="no">04</span>The demonstrator: cards built from real data</h2>
+<p>13 EONET wildfire sites and 13 paired controls (same dates, 0.7° offset), two acquisitions each from Sentinel-2 L2A — the documented HLS-equivalent path using HLS's six bands, since true HLS needs Earthdata credentials this session doesn't hold. Each site's card composes observed band statistics, NDVI/NBR deltas, <b>Prithvi-EO-1.0-100M</b> embedding change (threshold derived from the control distribution, not hand-tuned), nearest-neighbor analogs, and the EONET record — or its recorded absence. From 26 cards: <b>167 statements + 73 questions</b>, every sentence machine-traced to card fields and tagged <code>evidence-supported / derived-interpretation / hypothesis / retrieved-knowledge</code>.</p>
+<div class="example">
+<p class="tag">FROM CARD sc_ev20883 (Wildfire in Angola) — three of seven product types</p>
+<p><b>Change:</b> "The surface shows a pronounced decline in NBR (Δ=−0.627) and a Prithvi representation change of 0.0820 (above the control-derived threshold of 0.0629)." <span class="tag">derived-interpretation · trace: delta_nbr, repr_change_cosine_dist, provenance</span></p>
+<p><b>Attribution:</b> "Taken together, the NBR drop, the representation shift, and the catalog record support fire-driven surface change over drought or harvest at this site." <span class="tag">derived-interpretation · trace: delta_nbr, repr_change, reported_event</span></p>
+<p><b>Generated question:</b> "Does the evidence support fire rather than drought stress or harvest as the cause of the observed decline?" <span class="tag">rule: large-change AND event-context → discriminate</span></p>
+</div>
+<p>Questions come from the evidence state, not the imagery: changed event sites yield discrimination and onset questions, stable controls yield baseline questions, changed <em>controls</em> (real savanna dry-season signals) yield hypothesis and test-hypothesis questions, and cloud-contaminated cards yield abstention supervision — all verified by tests. Grounding QC on a seeded sample: <b>22/22 quoted values ground to card evidence, 0 mismatches</b>.</p>
+
+<h2><span class="no">05</span>Ablation: where the FM earns its place — and where it doesn't</h2>
+<div class="tablewrap">
+<table>
+<tr><th>Evidence tier</th><th class="num">AUC (event vs control)</th></tr>
+<tr><td>T1 — raw band-stat deltas (no science)</td><td class="num">0.44</td></tr>
+<tr class="hero-row"><td>T2 — deterministic −ΔNBR</td><td class="num">0.63</td></tr>
+<tr><td>T3 — Prithvi representation change</td><td class="num">0.54</td></tr>
+<tr><td>T4 — combined (T2+T3 ranks)</td><td class="num">0.59</td></tr>
+</table>
+</div>
+<p>At demonstrator scale (13×13 paired sites, single-frame CPU inference, mean-pooled embeddings), <b>the physical index wins the detection task</b> and combining doesn't help. The taxonomy states the decision rule this supports:</p>
+<div class="callout">
+<p>Use deterministic science wherever an established algorithm names the quantity the language must state. Use the Science FM for what has no algorithm: <b>resemblance, analogs, confusable-case mining, and adaptation backbones</b>. Never present FM outputs as measurements — they are a separate evidence class with model provenance and control-derived thresholds.</p>
+</div>
+<p class="caveat">Caveats are recorded with the numbers: demonstration-grade n; an FM-favorable configuration (Prithvi-EO-2.0, true 3-frame sequences, finer pooling) could shift the result — re-running that comparison is agenda item RA-2, and the harness already exists.</p>
+
+<h2><span class="no">06</span>Where this goes: opportunities and agenda</h2>
+<p>The v2 catalog holds 8 compositions where <b>the text does not yet exist</b> but generates from authoritative evidence — the defining shift from v1's text-mining. Ranked highlights:</p>
+<ul>
+<li><b>C1 — Land-surface disturbance explanation service (demonstrated, Σ14/15):</b> the pipeline above, production path = EONET/FIRMS archive back-fill to 10⁵-card scale.</li>
+<li><b>C8 — Counterfactual curriculum builder (Σ13):</b> use FM similarity to mine visually-alike / differently-caused site pairs (fire vs drought vs harvest) — turning the corpus's scarcest supervision (discrimination, abstention) into a systematic product.</li>
+<li><b>C2 — Representation-trajectory anomaly narrator (Σ12):</b> the purest test of whether Prithvi trajectories carry state information beyond climatology.</li>
+</ul>
+<p>The research agenda names five directions, each evidence-tied with a fastest-path demonstration: the reasoning-operation frontier (RA-1), trajectory science honestly evaluated (RA-2), medicine→Earth-science composition transfer (RA-3), text-does-not-exist supervision as NASA's comparative advantage (RA-4), and the card as an auditability standard (RA-5).</p>
+
+<h2><span class="no">✓</span>Verification</h2>
+<ul>
+<li><b>96 pytest tests pass</b>, covering corpus vocabularies, card schema validation, statement traceability, question logic, counterfactual presence, and reproducibility of every quoted count.</li>
+<li>Characterization QC: seeded 21% sample on the new axes, 0 errors (one definition clarified and logged).</li>
+<li class="caveat">Honest limits: abstract-based characterization; HLS-equivalent (not HLS-proper) observations pending Earthdata credentials; ablation is demonstration-grade; no LLM was trained — the deliverable is the supervision layer and its evaluation harness.</li>
+</ul>
+
+<div class="foot">
+<p>Repository: <code>Projects/vlm-idea/</code> — spec-driven (v2 artifacts under <code>specs/science-evidence-cards/</code>), 14 commits. Key artifacts: <code>methods/science-card-spec.md</code> · <code>schema/science_card.schema.json</code> · <code>demonstrator/</code> · <code>patterns/evidence-composition-metapatterns.md</code> · <code>patterns/fm-contribution-taxonomy.md</code> · <code>opportunities/catalog-v2.md</code> · <code>patterns/research-agenda.md</code>. Sources: arXiv API (76 verified records), Earth Search STAC, NASA EONET, Prithvi-EO-1.0-100M (Apache-2.0). Companion page: the v1+v2 project report artifact.</p>
+</div>
+</div>
